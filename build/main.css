@@ -1,0 +1,30 @@
+.app-container {
+  max-width: 300px;
+  max-height: 1vh;
+  margin: auto;
+}
+.app-title {
+  cursor: pointer;
+}
+.masonry-container {
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+}
+.masonry-container img {
+  width: 100%;
+  height: auto;
+}
+.slideshow-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+html, body, #app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+}
+
+/*# sourceMappingURL=main.css.map */

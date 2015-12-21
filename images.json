@@ -1,0 +1,42 @@
+[
+  {
+    "src": "/img/birds.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/butterflies.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/fish.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/giraffe.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/hands.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/icecream.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/landscape.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/owl.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/snowman.jpg",
+    "description": "Description"
+  },
+  {
+    "src": "/img/turkey.jpg",
+    "description": "Description"
+  }
+]

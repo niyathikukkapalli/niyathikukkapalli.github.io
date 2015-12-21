@@ -1,0 +1,10 @@
+@import 'css/app';
+@import 'css/masonry';
+@import 'css/slideshow';
+
+html, body, #app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+}
