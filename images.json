@@ -1,42 +1,30 @@
 [
   {
     "src": "/img/birds.jpg",
-    "description": "Description"
+    "description": "Cartwheeling Birds"
   },
   {
     "src": "/img/butterflies.jpg",
-    "description": "Description"
+    "description": "Butterflies"
   },
   {
     "src": "/img/fish.jpg",
-    "description": "Description"
+    "description": "Swirling Fish"
   },
   {
     "src": "/img/giraffe.jpg",
-    "description": "Description"
+    "description": "Starry Giraffe"
   },
   {
     "src": "/img/hands.jpg",
-    "description": "Description"
+    "description": "Hands"
   },
   {
     "src": "/img/icecream.jpg",
-    "description": "Description"
+    "description": "It's a Cupcake"
   },
   {
     "src": "/img/landscape.jpg",
-    "description": "Description"
-  },
-  {
-    "src": "/img/owl.jpg",
-    "description": "Description"
-  },
-  {
-    "src": "/img/snowman.jpg",
-    "description": "Description"
-  },
-  {
-    "src": "/img/turkey.jpg",
-    "description": "Description"
+    "description": "Summertime Farm"
   }
 ]

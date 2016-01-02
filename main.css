@@ -1,10 +1,65 @@
-@import 'css/app';
-@import 'css/masonry';
-@import 'css/slideshow';
-
-html, body, #app {
+html, body {
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+  background-color: #F8F8F8;
+  text-align: center;
+  color: #101010;
+}
+
+body {
+  max-width: 400px;
+  margin: auto;
+}
+
+#app {
+  margin: 0 10px;
+}
+
+.grid {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
+
+.grid-item {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+#app ul {
+  list-style-type: none;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next, .slideshow-image {
+  cursor: pointer;
+}
+
+.prev, .next {
+  margin-bottom: 10px;
+}
+
+.prev {
+  float: left;
+  margin-left: 10px;
+}
+
+.next {
+  float: right;
+  margin-right: 10px;
+}
+
+.logo:visited {
+  color: #101010;
+}
+
+.logo:link {
+  color: #101010;
 }
