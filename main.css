@@ -56,13 +56,7 @@ button#gallery-overlay-close {
     right: 0;
 }
 
-.game {
+.game, .pdf {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.game iframe {
-    width: 80%;
-    overflow: hidden;
+    justify-content: center;
 }
