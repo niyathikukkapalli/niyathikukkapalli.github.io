@@ -1,65 +1,68 @@
-html, body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
-  background-color: #F8F8F8;
-  text-align: center;
-  color: #101010;
+header {
+    padding-bottom: 2em;
+}
+
+nav a {
+    margin: 12px;
 }
 
 body {
-  max-width: 400px;
-  margin: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
 }
 
-#app {
-  margin: 0 10px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: Rye, serif;
+    font-weight: normal;
 }
 
-.grid {
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
+.gallery {
+    column-count: 3;
+    column-gap: 0;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.grid-item {
-  width: 100%;
-  height: auto;
-  cursor: pointer;
+.gallery img {
+    width: 100%;
 }
 
-#app ul {
-  list-style-type: none;
+.gallery img:hover {
+    cursor: zoom-in;
 }
 
-.slideshow-image {
-  width: 100%;
-  height: auto;
+.gallery-overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
-.prev, .next, .slideshow-image {
-  cursor: pointer;
+.gallery-overlay {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
-.prev, .next {
-  margin-bottom: 10px;
+.gallery-overlay img {
+    height: 80%;
 }
 
-.prev {
-  float: left;
-  margin-left: 10px;
+button#gallery-overlay-close {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-.next {
-  float: right;
-  margin-right: 10px;
+.game {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.logo:visited {
-  color: #101010;
-}
-
-.logo:link {
-  color: #101010;
+.game iframe {
+    width: 80%;
+    overflow: hidden;
 }
