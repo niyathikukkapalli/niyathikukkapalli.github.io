@@ -1,11 +1,3 @@
-header {
-    padding-bottom: 2em;
-}
-
-nav a {
-    margin: 12px;
-}
-
 html, body {
     margin: 0;
     padding: 0;
@@ -16,9 +8,93 @@ body {
     position: relative;
 }
 
+body.home {
+    background-image: url("img/home.jpg");
+    background-size: contain;
+    color: rgb(255, 255, 255);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Rye, serif;
     font-weight: normal;
+}
+
+header {
+    background-color: rgb(233, 232, 230);
+    color:rgb(0, 0, 0);
+    margin-bottom: 8em;
+    border-bottom: 7px solid rgb(255, 187, 0);
+
+}
+
+a {
+    transition: color 600ms;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #dfac3e;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+nav {
+    position: relative;
+}
+
+.art-submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.art-submenu a {
+    display: block;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-title{
+    font-size: 3.5em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.Intro{
+    font-family: 'Dela Gothic One';
+    letter-spacing: 2px;
+        max-width: 600px;
+        border: 3.5px solid #ffae00;
+        padding-top: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        padding-left: 7px;
+}
+
+.self-image {
+    height: 50vh;
+    margin-left: 100px;
+    border: 5px solid rgb(252, 165, 3);
+}
+
+.muter {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 153, 21, 0.562);
+    z-index: -1;
 }
 
 .gallery {
@@ -42,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0; 
     height: 100vh;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.795);
 }
 
 .gallery-overlay {
@@ -74,11 +150,5 @@ button#gallery-overlay-close {
     padding: 2rem 1rem;
     text-align: center;
 }
-
-.navigation a {
-    text-decoration: none;
-    color: inherit;
-}
-
 
 

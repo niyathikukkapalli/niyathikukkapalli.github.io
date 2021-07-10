@@ -4,14 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Rye&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Rye&family=Dela+Gothic+One&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 
     <title> Niyathi Kukkapalli</title>
 </head>
 
-<body>
+<body class="home">
+    <div class="muter"></div>
     <header>
         <nav class="navigation" id="navigation">
             <a class="title-link" href="/">
@@ -19,43 +21,45 @@
             </a>
 
             <div class="navigation-links">
-
-                <head>
-                    <style>
-                        a {
-                            transition: color 1s;
-                        }
-
-                        a:hover {
-                            color: #dfac3e;
-                        }
-                    </style>
-                </head>
-
                 <a class="navigation-link" href="/">About Me</a>
-                <a class="navigation-link" href="/9th-art.html">8th - 9th Art</a>
-                <a class="navigation-link" href="/elementary-art.html">Elementary-art</a>
+                <a class="navigation-link" id="submenu-anchor" onclick="openArtSubmenu()">Art</a>
                 <a class="navigation-link" href="/projects.html">Projects/Research</a>
                 <a class="navigation-link" href="/math.html">Math</a>
 
             </div>
+
+            <div class="art-submenu" id="art-submenu">
+                <a class="navigation-link" href="/9th-art.html">8th - 9th Art</a>
+                <a class="navigation-link" href="/elementary-art.html">Elementary-art</a>
+            </div>
         </nav>
 
 
-    </header>
-    <center>
-        <h1>Niyathi Kukkapalli</h1>
-        <h2>About me!</h2>
-        <div style="max-width:1350px; word-wrap:break-word;">Hey, I'm Niyathi and I'm currently a high school student. I
-            enjoy studying math & physics and
-            these days i'm interested in combinatorics and mechanics. I take part in various comeptitions and olympiads
-            too, like AMC or f=ma. Outside of school, you might find me painting,
-            binging Youtube, playing chess, or working on this wesbite (learning web development as I'm coding this).
-            You can check out my  <a href="/art.html">art</a>,  <a href="/math.html">math</a>, or my  <a
-                  href="/projects.html">projects/research</a>
-            pages for more of my stuff.</div>
+        </div>
 
-    </center>
+    </header>
+
+    <div class="bio">
+        <div>
+            <h1 class="web-title">Niyathi Kukkapalli</h1>
+            <div class="Intro">Hey, I'm Niyathi and I'm currently a high school student. I
+                enjoy studying math & physics and
+                these days i'm interested in combinatorics and mechanics. I take part in various comeptitions and
+                olympiads
+                too, like AMC or f=ma. Outside of school, you might find me painting,
+                binging Youtube, playing chess, or working on this wesbite (learning web development as I'm coding
+                this).
+                You can check out my <a href="/art.html">art</a>, <a href="/math.html">math</a>, or my <a
+                    href="/projects.html">projects/research</a>
+                pages for more of my stuff.</div>
+        </div>
+       
+          <img class="self-image" src="img/self.jpg">
+
+
+    </div>
+
+    <script src="submenu.js"></script>
 
 
 </body>
