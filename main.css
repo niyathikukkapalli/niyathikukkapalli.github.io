@@ -12,7 +12,7 @@ a {
     transition: color 600ms;
 }
 
-a:visited {
+a:link, a:visited {
     color: inherit;
 }
 
@@ -45,15 +45,6 @@ nav a {
     margin: 0 20px;
     text-decoration: none;
 }
-
-nav a:link, nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    color:rgb(255, 187, 0);
-}
-
 
 nav {
     position: relative;
