@@ -84,6 +84,15 @@ nav {
         padding-left: 7px;
 }
 
+
+.Intro a:link, .Intro a:visited {
+    color: white;
+}
+
+.Intro a:hover {
+    color:rgb(255, 187, 0);
+}
+
 .self-image {
     height: 50vh;
     margin-left: 100px;
