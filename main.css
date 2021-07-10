@@ -8,6 +8,19 @@ body {
     position: relative;
 }
 
+a {
+    transition: color 600ms;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #dfac3e;
+}
+
+
 body.home {
     background-image: url("img/home.jpg");
     background-size: contain;
@@ -26,18 +39,6 @@ header {
     margin-bottom: 8em;
     border-bottom: 7px solid rgb(255, 187, 0);
 
-}
-
-a {
-    transition: color 600ms;
-}
-
-a:visited {
-    color: inherit;
-}
-
-a:hover {
-    color: #dfac3e;
 }
 
 nav a {
