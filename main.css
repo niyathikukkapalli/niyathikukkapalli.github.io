@@ -152,13 +152,20 @@ button#gallery-overlay-close {
     justify-content: center;
 }
 
+.title-link {
+    text-align: left;
+    flex: 1;
+}
+
+.navigation-links {
+    text-align: right;
+    flex: 4;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 1rem;
-    text-align: center;
 }
-
-
