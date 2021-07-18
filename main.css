@@ -1,18 +1,20 @@
-html, body {
-    margin: 0;
+html,
+body {
+    margin : 0;
     padding: 0;
 }
 
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    position: relative;
+    position   : relative;
 }
 
 a {
     transition: color 600ms;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: inherit;
 }
 
@@ -23,26 +25,31 @@ a:hover {
 
 body.home {
     background-image: url("img/home.jpg");
-    background-size: contain;
-    color: rgb(255, 255, 255);
-    font-family: 'Nanum Gothic', sans-serif;
+    background-size : contain;
+    color           : rgb(255, 255, 255);
+    font-family     : 'Nanum Gothic', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Rye, serif;
     font-weight: normal;
 }
 
 header {
     background-color: rgb(233, 232, 230);
-    color:rgb(0, 0, 0);
-    margin-bottom: 8em;
-    border-bottom: 7px solid rgb(255, 187, 0);
+    color           : rgb(0, 0, 0);
+    margin-bottom   : 8em;
+    border-bottom   : 7px solid rgb(255, 187, 0);
 
 }
 
 nav a {
-    margin: 0 20px;
+    margin         : 0 20px;
     text-decoration: none;
 }
 
@@ -51,10 +58,10 @@ nav {
 }
 
 .art-submenu {
-    display: none;
+    display : none;
     position: absolute;
-    top: 0;
-    right: 0;
+    top     : 0;
+    right   : 0;
 }
 
 .art-submenu a {
@@ -62,56 +69,66 @@ nav {
 }
 
 .bio {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 }
 
-.web-title{
-    font-size: 3.5em;
-    margin-top: 12px;
-    margin-bottom: 12px;
+.web-title {
+    font-size    : 3em;
+    margin-top   : 0px;
+    margin-right : 30px;
+    margin-bottom: 10px;
 }
 
-.Intro{
-    font-family: 'Dela Gothic One';
+.navigation {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 2rem 1rem;
+}
+
+.Intro {
+    font-family   : 'Dela Gothic One';
     letter-spacing: 2px;
-        max-width: 600px;
-        border: 3.5px solid #ffae00;
-        padding-top: 7px;
-        padding-right: 7px;
-        padding-bottom: 7px;
-        padding-left: 7px;
+    max-width     : 400px;
+    border        : 3.5px solid #ffae00;
+    padding-top   : 7px;
+    padding-right : 7px;
+    padding-bottom: 7px;
+    padding-left  : 7px;
 }
 
 
-.Intro a:link, .Intro a:visited {
+.Intro a:link,
+.Intro a:visited {
     color: white;
 }
 
 .Intro a:hover {
-    color:rgb(255, 187, 0);
+    color: rgb(255, 187, 0);
 }
 
 .self-image {
-    height: 50vh;
-    margin-left: 100px;
-    border: 5px solid rgb(252, 165, 3);
+    height     : 50vh;
+    margin-left: 40px;
+    border     : 5px solid rgb(252, 165, 3);
 }
 
 .muter {
-    position: fixed;
-    width: 100%;
-    height: 100%;
+    position        : fixed;
+    width           : 100%;
+    height          : 100%;
     background-color: rgba(241, 153, 21, 0.562);
-    z-index: -1;
+    z-index         : -1;
 }
 
 .gallery {
     column-count: 3;
-    column-gap: 0;
-    max-width: 1200px;
-    margin: auto;
+    column-gap  : 0;
+    max-width   : 1200px;
+    margin      : auto;
 }
 
 .gallery img {
@@ -123,18 +140,18 @@ nav {
 }
 
 .gallery-overlay-container {
-    position: absolute;
-    top: 0;
-    left: 0; 
-    height: 100vh;
-    overflow: hidden;
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    height          : 100vh;
+    overflow        : hidden;
     background-color: rgba(255, 255, 255, 0.795);
 }
 
 .gallery-overlay {
-    display: flex;
+    display    : flex;
     align-items: center;
-    height: 100%;
+    height     : 100%;
 }
 
 .gallery-overlay img {
@@ -143,29 +160,119 @@ nav {
 
 button#gallery-overlay-close {
     position: absolute;
-    top: 0;
-    right: 0;
+    top     : 0;
+    right   : 0;
 }
 
-.game, .pdf {
-    display: flex;
+.game,
+.pdf {
+    display        : flex;
     justify-content: center;
 }
 
 .title-link {
     text-align: left;
-    flex: 1;
+    flex      : 1;
 }
 
 .navigation-links {
     text-align: right;
-    flex: 4;
+    flex      : 4;
 }
 
-.navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 1rem;
+.dropdown {
+    display : inline;
+    position: relative;
 }
+
+.dropdown-content {
+    display         : none;
+    position        : absolute;
+    text-align      : left;
+    background-color: #f1f1f1;
+    transition      : 1s;
+    min-width       : 190px;
+    z-index         : 1;
+    left            : 0;
+    top             : 18px;
+}
+
+.dropdown-content a {
+    color          : black;
+    padding        : 12px 12px;
+    text-decoration: none;
+    display        : block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    color: rgb(255, 187, 0);
+
+}
+
+
+.mathlinks {
+    text-decoration: underline;
+}
+
+.mathlinks:hover {
+    color          : rgb(255, 187, 0);
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width          : 100%;
+    max-width      : 900px;
+}
+
+th {
+    height: 70px;
+    width : 20px;
+
+}
+
+table.math-problems {
+    margin-top: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+.content {
+    margin   : auto;
+    max-width: 800px;
+}
+
+.problem,
+.solution {
+    background-color: rgb(230, 230, 230);
+    border-radius   : 12px;
+    padding         : 12px;
+}
+
+.problem+.solution {
+    margin-top: 12px;
+}
+
+.solution {
+    margin-bottom: 100px;
+}
+
+.problem {
+    margin-top: 50px;
+}
+
+.vl {
+border-left: 3px solid rgb(255, 187, 0);
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: 200;
+  }

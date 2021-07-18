@@ -8,31 +8,64 @@
     <link rel="stylesheet" href="main.css">
     <title> Niyathi Kukkapalli</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+        </script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
 </head>
 
 <body>
+
+    <div class="vl"></div>
 
 
     <nav class="navigation" id="navigation">
         <a class="title-link" href="/">
             Niyathi Kukkapalli
         </a>
-
         <div class="navigation-links">
             <a class="navigation-link" href="/">About Me</a>
-            <a class="navigation-link" href="/9th-art.html">8th - 9th Art</a>
-            <a class="navigation-link" href="/elementary-art.html">Elementary-art</a>
-            <a class ="navigation-link" href="/projects.html">Projects/Research</a>
-            <a class ="navigation-link" href="/math.html">Math</a>
-
+            <!--<a class="navigation-link" id="submenu-anchor" onclick="openArtSubmenu()">Art</a>-->
+            <div class="dropdown">
+                <a class="navigation-link" href="/art.html">Art</a>
+                <div class="dropdown-content">
+                    <a href="/9th-art.html">9th-art</a>
+                    <a href="/elementary-art.html">Elementary-art</a>
+                </div>
+            </div>
+            <a class="navigation-link" href="/projects.html">Projects/Research</a>
+            <a class="navigation-link" href="/math.html">Math</a>
         </div>
     </nav>
 
     <script src="submenu.js"></script>
-
+    <center>
+        <h3>
+            Most of the links on this page lead to math problems with some solutions that I've &#129514; concocted
+            &#129514;
+        </h3>
+        <table class="math-problems">
+            <tr>
+                <th>
+                    <h3>AMC/AIME:</h3>
+                </th>
+                <th>
+                    <h3>Miscellaneous:</h3>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <a class = "mathlinks" href ="amc/A1.html">AIME 1984 #11</a>
+                </td>
+                <td> <a class="mathlinks" href="/misc/M1.html">Intermediate Counting and Probablity Problem</a></td>
+            </tr>
+        </table>
 
 
 </body>

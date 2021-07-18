@@ -15,27 +15,33 @@
 <body class="home">
     <div class="muter"></div>
     <header>
-        <nav class="navigation" id="navigation">
-            <a class="title-link" href="/">
-                Niyathi Kukkapalli
-            </a>
-
-            <div class="navigation-links">
-                <a class="navigation-link" href="/">About Me</a>
-                <a class="navigation-link" id="submenu-anchor" onclick="openArtSubmenu()">Art</a>
-                <a class="navigation-link" href="/projects.html">Projects/Research</a>
-                <a class="navigation-link" href="/math.html">Math</a>
-
-            </div>
-
-            <div class="art-submenu" id="art-submenu">
+            <nav class="navigation" id="navigation">
+                <a class="title-link" href="/">
+                    Niyathi Kukkapalli
+                </a>
+                <div class="navigation-links">
+                    <a class="navigation-link" href="/">About Me</a>
+                    <!--<a class="navigation-link" id="submenu-anchor" onclick="openArtSubmenu()">Art</a>-->
+                    <div class="dropdown">
+                        <a class ="navigation-link" href ="/art.html">Art</a>
+                        <div class="dropdown-content">
+                          <a href="/9th-art.html">9th-art</a>
+                          <a href="/elementary-art.html">Elementary-art</a>
+                        </div>
+                      </div>
+                    <a class="navigation-link" href="/projects.html">Projects/Research</a>
+                    <a class="navigation-link" href="/math.html">Math</a>
+                </div>
+       
+            <!--<div class="art-submenu" id="art-submenu">
                 <a class="navigation-link" href="/9th-art.html">8th - 9th Art</a>
                 <a class="navigation-link" href="/elementary-art.html">Elementary-art</a>
-            </div>
+            </div>-->
+
         </nav>
-
-
         </div>
+
+
 
     </header>
 
@@ -56,10 +62,11 @@
        
           <img class="self-image" src="img/self.jpg">
 
-
     </div>
 
     <script src="submenu.js"></script>
+
+    
 
 
 </body>

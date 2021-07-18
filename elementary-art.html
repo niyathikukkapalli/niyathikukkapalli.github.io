@@ -16,28 +16,17 @@
         </a>
 
         <div class="navigation-links">
-           
-            <html lang ="en">
-                <head>
-
-                <style>
-                    a {
-                        margin: 10px;
-                        transition: color 600ms; 
-                    }
-                    a:hover {
-                        color: #dfac3e;
-                    }
-                </style>
-                </head>
-                </html>
-                
             <a class="navigation-link" href="/">About Me</a>
-            <a class="navigation-link" href="/9th-art.html">8th - 9th Art</a>
-            <a class="navigation-link" href="/elementary-art.html">Elementary-art</a>
-            <a class ="navigation-link" href="/projects.html">Projects/Research</a>
-            <a class ="navigation-link" href="/math.html">Math</a>
-
+            <!--<a class="navigation-link" id="submenu-anchor" onclick="openArtSubmenu()">Art</a>-->
+            <div class="dropdown">
+                <a class ="navigation-link" href ="/art.html">Art</a>
+                <div class="dropdown-content">
+                  <a href="/9th-art.html">9th-art</a>
+                  <a href="/elementary-art.html">Elementary-art</a>
+                </div>
+              </div>
+            <a class="navigation-link" href="/projects.html">Projects/Research</a>
+            <a class="navigation-link" href="/math.html">Math</a>
         </div>
     </nav>
     <center><h1>Elementary art</h1></center>

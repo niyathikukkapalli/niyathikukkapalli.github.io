@@ -1,4 +1,5 @@
-function openArtSubmenu() {
+
+/*function openArtSubmenu() {
     const artSubmenu = document.getElementById('art-submenu');
     artSubmenu.style.display = 'block';
 
@@ -8,4 +9,4 @@ function openArtSubmenu() {
     
     artSubmenu.style.left = left;
     artSubmenu.style.top = top;
-}
+} */
