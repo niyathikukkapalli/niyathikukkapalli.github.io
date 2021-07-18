@@ -26,6 +26,7 @@ a:hover {
 body.home {
     background-image: url("img/home.jpg");
     background-size : contain;
+    background-position: center;
     color           : rgb(255, 255, 255);
     font-family     : 'Nanum Gothic', sans-serif;
 }
