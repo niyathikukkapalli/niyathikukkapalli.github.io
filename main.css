@@ -165,7 +165,12 @@ button#gallery-overlay-close {
     right   : 0;
 }
 
-.game,
+.game
+{
+    display        : flex;
+    justify-content: center;
+}
+
 .pdf {
     display        : flex;
     justify-content: center;
