@@ -1,0 +1,120 @@
+---
+layout: amc
+---
+
+<div class="problem">
+    <h4>Problem:</h4>
+
+    (a) Prove that given any $5$ integers, there exist three of them whose sum is divisible by $3.$
+
+    (b) Prove that given any $17$ integers, there exist nine of them whose sum is divisible by $9.$
+</div>
+
+<div class="solution">
+    <h4>Solution:</h4>
+    a)
+    <p>So we can think of this problem in terms of modular arithmetic. When an integer is divided by 3 it has
+        the
+        remainders of $0$, $1$, or $2.$ Hmm... using the Pigeonhole Principle here would be a good idea! We can
+        think of the remainders $0,1,$ and $2$ as our "boxes". Our balls can be the $5$ integers. Since the
+        number
+        of balls is greater than the number of boxes, we can tell we are heading in the right direction.
+    </p>
+    <p>We can think of this problem like easy casework. Specifically, we will have 3 cases.
+    </p>
+    <p>
+        $\textbf{Case 1: All remainders are present.}$
+        We know that one integer has a remainder of $1$, another has a remainder of $2$, and another has a
+        remainder of $3.$ So $3 + 2 + 1 \equiv 0 \mod{3}.$
+    </p>
+    <p>
+        $\textbf{Case 2: Only 2 remainders are present.}$
+        We know that there are only $2$ "boxes" present. To divide $5$ numbers into $2$ boxes, the Pigeonhole
+        Principle can assist us. In at least one of the boxes, there must be at least $\left
+        \lfloor{\frac{4}{2}}\right \rfloor + 1$ integers in one box. Since $3x \equiv 0 \mod {3}$ such that $x =
+        0,1,$ or $2,$ we are done!P
+    </p>
+    <p>
+        $\textbf{Case 3: Only 1 remainder is present.}$
+        All of the $5$ integers have the same remainder. This guarantees that $3$ of them have the same
+        remainder and are divisible by $3$ when you add them.
+    </p>
+    b)
+    <p>
+        So we can use part $(a)$ to help us here! Let's start off with a arbitrary group of $5$ integers. There
+        are $3$ integers among them that sum to a multiple of $3.$ Let's say we take another $5$ integers. This
+        means that we have $10$ integers with $2$ groups of $3$ integers such that their sums are a multiple of
+        $3.$ Let's add another $5$ integers! Now we have $15$ integers with $3$ groups of $3$ integers each such
+        that their sums are a multiple of $3.$
+    </p>
+    <p>We can also phrase this in such a way that if we have $15$ integers, there exist $9$ of them whose sum is
+        divisible by $3.$ This is starting to look close to our original problem statement! Hmm.. now we have to
+        somehow pick two more integers and raise the "sum is divisible by $3$" to $9.$ Well, the first thing to
+        notice is that we actually have $9$ integers instead of $15$ integers so far (since we don't really care
+        about the remaining $6$).
+    </p>
+    <p>
+        This means that we have $8$ integers left to choose! Let's say we have a group of $8$ integers. We can
+        split this into a group of $5$ integers and $3$ integers. In the group of $5$, we notice that there are
+        $3$ integers among them whose sum is divisible by $3$ (reference to part $(a)$). Then in that group,
+        there are $2$ integers we haven't used. We can combine these $2$ integers with our other group of $3$
+        and make a new group of $5$! Among this new group we have yet another sum of $3$ integers. We can write
+        this more neatly, $\text{2 groups of 3 whose sum is a multiple of 3 + 2 leftover integers}.$
+    </p>
+    <p>
+        So far we have...
+        $$\text{a group of 9 integers whose sum is divisible by 3 + 2 groups of 3 integers whose sum}$$
+    <p>$$\text{is divisible by 3 each + 2 leftover integers.}$$</p>
+    </p>
+    <p>
+        For the sake of simplicity we can split the group of $9$ integers back into $3$ groups of $3$ integers
+        whose sum is divisible by $3.$
+    </p>
+    <p>
+        Therefore we have, $\text{5 groups of 3 integers whose sum is a multiple of 3 each + 2 leftover integers.}$ It might be time to finally use the Pigeonhole Principle! The
+        Pigeonhole principle involves both balls and boxes, so what would those be? Let's start with the boxes.
+        It's probably best to show that $3$ of the $5$ groups of $3$ are divisible by $9$ when you add them up.
+        Let $\text{x = the sum of three integers whose sum is divisible by 3.}$
+    </p>
+    <p>
+        So we know that $x \equiv 0, 3,$ or $6$ $\mod {9}$ because we want $x - \text{some number} \equiv 0 \mod
+        {9}$ to retain a
+        factor of $3$ since it must have a factor of $9$. This gives us a major clue on what our balls and boxes
+        could be! Our boxes could be the remainders $0,3, $ and $6.$ Our balls can be the $5$ groups of $3$
+        integers. Our goal is to show that $3$ of these groups of $3$, when summed together, are divisible by
+        $9!$ Visually, we can think of filling in the columns down below with $x'$s to signify the groups.
+        Example shown down below.
+    </p>
+    <p>
+        $$\begin{array}{c | c | c}
+        & & \\ x & & \\ & x & x\\ & x & x \\ \hline 0 & 3 & 6
+        \end{array}$$
+    </p>
+    <p>
+        We can proceed with casework similar to that in part $(a).$
+    </p>
+    <p>
+        $\textbf{Case 1: All remainders are present.}$
+        This means that one group has a remainder of $0$, another has a remainder of $3$, and another has one of
+        $6$ and we don't care about the other two groups. We know $6 + 3 + 0 \equiv 0 \mod {9}.$ Also meaning
+        that $9$ integers out of $17$ sum to a multiple of $9. $
+    </p>
+    <p>
+        $\textbf{Case 2: Only 2 remainders are present.}$
+        If only $2$ remainders are present, then by the Pigeonhole Principle we have in at least one box we have
+        at least $ \lfloor {\frac{4}{2}} \rfloor + 1 = 3$ groups. So there is at least $3$ of the same
+        remainder. Since the remainders themselves are multiples of $3$ this creates a factor of $9.$
+    </p>
+    <p>
+        $\textbf{Case 3: Only 1 remainder is present.}$
+        If only $1$ remainder is present, then all $5$ integers have to have the same remainder. There are $3$
+        integers among them that will also have the same remainder. Since the remainders are multiples of $3$,
+        we create another factor of $3$ and we are done!
+    </p>
+    <p>
+        Hence, we have just shown with casework that among $5$ groups of $3$, the sum of $3$ of those groups
+        turn out to be a multiple of $9.$ We also have the $2$ leftover integers from our reasoning up above, so
+        we do indeed have $17$ integers! Therefore we have shown that given any $17$ integers, there exist nine
+        of them whose sum is divisible by $9.$
+    </p>
+</div>

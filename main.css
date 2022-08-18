@@ -25,7 +25,7 @@ a:hover {
 
 body.home {
     background-image: url(img/background.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
     font-family: 'Nanum Gothic', sans-serif;
@@ -186,7 +186,7 @@ button#gallery-overlay-close {
 
 .dropdown {
     display : inline;
-    position: absolute;
+    position: relative;
 }
 
 .dropdown-content {
@@ -203,7 +203,7 @@ button#gallery-overlay-close {
 
 .dropdown-content a {
     color          : black;
-    padding        : 50px 12px;
+    padding        : 20px 12px;
     text-decoration: none;
     display        : block;
 }

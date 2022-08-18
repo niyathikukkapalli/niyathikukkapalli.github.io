@@ -1,1 +1,1 @@
-python3 -m http.server
+bundle exec jekyll serve
