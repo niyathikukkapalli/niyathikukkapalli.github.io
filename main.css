@@ -24,7 +24,7 @@ a:hover {
 
 
 body.home {
-    background-image: url(img/home.jpg);
+    background-image: url(img/background.jpg);
     background-size: contain;
     background-position: center;
     color: rgb(255, 255, 255);
@@ -186,7 +186,7 @@ button#gallery-overlay-close {
 
 .dropdown {
     display : inline;
-    position: relative;
+    position: absolute;
 }
 
 .dropdown-content {
@@ -203,7 +203,7 @@ button#gallery-overlay-close {
 
 .dropdown-content a {
     color          : black;
-    padding        : 15px 12px;
+    padding        : 50px 12px;
     text-decoration: none;
     display        : block;
 }
@@ -212,6 +212,9 @@ button#gallery-overlay-close {
     display: block;
 }
 
+.dropdown-content {
+    left: 0;
+  }
 
 .dropdown-content a:hover {
     color: rgb(255, 187, 0);
