@@ -10,9 +10,7 @@ layout: art
 
 <p class="box2">
 <a href="/art/HIghSchool">HighSchool Art</a>
-<img class = "cool" src="/img/art3.avif"
- 
-/>
+<img class = "cool" src="/img/art3.avif"/>
        
 </p>
 </div>
