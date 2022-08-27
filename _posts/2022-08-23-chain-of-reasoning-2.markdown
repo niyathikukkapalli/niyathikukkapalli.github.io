@@ -98,7 +98,8 @@ After that, we consider $p_1$ in $(p_1)(p_2)(p_3).. (p_n)$ and use FTA. The simp
 
 So we use the fact that if $p_1$ is a completely different prime and doesnt divide $q_1$ that means $(p_1, q_1) = 1$. Although, the other condition for FTA is that $p_1$ must divide $(q_1)(q_2)(q_3).. (q_k)$. Why is this true? Imagine we have the equation $(p_2)(p_3).. (p_n) = \frac{(q_1)(q_2)(q_3).. (q_k)}{p_1}$. So the left side is a natural number, and the primes are positive integral primes. If p_1 didn't divide the RHS, then we would get a non natural number for the RHS which clearly cant work. 
 
-Now, all the FTA conditions are set, so we can use it! Since $(p_1, q_1) = 1$, and $(p_1)|(q_1)(q_2)(q_3).. (q_k)$, then $(p_1)|(q_2)(q_3).. (q_k)$. We can iterate this same statement over all the q's. We see that eventually $p_1$ has to divide a $q$. This is because at every $q_i$, we see if $p_1$ divides it or not. It's only that if it doesn't, then we use FTA. Otherwise, we are good. 
+Now, all the FTA conditions are set, so we can use it! Since $(p_1, q_1) = 1$, and 
+$(p_1)\vert(q_1)(q_2)(q_3).. (q_k)$, then $(p_1)\vert(q_2)(q_3).. (q_k)$. We can iterate this same statement over all the q's. We see that eventually $p_1$ has to divide a $q$. This is because at every $q_i$, we see if $p_1$ divides it or not. It's only that if it doesn't, then we use FTA. Otherwise, we are good. 
 
 Now that we know $p_1$ divides a $q_i$, it is logical that $p_1 = q_i$ since a prime cannot divide another prime unless they are equivalent. So dividing out the prime gives us a natural number smaller than m which derives a contradiction.  
 
