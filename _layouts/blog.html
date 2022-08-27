@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    {% include head-tags.html %}
+    <link rel="stylesheet" href="/blog.css">
+</head>
+
+<body class="blog">
+  
+    {% include header.html %}
+
+{% for post in site.posts %}
+
+<a class="bloglinks" href="{{ post.url }}">
+
+    {{ post.title }}
+
+</a>
+
+
+<p class = "post-date">
+    <span>{{ post.date | date: "%B %d, %Y" }}</span>
+    <span>-</span>
+    {% for category in post.categories %}
+    <span class ="post-category"> {{ category | capitalize }}</span>
+    {% endfor %}
+
+</p>
+
+{% endfor %}
+
+</body>
+
+</html>

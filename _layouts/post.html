@@ -1,14 +1,17 @@
 <html>
-  <head>
+
+<head>
     {% include head-tags.html %}
     {% include latex.html %}
-  </head>
+    <link rel="stylesheet" href="/post.css">
+</head>
 
-  <body>
+<body class="blog">
     {% include header.html %}
-
-    <div class="content">
+    
+    <div class="post-content">
         {{ content }}
     </div>
-  </body>
+</body>
+
 </html>

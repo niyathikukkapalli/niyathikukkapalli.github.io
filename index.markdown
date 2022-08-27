@@ -11,7 +11,7 @@ layout: about
         too, like AMC or f=ma. Outside of school, you might find me painting,
         binging Youtube, playing chess, or working on this wesbite (learning web development as I'm coding
         this).
-        You can check out my <a href="/art.html">art</a>, <a href="/math.html">math</a>, or my <a
-            href="/projects.html">projects/research</a>
+        You can check out my <a href="/art">art</a>, <a href="/math">math</a>, or my <a
+            href="/projects">projects/research</a>
         pages for more of my stuff.</div>
 </div>

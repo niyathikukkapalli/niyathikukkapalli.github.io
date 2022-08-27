@@ -1,0 +1,43 @@
+.boxes {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+p.box1 {
+    border-radius   : 12px;
+    margin: 40px;
+    padding         : 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+        font-family   : 'Dela Gothic One';
+        letter-spacing: 2px;
+        max-width     : 500px;
+        border        : 3.5px solid #ffae00;
+        padding-top   : 7px;
+        padding-right : 7px;
+        padding-bottom: 200zpx;
+        padding-left  : 7px;
+}
+
+p.box2 {
+    border-radius   : 12px;
+    padding         : 12px;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+        font-family   : 'Dela Gothic One';
+        letter-spacing: 2px;
+        max-width     : 500px;
+        border        : 3.5px solid #ffae00;
+        padding-top   : 7px;
+        padding-right : 7px;
+        padding-bottom: 200zpx;
+        padding-left  : 7px;
+}
+
+.cool{
+    width: 100%;
+}

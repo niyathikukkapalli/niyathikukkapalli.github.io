@@ -24,7 +24,7 @@ a:hover {
 
 
 body.home {
-    background-image: url(img/background.jpg);
+    background-image: url(img/home.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
@@ -42,11 +42,10 @@ h6 {
 }
 
 header {
-    background-color: rgb(255, 241, 226);
+    background-color: rgb(246, 232, 217);
     color           : rgb(0, 0, 0);
     margin-bottom   : 8em;
     border-bottom   : 7px solid rgb(255, 187, 0);
-
 }
 
 nav a {
