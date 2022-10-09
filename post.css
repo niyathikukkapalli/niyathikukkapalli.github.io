@@ -38,3 +38,8 @@
     margin-right: auto;
     width: 700px;
 }
+
+.promys_image{
+    display: flex;
+    justify-content: center;
+}

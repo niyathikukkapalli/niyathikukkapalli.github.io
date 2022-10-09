@@ -222,6 +222,12 @@ button#gallery-overlay-close {
 
 .mathlinks {
     text-decoration: underline;
+    font-size: 20px;
+    display: block;
+    width:200px;
+    text-align: center;
+     margin-left: auto;
+     margin-right: auto;
 }
 
 .mathlinks:hover {
