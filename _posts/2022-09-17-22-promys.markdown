@@ -16,7 +16,7 @@ categories: promys, summer camp
 <img src="/img/promys.jpeg" width="700" height="500">
 </div>
 
-So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets. It has quite the prestiege associated with it as it is modeled after the Ross Program of Mathematics and garners a large amount of applicants. 
+So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets. 
 
 The point of the program is to essentially live, breathe, and eat math. Specifically, the number theory parts of math. This is because a lot of research has shown up in the recent years regarding number theory. Although, the main point of the program is not to shove number theory notation and theorems down your throat. It's to learn proofs and the structure of mathematics. 
 
