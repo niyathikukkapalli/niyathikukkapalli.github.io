@@ -5,7 +5,7 @@ date:   2022-10-06
 categories: promys, summer camp
 ---
 
-# My Experiences at PROMYS (Program for Young Scientists)
+# My Experiences at PROMYS (Program in Mathematics for Young Scientists)
 
 ## By: Niyathi Kukkapalli
 
@@ -18,7 +18,7 @@ categories: promys, summer camp
 
 So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets. 
 
-The point of the program is to essentially live, breathe, and eat math. Specifically, the number theory parts of math. This is because a lot of research has shown up in the recent years regarding number theory. Although, the main point of the program is not to shove number theory notation and theorems down your throat. It's to learn proofs and the structure of mathematics. 
+The point of the program is to essentially live, breathe, and eat math. Specifically, the number theory parts of math. This is because a lot of research has shown up in the recent years regarding number theory. Although, the main point of the program is not to just teach high schoolers a bunch of number theory. It's to learn proofs and the structure of mathematics. 
 
 In this article I'll provide a week by week synopsis of my adventures at PROMYS to either help future applicants or the simply curious.
 
