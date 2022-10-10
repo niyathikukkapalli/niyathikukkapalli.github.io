@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Experiences at PROMYS (Program for Young Scientists)"
+title:  "My Experiences at PROMYS (Program in Mathematics for Young Scientists)"
 date:   2022-10-06
 categories: promys, summer camp
 ---
@@ -16,7 +16,7 @@ categories: promys, summer camp
 <img src="/img/promys.jpeg" width="700" height="500">
 </div>
 
-So PROMYS (Program for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets. It has quite the prestiege associated with it as it is modeled after the Ross Program of Mathematics and garners a large amount of applicants. 
+So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets. It has quite the prestiege associated with it as it is modeled after the Ross Program of Mathematics and garners a large amount of applicants. 
 
 The point of the program is to essentially live, breathe, and eat math. Specifically, the number theory parts of math. This is because a lot of research has shown up in the recent years regarding number theory. Although, the main point of the program is not to shove number theory notation and theorems down your throat. It's to learn proofs and the structure of mathematics. 
 
@@ -56,7 +56,7 @@ This weekend, I think I just went to a AC room building and literally stayed the
 
 ## Week 4: RSI vs. PROMYS
 
-Oh yes, so we know the math. It shifted from the chain of reasoning to more like proving obscure theorems like Legendre and whatnot. The lectures were getting more bearable. The heat was not but that's besides the point. BUT, the real highlight was the weekend game between RSI and PROMYS. 
+Oh yes, so we know the math. It shifted from the chain of reasoning to more like proving obscure theorems like Legendre and whatnot. Forgot to mention, but the counselors and lecturers were great people. The heat was not but that's besides the point. BUT, the real highlight was the weekend game between RSI and PROMYS. 
 
 So if you don't know, PROMYS plays a ultimate frisbee game against RSI. Usually, we lose but for the first time in 16 years we finally won. It was totally because I played (jk). I did play but only for a good 10 or so minutes. This was because I was dripping buckets. Too hot. 
 
