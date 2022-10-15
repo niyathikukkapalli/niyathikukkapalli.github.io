@@ -1,29 +1,26 @@
-a.bloglinks:hover{
-    color          : rgb(255, 187, 0);
+a.bloglinks:hover {
+  color: rgb(255, 187, 0);
 }
 
-a.bloglinks{
-    font-family   : 'Dela Gothic One';
-    font-size: 20px;
-    display: block;
-    width:600px;
-    text-align: center;
-     margin-left: auto;
-     margin-right: auto;
+a.bloglinks {
+  font-family: "Dela Gothic One";
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-p.post-date{
-    display: block;
-    width:400px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+p.post-date {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-p.post-category{
-    display: block;
-    width:400px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+p.post-category {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

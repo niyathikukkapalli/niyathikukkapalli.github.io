@@ -8,6 +8,7 @@ layout: amc
     (a) Prove that given any $5$ integers, there exist three of them whose sum is divisible by $3.$
 
     (b) Prove that given any $17$ integers, there exist nine of them whose sum is divisible by $9.$
+
 </div>
 
 <div class="solution">

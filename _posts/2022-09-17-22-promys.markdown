@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "My Experiences at PROMYS (Program in Mathematics for Young Scientists)"
-date:   2022-10-06
+title: "My Experiences at PROMYS (Program in Mathematics for Young Scientists)"
+date: 2022-10-06
 categories: promys, summer camp
 ---
 
@@ -9,79 +9,75 @@ categories: promys, summer camp
 
 ## By: Niyathi Kukkapalli
 
-
 ## What is Promys?
 
 <div class="promys_image">
 <img src="/img/promys.jpeg" width="700" height="500">
 </div>
 
-So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets. 
+So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets.
 
-The point of the program is to essentially live, breathe, and eat math. Specifically, the number theory parts of math. This is because a lot of research has shown up in the recent years regarding number theory. Although, the main point of the program is not to just teach high schoolers a bunch of number theory. It's to learn proofs and the structure of mathematics. 
+The point of the program is to essentially live, breathe, and eat math. Specifically, the number theory parts of math. This is because a lot of research has shown up in the recent years regarding number theory. Although, the main point of the program is not to just teach high schoolers a bunch of number theory. It's to learn proofs and the structure of mathematics.
 
 In this article I'll provide a week by week synopsis of my adventures at PROMYS to either help future applicants or the simply curious.
 
 ## Week 1: Getting Adjusted
 
-So for me, this was my first time actually going away for more than a night at a sleepover. This was quite scary at first. The first day that I was dropped off was pretty hectic, but the orientation that they had for all the students helped a lot. 
+So for me, this was my first time actually going away for more than a night at a sleepover. This was quite scary at first. The first day that I was dropped off was pretty hectic, but the orientation that they had for all the students helped a lot.
 
 The first lecture started on July 4th. I had to wake up at 8 am, get ready, get breakfast, and get to morning lecture which started at 9am. This lecture was quite simple as we just talked about the nature of numbers. What are the integers? What do you see when you picture Z? A set? A graph? Things like that.
 
-Then... came the first problem set. So I won't lie. This problem set was pretty easy (I'll regret this later) But it had a combination of numericals and podasips which were pretty straightforward. Then we saw some fireworks at the park that was near BU. This was also the first time that I discovered you could walk alone in the streets of Boston. 
+Then... came the first problem set. So I won't lie. This problem set was pretty easy (I'll regret this later) But it had a combination of numericals and podasips which were pretty straightforward. Then we saw some fireworks at the park that was near BU. This was also the first time that I discovered you could walk alone in the streets of Boston.
 
-That was the first day. The next days have followed pretty similar. Except that the probem sets for sure got harder. I'm pretty sure it got the hardest when we had to prove the Division Algorithm. Yes. The one you used in Elementary. That one. Although I don't want to spoil it too much so I won't say anymore. 
+That was the first day. The next days have followed pretty similar. Except that the probem sets for sure got harder. I'm pretty sure it got the hardest when we had to prove the Division Algorithm. Yes. The one you used in Elementary. That one. Although I don't want to spoil it too much so I won't say anymore.
 
-That weekend was pretty fun! Essentially on the weekends it's free terrain. You can go anywhere as long as you let someone know before hand. I went with my friend to the Fenway Gardens which is a public garden open to visit! Given, we defintely got lost. But I guess we blended in, because Boston locals kept asking us for directions. It took us a whole three hours to walk, with only thirty minutes in the garden. 
+That weekend was pretty fun! Essentially on the weekends it's free terrain. You can go anywhere as long as you let someone know before hand. I went with my friend to the Fenway Gardens which is a public garden open to visit! Given, we defintely got lost. But I guess we blended in, because Boston locals kept asking us for directions. It took us a whole three hours to walk, with only thirty minutes in the garden.
 
-On a unrelated note, this is when I first learned how to do my laundry. Yeah, I know kinda late, but better late then never. 
+On a unrelated note, this is when I first learned how to do my laundry. Yeah, I know kinda late, but better late then never.
 
 ## Week 2: It's okay right now
 
-The next week was actually alright. The notable thing was that the problem sets got signifcantly harder, as it was building up on the skills instead of introducing them. Things like proving more obscure modular equations came up. But, Legendre hasn't come up yet so I wasn't actually struggling. It wasn't too bad but I defintely started to struggle more. 
+The next week was actually alright. The notable thing was that the problem sets got signifcantly harder, as it was building up on the skills instead of introducing them. Things like proving more obscure modular equations came up. But, Legendre hasn't come up yet so I wasn't actually struggling. It wasn't too bad but I defintely started to struggle more.
 
-I was starting to get used to the whole getting up at 8 am and going to lecture at 9 am. Although we had started exploration labs. These are supposed to emulate research but not actually original research. Some of the topics are already extensively done. My strat was to pick the most obscure one. Which I did, but I won't spoil anything for future attendees. It was quite conveinient that there is a convienence store next to the dorms (ahahah see what i did there), so I would just get something there to eat in the morning. Yes, there was a dining hall, but I was too lazy. 
+I was starting to get used to the whole getting up at 8 am and going to lecture at 9 am. Although we had started exploration labs. These are supposed to emulate research but not actually original research. Some of the topics are already extensively done. My strat was to pick the most obscure one. Which I did, but I won't spoil anything for future attendees. It was quite conveinient that there is a convienence store next to the dorms (ahahah see what i did there), so I would just get something there to eat in the morning. Yes, there was a dining hall, but I was too lazy.
 
-The weekends were always the most fun part. Although, this weekend I mostly chilled with some friends, playing cards or something. Not to forget the weekend problem set. Yes, you are never without math don't worry. I was also tired on Saturday, from the counselor's "mandatory fun". As they like to say, it was very hype. 
+The weekends were always the most fun part. Although, this weekend I mostly chilled with some friends, playing cards or something. Not to forget the weekend problem set. Yes, you are never without math don't worry. I was also tired on Saturday, from the counselor's "mandatory fun". As they like to say, it was very hype.
 
-## Week 3: Probably the most hot week 
+## Week 3: Probably the most hot week
 
-This week was very chill. So we finally finished the set up for the chain of reasoning by the end of this week. Again, won't spoil too much but it does set up the rest of the camp. Something interesting that I noticed was that usually you just think about the integers but not other rings. Like the complex numbers or the units. 
+This week was very chill. So we finally finished the set up for the chain of reasoning by the end of this week. Again, won't spoil too much but it does set up the rest of the camp. Something interesting that I noticed was that usually you just think about the integers but not other rings. Like the complex numbers or the units.
 
 The mandatory fun for this week was the highlight! In fact, we had to create a talent show. So everyone had to do an act otherwise you got a punishment. The punishment was doing the worm, yeah, not that bad but still. Doing an act was fun! My friend told a story while I drew frantically to it. It was funnier than it sounds. The story was about a farmer named Bob who basically got three divorces and it was very interesting....
 
-The rest of the talent show was like a giant karaoke and it was very hype. I got to bed at around like 2 am because I was up talking with my roomate. 
+The rest of the talent show was like a giant karaoke and it was very hype. I got to bed at around like 2 am because I was up talking with my roomate.
 
-This weekend, I think I just went to a AC room building and literally stayed there till 11 o'clock doing math. Fun times. 
+This weekend, I think I just went to a AC room building and literally stayed there till 11 o'clock doing math. Fun times.
 
 ## Week 4: RSI vs. PROMYS
 
-Oh yes, so we know the math. It shifted from the chain of reasoning to more like proving obscure theorems like Legendre and whatnot. Forgot to mention, but the counselors and lecturers were great people. The heat was not but that's besides the point. BUT, the real highlight was the weekend game between RSI and PROMYS. 
+Oh yes, so we know the math. It shifted from the chain of reasoning to more like proving obscure theorems like Legendre and whatnot. Forgot to mention, but the counselors and lecturers were great people. The heat was not but that's besides the point. BUT, the real highlight was the weekend game between RSI and PROMYS.
 
-So if you don't know, PROMYS plays a ultimate frisbee game against RSI. Usually, we lose but for the first time in 16 years we finally won. It was totally because I played (jk). I did play but only for a good 10 or so minutes. This was because I was dripping buckets. Too hot. 
+So if you don't know, PROMYS plays a ultimate frisbee game against RSI. Usually, we lose but for the first time in 16 years we finally won. It was totally because I played (jk). I did play but only for a good 10 or so minutes. This was because I was dripping buckets. Too hot.
 
-We had to walk all the way from BU to MIT (30 minutes ish), but it was a good oppurtunity to see the MIT campus. On the 5th week though, we got a proper tour. This weekend didn't involve that much math. Not because I was slacking, but I was having a little too much fun. This was the week that the math made the most sense to me though. 
+We had to walk all the way from BU to MIT (30 minutes ish), but it was a good oppurtunity to see the MIT campus. On the 5th week though, we got a proper tour. This weekend didn't involve that much math. Not because I was slacking, but I was having a little too much fun. This was the week that the math made the most sense to me though.
 
 ## Week 5: Almost Over
 
-Fun, almost done. This was the week where we had to present our findings from our exploration lab so I was quite busy but it was actually alright. I managed to take over for a lab partner who didn't show up. 
+Fun, almost done. This was the week where we had to present our findings from our exploration lab so I was quite busy but it was actually alright. I managed to take over for a lab partner who didn't show up.
 
-This weekend entailed a MIT tour and I went on a quick shopping trip with my friend. We went to Newbury Street and walked around. By this point there was a good stack of Charlie tickets on my dresser. On Newbury street, there was a lot of chocolate stores. Given, they were very expensive and they were inflated in price. But they looked chocolately. All that matters. So as any normal person should do, we bought 6 knuckle sized choclates for $20. 
+This weekend entailed a MIT tour and I went on a quick shopping trip with my friend. We went to Newbury Street and walked around. By this point there was a good stack of Charlie tickets on my dresser. On Newbury street, there was a lot of chocolate stores. Given, they were very expensive and they were inflated in price. But they looked chocolately. All that matters. So as any normal person should do, we bought 6 knuckle sized choclates for $20.
 
-Then I went back to the dorm and took a fat nap. This mandatory fun was very interesting... it was a bunch of math memes. I didn't know what to think of it. 
+Then I went back to the dorm and took a fat nap. This mandatory fun was very interesting... it was a bunch of math memes. I didn't know what to think of it.
 
-## Week 6: Wow. I was there for 42 days. 
+## Week 6: Wow. I was there for 42 days.
 
-It's funny, when you say 42 days versus 6 weeks it actually sounds quite short. But trust me it was anything but. I made a lot of good friends at the camp and it was too short of a time together. Especially because a lot of them were from Cali, Canada, or India. The math in this week escalated quite a bit. They held a bunch of minicourses in various topics such as Type Theory, Projective Geo, Linear Algebra, Group Theory, and a bunch of others. 
+It's funny, when you say 42 days versus 6 weeks it actually sounds quite short. But trust me it was anything but. I made a lot of good friends at the camp and it was too short of a time together. Especially because a lot of them were from Cali, Canada, or India. The math in this week escalated quite a bit. They held a bunch of minicourses in various topics such as Type Theory, Projective Geo, Linear Algebra, Group Theory, and a bunch of others.
 
 They were hard to understand but higher math is always interesting nontheless. Then on the last day they went a bit crazy, they had MINI MINI courses. These were like 5 minutes each and no one could understand anything because the counselors were speaking so fast.
 But it was fun.
 
-The last day finished off with a LOT of icecream. We had a final ceremony where you got your yearbook and a photo with the professor. Everyone stayed up till like 2 am signing each other's yearbooks and saying goodbye to the people who had flights early in the morning. When it finished I was quite sad, but it was a lot of fun and I learned a lot. You could say my life took a long pause there. 
+The last day finished off with a LOT of icecream. We had a final ceremony where you got your yearbook and a photo with the professor. Everyone stayed up till like 2 am signing each other's yearbooks and saying goodbye to the people who had flights early in the morning. When it finished I was quite sad, but it was a lot of fun and I learned a lot. You could say my life took a long pause there.
 
-## Week 6: Final Thoughts. 
+## Week 6: Final Thoughts.
 
-That was a lot! This is just to share my experiences for myself and for others who might want to go to PROMYS. I tried to leave the big details out to not spoil anything. 
-
-
-
+That was a lot! This is just to share my experiences for myself and for others who might want to go to PROMYS. I tried to leave the big details out to not spoil anything.

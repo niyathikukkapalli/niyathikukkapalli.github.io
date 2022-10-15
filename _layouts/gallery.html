@@ -1,13 +1,11 @@
 <html>
-    <head>
-        {% include head-tags.html %}
-    </head>
+  <head>
+    {% include head-tags.html %}
+  </head>
 
-    <body>
-        {% include header.html %}
+  <body>
+    {% include header.html %} {{ content }}
 
-        {{ content }}
-
-        <script src="/gallery.js"></script>
-    </body>
+    <script src="/gallery.js"></script>
+  </body>
 </html>

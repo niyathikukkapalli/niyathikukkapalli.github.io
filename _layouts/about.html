@@ -1,18 +1,15 @@
 <html>
-
-<head>
+  <head>
     {% include head-tags.html %}
-</head>
+  </head>
 
-<body class="home">
-  
+  <body class="home">
     {% include header.html %}
 
     <div class="bio">
-        {{ content }}
+      <div class="bio-text">{{ content }}</div>
 
-        <img class="self-image" src="img/self.jpg">
+      <img class="self-image" src="img/self.jpg" />
     </div>
-</body>
-
+  </body>
 </html>
