@@ -26,6 +26,8 @@ p.box1 {
   padding-right: 7px;
   padding-bottom: 200zpx;
   padding-left: 7px;
+  display: flex;
+  flex-direction: column;
 }
 
 p.box2 {
@@ -43,8 +45,10 @@ p.box2 {
   padding-right: 7px;
   padding-bottom: 200zpx;
   padding-left: 7px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cool {
-  width: 100%;
+  max-width: 300px;
 }
