@@ -52,3 +52,7 @@ img {
   height: auto;
   box-sizing: border-box;
 }
+
+img.small {
+  max-width: 20rem;
+}
