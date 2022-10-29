@@ -28,7 +28,7 @@ That can give a head start, and then what I did from there was basically do poss
 
 Now, I actually didn't do this problem except till the night before. That's where my peak productivity for this contest is apparently. So there was the thing, that I just read the problem completely wrong. I did not see that the areas of the black and white regions had to be equal. 
 
-Instead, I thought it was purely the number of regions. So I was very confused because I kept thinking "literally everything works how is this a problem." But yes, after reading it again three hours before submission I was so upset. I still attempted it though! It made it easier for me to visualize this problem with a tennis ball and some rubber bands because I do not have the best spatial awareness. 
+Instead, I thought it was purely the number of regions. So I was very confused because I kept thinking "literally everything works, how is this a problem." But yes, after reading it again three hours before submission, I was so upset. I still attempted it though! It made it easier for me to visualize this problem with a tennis ball and some rubber bands because I do not have the best spatial awareness. 
 
 So the easiest way to do this is to just draw out pictures for the n = 1,2,3 and 4 cases. It's easy to see that n = 1 works since it just divides the circle in half. n = 2 was easy to disprove since you can just make the angle between two arcs really really tiny so the areas would be unequal. 
 
@@ -42,7 +42,7 @@ I started off with an even configuration and then see what would happen when you
 
 So this problem seems intimidating. The way that I did this problem was certaintly not the best. I'll discuss the better way to approach this problem. 
 
-So we notice that the numbers described are awfully specific, which calls for a generalization! Specifically, the 1000 seems to specific. I noticed this after playing around with wolfram alpha for a bit, which I suggest you do for these types of problems. Gaining intuition. So we can generalize the $2^{1000}$ to $2^n$ and use induction which is straightforward from there. 
+So we notice that the numbers described are awfully specific, which calls for a generalization! The 1000 seems to specific. I noticed this after playing around with wolfram alpha for a bit, which I suggest you do for these types of problems. Gaining intuition. So we can generalize the $2^{1000}$ to $2^n$ and use induction which is straightforward from there. 
 
 A tidbit that is interesting to notice that if you take the expression mod $2^{12}$ let's say, then everything from $2^{13}$ and above cancels. That is how I centered my proof, and proceeded to assume by contradiction that there is some point $2^k$ at where you can't have 1 or 2 for that term and disprove that. It was a very long and ugly proof but it got the job done. 
 
@@ -63,7 +63,7 @@ This problem was my favorite by far! It was the first one I started working on e
 I liked this mostly because of how straightforward it is and how simple the proofs are. Not to say that they were easy to think of, but they were really clean. 
 
 My solution here for 5b is different than the one presented in the AOPS math jam, although I think it's pretty good. For 5a it's quite simple to see the polynomial $n^2 + 2n + 37$ after some tinkering around with $p^2 + (p+6)^2 + n^2 + 1$ by expanding it out. 
-Although how to prove it's irreducible? It's obvious it is, but that itself is not a proof. A way of suggestion wwould be that the discriminant is negative or by using Einstein's Irreducibility Criterion. I did the second one just for fun. 
+Although how to prove it's irreducible? It's obvious it is, but that itself is not a proof. A way of suggestion would be that the discriminant is negative or by using Einstein's Irreducibility Criterion. I did the second one just for fun. 
 
 For 5b, I first saw that 27 was a pseudo sixish number first by just trial and error. I used wolfram alpha to make the calculations less painful and to just see straight up. This is what led me to believe it was the only pseudo sixish number because after going up to 100 or something I didn't reach any others. 
 
