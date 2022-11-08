@@ -1,0 +1,68 @@
+---
+layout: post
+title: "James Garfield and Pythagoras?"
+date: 2022-10-30
+categories: history, math, president
+---
+# James Garfield and Pythagoras?
+
+## By: Niyathi Kukkapalli
+
+## Intro
+
+Well, that title is quite strange. Who would have thought that our 20th president and Pythagoras could be in the same sentence? Getting to that later, who even is James Garfield? No, he is not the orange talking cat. Some may know him as our 20th president or a mathematician with the former being more probable. 
+
+## Early Life 
+
+James Garfield was born in Moreland Hills, Ohio in 1831. His father died when he was just 2 years old so he was fatherless for most of his life. When he was a toddler, he actually dreamed of being a sailor from reading millions of books about them. He got to tow some boats when he was a teen but that's about it for his sailor career. When he attended Geagua Academy in his teen years he supported himself with a teaching position at a district school and also worked as a school janitor on the side. In 1854 at 23 years old, he attended Williams College in Massachusetts and was one of the oldest students there.
+
+Though Garfield was a very intellectual and serious student, he had many hobbies such as hunting or billiard balls. He also met his wife while he was studying at Williams. She was Lucretia Rudolph, one of the very few people whose appetite for knowledge matched his. They married in 1858 leading a happy married life with 7 children. 
+
+Garfield was also quite the renaissance man, to say the least; he was knowledgeable in many subjects such as English, history, geology, and mathematics. He even passed the bar exam in 1861 shortly after he got married. He was even a Latin and Greek teacher at Williams. Fun fact, he was ambidextrous so sometimes he would perform a trick where he would write Latin with one hand and Greek with the other at the same time. Frigidissima! (Latin for very cool) Garfield later became the president of Williams college. 
+
+In 1859 he threw himself into politics and became part of the Ohio legislature, becoming the youngest member. 
+
+## Government Life 
+
+<img class="small" src="/img/pic.jpg">
+
+In 1856, Garfield campaigned for John C. Fremont, one of the presential candidates for the newly formed Republican party. He later campaigned for Abraham Lincoln in 1860. Although, he never really liked Lincoln and referred to him as a “second-rate Illinois lawyer”. 
+
+This was all around the time before the Civil War. One year later, Garfield joined the army and was thrown into the midst of the battle against the Confederacy in 1861 where he managed Ohio infantry and various brigades. This was all while he was still 29 years old. Through his many impressive victories in battles, he won the title of major general, the youngest to hold this title. In 1863, Abraham Lincoln convinced Garfield to resign from the Army to become part of the House of Representatives where he was elected without any campaigning. Yup, in fact he was a compromise candiate for Sherman, James Blaine, and Ulysses S. Grant. To unclog the stalemate he was put in the ballots as well. Once he told his friends, "I've never had the presidential fever, not even for a day."
+
+He was known as one of the most radical republicans in Congress. Garfield repeatedly won reelection in 1862 for 18 years, and become the leading Republican in Congress. Finally, in 1881, he became president of the United States. There were three presidents who served in 1881. They were Hayes, Garfield, and Arthur. 
+
+Sadly, around 7 months later he was assassinated in 1881. He was wounded by a deranged gunman as he was prepared to board a train in Washington D.C. The gunman was Charles J. Guitaeau who was angry about the fact Garfield didn't appoint him to his administration. When Garfield was shot, he cried "My God, what is this?!" He didn't die immediately, but died around 80 days later. This is the shortest served president after William Henry Harrison who served a mere 32 days. 
+
+What's funny though is that the doctors didn't do a good job of taking care of him after he got shot. The doctors didn't santitize after sticking their hands in his wound. They also just made the infection and the wound itself worse and not fixing anything. During Garfield's last days the public tried sending many letters that included many possible solutions to cure the wound. Alexander Graham Bell was among many of these concerned civilians. Alexander was invited over to use a metal detector to see where the bullet would be in Garfield's body: but to no avail. He also suggested to turn Garfield upside down to have the bullet fall out. Not the brighest idea, but hey, at least he tried. Many heart attacks and blood infections happened during this 80 day period, when Garfield succumbed to his wounds on September 19, 1881.
+
+In honor of Garfield's accomplishments, John Quincy Adams Ward created a statue of Garfield that shows Garfield giving a speech.
+
+<img class="small" src="/img/statue.jpeg">
+
+## Garfield's Favorites
+
+There are some interesting fun facts about Garfield, these include
+
+Favorite Food: There was this fun fact about Garfield that just boggles my mind. His favorite food was apparently squirrel stew? Yuck! After contracting dysentery during military service, James Garfield had to stick to a diet he knew worked, and that included regular servings of squirrel soup. He continued to eat squirrel soup even while occupying the White House, to some notoriety. 
+
+Favorite desert: But at least his favorite desert was apple pie and not squirrel pie. 
+
+Favorite book: Robinson Crusoe by Daniel Defoe. This book made him love reading. 
+
+Also, fun fact. Garfield was one of the last log cabin presidents. That means that he lived in a log cabin when he was a child. There were 7 log cabin presidents where the first one was Andrew Jackson. 
+
+## Mathematician?
+
+Well, as said above, math was one of the many subjects this renaissance man studied! He had a strange obsession with statistics for some reason. Many said he had "gone mad" for the subject. It was said that mathematics was among his favorites subjects. His notable contribution was that he created an original proof for the Pythagoras Theorem. The theorem follows as where a and b are the legs of the right triangle and c is the hypotenuse. His interpretation uses trapezoids and areas!
+
+## Summary of Proof 
+
+<img class="small" src="/img/proof.png"> 
+
+He first constructed a trapezoid with two right triangles and an isosceles triangle. The isosceles triangle has two lengths of c and another unknown. We notice that this isosceles triangle is actually a right triangle. This is because in the trapezoid,  Z + (90 - Z) + ? = 180. The missing angle has to be 90. He basically equated the area of a trapezoid to the sum of the areas of the triangles. Easy to understand!
+
+Below is a picture of Garfield's original writings of the proof. 
+
+<img class="small" src="/img/original.png">
+
