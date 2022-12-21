@@ -1,5 +1,6 @@
 ---
 layout: amc
+title: "PigeonHole"
 ---
 
 <div class="problem">

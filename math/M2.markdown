@@ -1,5 +1,6 @@
 ---
 layout: amc
+title: "Brain Teaser"
 ---
 
 <div class="problem">

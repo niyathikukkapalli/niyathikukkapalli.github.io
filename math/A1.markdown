@@ -1,5 +1,6 @@
 ---
 layout: amc
+title: "AIME 1984 #11"
 ---
 
 <div class="problem">
