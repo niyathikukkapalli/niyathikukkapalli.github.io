@@ -1,5 +1,8 @@
 ---
 layout: research
+title: "A Chain of Reasoning in Number Theory"
+date: 2022-08-22
+categories: math, number theory
 ---
 
 <h3 class="math-intro">

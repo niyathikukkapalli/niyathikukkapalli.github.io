@@ -56,13 +56,13 @@ Now, let's say that we take a number from each of the $d_2$ groups to get some a
 
 ## Problem 4
 
-This problem was quite fun. Actually I think I got partial credit on this one since I messed up one of the cases. I started off by graphing the cases for small k like 3, 4, or 5. It was pretty easy to see the pattern with even k. 
+This problem was quite fun. Actually I think I got partial credit on this one since I messed up one of the cases. I started off by graphing the cases for small $k$ like 3, 4, or 5. It was pretty easy to see the pattern with even k. 
 
-You could just alternate between two rows that had two colors each in it to give $c_k = 4$ for even k. I messed up with the odd k, I guess this case was more complicated though. I also only considered one quadrant of a $k x k$ coordinate system. So I would only consider the box: 2k x 2k squared centered at (0,0) since from further on it'll repeat. 
+You could just alternate between two rows that had two colors each in it to give $c_k = 4$ for even k. I messed up with the odd k, I guess this case was more complicated though. I also only considered one quadrant of a $k \cross k$ coordinate system. So I would only consider the box: 2k x 2k squared centered at (0,0) since from further on it'll repeat. 
 
-Then I tested out the odd ones, which gave two different answers. With k = 3, I first got 8 colors since I tried my strategy with even k but then that didn't quite work out so I added extra colors. Guess I missed a color somewhere since the answer was 9 for k = 3. Pretty sad about that actually because I spent a good 1 hour carefully graphing this thing. 
+Then I tested out the odd ones, which gave two different answers. With $k = 3$, I first got 8 colors since I tried my strategy with even k but then that didn't quite work out so I added extra colors. Guess I missed a color somewhere since the answer was 9 for k = 3. Pretty sad about that actually because I spent a good 1 hour carefully graphing this thing. 
 
-Although for when k > 3, luckily I got that case and noticed that there only needed to be 5 colors. With this problem it was more so experimenting and guessing. The proof came naturally afterwards with direct proofs. 
+Although for when $k > 3$, luckily I got that case and noticed that there only needed to be 5 colors. With this problem it was more so experimenting and guessing. The proof came naturally afterwards with direct proofs. 
 
 ## Problem 5
 
