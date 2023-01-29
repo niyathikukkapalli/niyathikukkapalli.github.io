@@ -1,0 +1,59 @@
+---
+layout: post
+title: "A USAMTS Year 34 Round 3 & Overall Review"
+date: 2022-01-05
+categories: contest math, proof, usamts
+---
+
+# A USAMTS Year 34 Round 3 & Overall Review
+
+## By: Niyathi Kukkapalli
+
+## What's USAMTS?
+
+USAMTS is a free, high school oriented, proof based contest that is funded by NSA. The contest consists of three rounds, each with 5 problems and worth 5 points. The contest is fully remote and is a month long since the problems are hard enough to not get immediately. The contest is a great way to think about problems constantly and sharpen your math skills.
+
+## Problem 1
+
+So this puzzle was a bit different from the others because there was no givens in the sense that there was no X's or Y's given to us. 
+Although we were given the hearts and stars which was helpful. There are some essential things to note here which would be 
+that the row of stars on the top needed just one X in front of it since each star is already in a row with one other X and Y.  
+It's the same case for the rightmost column with stars. The first "given" that I found was that below the star in the second to bottommost row, that needs a Y below it.
+From there you know that the Y in the second to right column needs to be in the bottom 3 squares.  
+
+From there it's a whole chain of "givens" that provide you the answer. 
+
+## Problem 2
+
+This problem was pretty straightforward, at first I was about to go with the wrong answer that there is no function because I was simply
+thinking that only polynomials could only work although there are many functions such as piecewise functions. I chose a function with mod 5 because I though that could cycle in 4 times so luckily that worked.
+I spent a lot of fruitless time researching cyclic functional equations and basically trying to manipulate $\frac{1-x}{1+x}$ since that 
+was a solution, but it just didn't output integer solutions. So sometimes just thinking about the problems for a little bit of time can get you the answer. 
+ 
+## Problem 4
+
+This was a problem that I spent a lot of time on but I still got it wrong. The answer had something to do with ellipses and noticing that O and H could be
+the foci of the ellipse. I still don't know how I misunderstood it, but I thought that the area would be the whole circle because when I made a system of equations and graphed the soutions, 
+it seems that it filled the entire area. I am still unsure of what I misunderstood. 
+
+Anyway I created a system of equations with the centroid of the triangle and the equation of a circle with a radius 10. I got 5 equations with 6 variables and I put it into Wolfram Alpha
+and got many solutions that could work so I'm assuming there was just some disconnect with the problem.  
+
+## Problem 5
+
+This was quite the tricky problem, and I spent a lot of time on this one too. The strategy that I took was finding configurations for smaller values instead of 2022 outright. 
+For n = 2, we notice that a octogon works out. Although, finding n = 3 was really hard for some reason. I tried just drawing an octagon and drawing three dots on each side and putting 
+dots on the interior of the octogon. Although I saw that you had to have the points all inside some "enclosed" region. For example, when I drew an octogon the other points that I draw
+should be in the inside and not on the outside otherwise one of the lines with a slope of -1 or 1 wouldn't work. Like how a square's corners wouldn't work if we wanted to cover 2 points.
+When I looked at the solution it was one of those where I don't think I would've been able to get it but it didn't feel that unfamiliar either.  
+
+## Final Thoughts
+
+This round was significantly harder than the other two to me at least because the proofs felt more involved especially for 3, 4, and 5. 
+While the problems that I got right were probably more minimal compared to the ones that I got in the other rounds, the problems were hard and nice to think about.
+Overall, USAMTS is a good contest to solidfy your proof skills, because usually if you do AMC or AIME you have enough knowledge to do some of the proofs.
+The puzzle also gives everyone an easy 5 points since you just need to be persistent. 
+
+Good news is that I'm on the leaderboard for rounds 1 and 2 of the contest so far, so let's hope that my score isn't totally demolished by this round. 
+
+Now that USAMTS is done, I guess it's time to work on the other upcoming olympiads. Maybe I'll make a post after the f=ma when discussion period is allowed. 
