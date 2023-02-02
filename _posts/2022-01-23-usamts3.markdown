@@ -42,7 +42,7 @@ and got many solutions that could work so I'm assuming there was just some disco
 ## Problem 5
 
 This was quite the tricky problem, and I spent a lot of time on this one too. The strategy that I took was finding configurations for smaller values instead of 2022 outright. 
-For n = 2, we notice that a octogon works out. Although, finding n = 3 was really hard for some reason. I tried just drawing an octagon and drawing three dots on each side and putting 
+For $n = 2$, we notice that a octogon works out. Although, finding $n = 3$ was really hard for some reason. I tried just drawing an octagon and drawing three dots on each side and putting 
 dots on the interior of the octogon. Although I saw that you had to have the points all inside some "enclosed" region. For example, when I drew an octogon the other points that I draw
 should be in the inside and not on the outside otherwise one of the lines with a slope of -1 or 1 wouldn't work. Like how a square's corners wouldn't work if we wanted to cover 2 points.
 When I looked at the solution it was one of those where I don't think I would've been able to get it but it didn't feel that unfamiliar either.  
