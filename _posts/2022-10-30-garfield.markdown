@@ -3,6 +3,7 @@ layout: post
 title: "James Garfield and Pythagoras?"
 date: 2022-10-30
 categories: history, math, president
+thumbnail: "/img/james.webp"
 ---
 # James Garfield and Pythagoras?
 
@@ -10,7 +11,7 @@ categories: history, math, president
 
 ## Intro
 
-Well, that title is quite strange. Who would have thought that our 20th president and Pythagoras could be in the same sentence? Getting to that later, who even is James Garfield? No, he is not the orange talking cat. Some may know him as our 20th president or a mathematician with the former being more probable. 
+Well, that title is quite strange. Who would have thought that our 20th president and Pythagoras could be in the same sentence? Getting to that later, who even is James Garfield? No, he is not the orange talking cat. Some may know him as our 20th president or a mathematician. The former is more probable.
 
 ## Early Life 
 
@@ -44,7 +45,7 @@ In honor of Garfield's accomplishments, John Quincy Adams Ward created a statue 
 
 There are some interesting fun facts about Garfield, these include
 
-Favorite Food: There was this fun fact about Garfield that just boggles my mind. His favorite food was apparently squirrel stew? Yuck! After contracting dysentery during military service, James Garfield had to stick to a diet he knew worked, and that included regular servings of squirrel soup. He continued to eat squirrel soup even while occupying the White House, to some notoriety. 
+Favorite Food: This fun fact about Garfield that just boggles my mind. His favorite food was apparently squirrel stew? Yuck! After contracting dysentery during military service, James Garfield had to stick to a diet he knew worked, and that included regular servings of squirrel soup. He continued to eat squirrel soup even while occupying the White House, to some notoriety. 
 
 Favorite desert: But at least his favorite desert was apple pie and not squirrel pie. 
 
@@ -66,3 +67,6 @@ Below is a picture of Garfield's original writings of the proof.
 
 <img class="small" src="/img/original.png">
 
+## Final thoughts
+
+Many people don't strike Garfield as a most memorable president, but there is actually a lot to remember him for. While his life outside mathematics is far more interesting, no one can deny that he was intelligent. I mean, could you have thought of a proof for the Pythagorean Theorem? 

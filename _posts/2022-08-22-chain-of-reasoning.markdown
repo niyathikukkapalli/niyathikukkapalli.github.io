@@ -3,6 +3,7 @@ layout: post
 title: "A Chain of Reasoning in Number Theory"
 date: 2022-08-22
 categories: math, number theory
+thumbnail: "/img/theory.jpeg"
 ---
 
 # Chain of Reasoning in Number Theory (part 1)

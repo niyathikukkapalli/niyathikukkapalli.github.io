@@ -1,19 +1,59 @@
+.blog {
+  max-width: 800px;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.blog-title {
+  text-align: center;
+}
+
+.blog-divider {
+  border: 0;
+  height: 4px;
+  position: relative;
+  margin: 30px auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background: gold;
+  overflow: visible;
+}
+
+.blog-divider::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: gold;
+  display: inline-block;
+  border: 4px solid gold;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  z-index: 10000;
+  margin: 0 0 0 -3px;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Opera, Chrome, and Safari */
+}
+
 a.bloglinks:hover {
   color: rgb(255, 187, 0);
 }
 
 a.bloglinks {
   font-family: "Dela Gothic One";
-  font-size: 20px;
+  font-size: 1rem;
   display: block;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
 p.post-date {
   display: block;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -23,4 +63,26 @@ p.post-category {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.post-list-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.post-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 800px) {
+  .post-list-item {
+    flex-direction: row;
+  }
+}
+
+.post-thumbnail {
+  margin-right: 1rem;
+  width: 16rem;
 }

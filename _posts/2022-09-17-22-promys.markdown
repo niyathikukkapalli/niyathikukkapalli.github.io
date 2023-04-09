@@ -3,6 +3,7 @@ layout: post
 title: "My Experiences at PROMYS (Program in Mathematics for Young Scientists)"
 date: 2022-10-06
 categories: promys, summer camp
+thumbnail: "/img/promys.jpeg"
 ---
 
 # My Experiences at PROMYS (Program in Mathematics for Young Scientists)

@@ -2,6 +2,7 @@
 layout: post
 title: "A USAMTS Year 34 Round 3 & Overall Review"
 categories: contest math, proof, usamts
+thumbnail: "/img/proof.webp"
 ---
 
 # A USAMTS Year 34 Round 3 & Overall Review

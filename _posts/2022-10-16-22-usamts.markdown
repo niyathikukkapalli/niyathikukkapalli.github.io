@@ -3,6 +3,7 @@ layout: post
 title: "A USAMTS Year 34 Round 1 Review"
 date: 2022-10-16
 categories: contest math, proof, usamts
+thumbnail: "/img/proof.webp"
 ---
 
 # A USAMTS Year 34 Round 1 Review

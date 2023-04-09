@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Latex for beginners: How I got Started"
+date: 2023-04-09
+categories: latex, coding, tutorial, guide
+thumbnail: "/img/ptolemy.jpeg"
+---
+

@@ -1,22 +1,43 @@
 <html>
-  <head>
-    {% include head-tags.html %}
-    <link rel="stylesheet" href="/blog.css" />
-  </head>
 
-  <body class="blog">
-    {% include header.html %} {% for post in site.posts %}
+<head>
+  {% include head-tags.html %}
+  <link rel="stylesheet" href="/blog.css" />
+</head>
 
-    <a class="bloglinks" href="{{ post.url }}"> {{ post.title }} </a>
+<body>
+  {% include header.html %}
 
-    <p class="post-date">
-      <span>{{ post.date | date: "%B %d, %Y" }}</span>
-      <span>-</span>
-      {% for category in post.categories %}
-      <span class="post-category"> {{ category | capitalize }}</span>
-      {% endfor %}
-    </p>
+  <div class="blog">
+    <h1 class="blog-title">The Algebraic Arcanum</h1>
+
+    <hr class="blog-divider" />
+
+    {% for post in site.posts %}
+
+    <div class="post-list-item">
+
+      {% if post.thumbnail %}
+      <img class="post-thumbnail" src="{{ post.thumbnail }}">
+      {% endif %}
+
+      <div class="post-metadata-container">
+        <a class="bloglinks" href="{{ post.url }}"> {{ post.title }} </a>
+
+        <p class="post-date">
+
+          <span>{{ post.date | date: "%B %d, %Y" }}</span>
+          <span>-</span>
+          {% for category in post.categories %}
+          <span class="post-category"> {{ category | capitalize }}</span>
+          {% endfor %}
+        </p>
+      </div>
+
+    </div>
 
     {% endfor %}
-  </body>
+  </div>
+</body>
+
 </html>
