@@ -10,6 +10,8 @@ thumbnail: "/img/theory.jpeg"
 
 ## By: Niyathi Kukkapalli
 
+<img class="normal" src="/img/theory.jpeg">
+
 ## Chain of Reasoning Introduction
 
 This is a continuation of a previous article so if you havent checked that article out I would highly suggest reading through that first! If you have read that article, let's recall the chain of reasoning.

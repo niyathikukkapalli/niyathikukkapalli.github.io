@@ -10,6 +10,8 @@ thumbnail: "/img/ptolemy.jpeg"
 
 ## By: Niyathi Kukkapalli
 
+<img class="normal" src="/img/ptolemy.jpeg">
+
 ## Ptolemy's Introduction: 
 
 Ptolemy is one of those names paired well with Aristotle, Socrates, and other Greek intellectuals. I mean someone "Ptolemy" about this joke once, but I forgot how they put it. Haha, get it? Ptolemy is known for the discovery of the geocentric model and symmertry of reflecting light. Even considering the geocentric model, he was a revolutionary that led other astronomers to consider the Universe. Notice that all these findings require signifcant knowledge of mathematics. Meaning, he was at the top in the mathematics game. 

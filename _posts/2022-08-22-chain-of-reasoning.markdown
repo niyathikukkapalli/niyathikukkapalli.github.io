@@ -10,6 +10,8 @@ thumbnail: "/img/theory.jpeg"
 
 ## By: Niyathi Kukkapalli
 
+<img class="normal" src="/img/theory.jpeg">
+
 ## Chain of Reasoning Introduction
 
 This article assumes basic proof knowlegdge. The Chain of Reasoning sounds quite general, and it is! There are multiple definitions to this term, and the basis would be that it’s a multi layer argument.

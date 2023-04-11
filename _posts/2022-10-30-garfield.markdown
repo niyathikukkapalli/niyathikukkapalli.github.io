@@ -9,6 +9,8 @@ thumbnail: "/img/james.webp"
 
 ## By: Niyathi Kukkapalli
 
+<img class="normal" src="/img/james.webp">
+
 ## Intro
 
 Well, that title is quite strange. Who would have thought that our 20th president and Pythagoras could be in the same sentence? Getting to that later, who even is James Garfield? No, he is not the orange talking cat. Some may know him as our 20th president or a mathematician. The former is more probable.

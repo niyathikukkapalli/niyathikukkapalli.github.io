@@ -9,6 +9,8 @@ thumbnail: "/img/proof.webp"
 
 ## By: Niyathi Kukkapalli
 
+<img class="normal" src="/img/proof.webp">
+
 ## What's USAMTS?
 
 USAMTS is a free, high school oriented, proof based contest that is funded by NSA. The contest consists of three rounds, each with 5 problems and worth 5 points. The contest is fully remote and is a month long since the problems are hard enough to not get immediately. The contest is a great way to think about problems constantly and sharpen your math skills.

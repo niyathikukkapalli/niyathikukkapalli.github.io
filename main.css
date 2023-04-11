@@ -324,3 +324,8 @@ p.math-date {
   margin-left: auto;
   margin-right: auto;
 }
+
+td {
+  border:1pt solid gray;
+  vertical-align: baseline;
+}

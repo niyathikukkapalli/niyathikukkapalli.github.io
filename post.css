@@ -62,3 +62,15 @@ img {
 img.small {
   max-width: 20rem;
 }
+
+img.medium{
+  max-width: 35rem;
+}
+
+img.normal{
+  max-width: 30rem;
+}
+
+img.large{
+  max-width: 40rem;
+}

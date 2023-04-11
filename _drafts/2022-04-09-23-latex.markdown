@@ -3,6 +3,80 @@ layout: post
 title: "Latex for beginners: How I got Started"
 date: 2023-04-09
 categories: latex, coding, tutorial, guide
-thumbnail: "/img/ptolemy.jpeg"
+thumbnail: "/img/Latex2.jpeg"
 ---
 
+# Latex for beginners: How I got Started
+
+## By; Niyathi Kukkapalli
+
+## Installation of LateX on MacOS
+
+It's pretty simple to install LaTeX for MacOS. All you need to do is to download MacTex (<a href="url">https://www.tug.org/mactex/</a>) and let that download. 
+
+MacTex does automatically download a TeX Editor, but I personally think Visual Studio is easier to work with. So in conjunction with downloading MacTex, you can just download VS Code. All you need to do is to download the LaTeX Workshop extenion on VS Code and you can download LaTeX files. 
+
+It's helpful because if you are running a website and you have MathJax running on it, you can have LaTeX on it as well. 
+
+For other installations, visit the official webiste: <a href="url">https://www.latex-project.org/get/</a>
+
+
+## How to format a document 
+
+I've been involved with math competitions, like USAMTS, which require you to send in worked out solutions and LateX is a great way to format them. Usually if you work in Overleaf they give you the basic commands like \section or all the packages at the top. An example of one of my handouts is below... 
+
+<img class="large" src="/img/visual.png">
+
+On the left is the code space, you can see things like a header (\lhead or \rhead) for either a left or right header. There is also some extra stuff like bolding words is \textbf{} and there are font sizes like \Huge{}. A useful trick is also putting \vspace{3mm} between paragraphs for that extra space beacuse LaTeX won't automatically space out your document. On the right is what the a LaTeX document would look like. 
+
+Below is the general document setup I use, with a color box embedded as an example. The setup is really simple, it's just a matter of packages. 
+
+<img class="large" src="/img/demo.png">
+
+Most documents have a bunch of packages at the top, and there are only a couple basic ones that I find really useful. You input a package that you need into the top of your document by enclosing it in \usepackage{}. 
+
+$$\begin{enumerate}
+  \item TiKZ package: is typically used for graphics, like making colorful boxes. You can see an example of those on my generating functions handout ()
+  \item Article package: is the most basic class, used for making articles 
+  \item Biblatex package: is useful for citations in scientific articles, and you add citations by putting your citation in \texttt{\addbibresource{}}
+  \item Geometry package: controls the size of the document, it's margins, and other page setup functions
+  \item Graphicx pacakge: allows you to include images into your document
+  \item Hyperref pacakge: allows you to embed hyperlinks into your document.
+\end{enumerate}$$
+
+Most of the packages I listed above are general use packages, meaning you will probably need them no matter the type of document. Keep in mind that there are over 4000 packages, so it's best as you discover the packages as you find commands that require them. 
+
+## Basic commands 
+
+Whenever you type something in LateX, you have to surround it by dollar signs for it to render. You can use double dollar signs on each side for the rendering to be centered. Below is a table of some of the more useful commands... 
+
+$$
+\begin{array}
+    {|r|r|}\hline
+    Word & Output & Code  \\ 
+    \hline fraction & \frac{a}{b} & \texttt{\frac{a}{b}}  \\
+    \hline binomial & \binom{a}{b} & \texttt{\binom{a}{b}}  \\
+    \hline square root & \sqrt{a} & \texttt{\sqrt{a}}  \\
+    \hline subscript & a_{2022} & \texttt{a_{2023}}  \\
+    \hline superscript & a^{2023} & \texttt{a^{2023}} \\
+    \hline summation & \Sigma_{i=1}^k x_i & \texttt{\Sigma_{i=1}^k x_i } \\
+    \hline integral & \int_a^b f(x)dx & \texttt{\int_a^b f(x) } \\
+    \hline limit & \lim_{x \to a} f(x) = n & \texttt{ \lim_{x \to a} f(x) = n} \\
+   
+    \hline
+\end{array}
+$$
+
+These are the most basic commands, but I encourage you to look up the more complicated ones on Overleaf (<a href="url">https://www.overleaf.com/learn</a>).
+
+## Other Fun Sites 
+
+Sometimes you want a smiley face or a heart in your document, but you don't know how to render one? Well, DeTeXify (<a href="url">https://detexify.kirelabs.org/classify.html/</a>) can help! Basically you draw the symbol you want and it'll spit out the command. This is defintely a site to be bookmarked. 
+
+For you nerds who end up really liking LaTeX, I would try playing TeXnique (<a href="url">https://texnique.xyz</a>). It's a game where you are given a theorem and you have to type it out in LaTeX in under a minute. A good pastime if I must say. I've learned many obscure physics theorems from this site - great for Trivia buffs! 
+
+Overleaf also has a lot of fun templates (<a href="url">https://www.overleaf.com/latex/templates</a>) that you can copy and paste into your TeX Editor. I find that the Bibliography and Newsletter ones are really nice. 
+
+## Final Thoughts
+
+LaTeX isn't really too complicated to learn, it just needs a lot of practice to be fluent at! I would always type up my AOPS class math solutions in LaTeX which really enforced my skills. Learning LaTeX is a great skill to add to your resume and serves well in the long run. Have fun learning! 

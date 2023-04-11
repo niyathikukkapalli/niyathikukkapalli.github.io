@@ -1,0 +1,73 @@
+---
+layout: post
+title: "My Independent Research Journey: Dynamical Physics"
+date: 2023-04-01
+categories: research, synchronizing pendulums, physics
+thumbnail: "/img/pendulum.jpeg"
+---
+
+# My Independent Research Journey: Dynamical Physics
+
+## By: Niyathi Kukkapalli
+
+<img class="normal" src="/img/pendulum.jpeg">
+
+## Introduction
+
+Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey. In order to contact professors and attend prestigous summer programs, it's nice to have a resume of research. Professors are unlikely to take people with little experience, unless you've made it far in olympiads, but we are talking about the majority of people here. 
+
+I'll be referencing my research quite a bit in this article, so you can check out my abstract on my research page. 
+
+## Finding a Topic 
+
+The hardest step is always finding a suitable topic. The data collection is a piece of cake compared to that. I can already see the frustrated faces of you guys at home: many of you are probably screaming, "How to find a good topic"?! Well, if you are a high schooler you will probably want some level of complexity to your research, and I'll get into that a bit. If in middle school, I would suggest looking at websites such as Science Buddies (<a href="url">https://www.sciencebuddies.org</a>) which is a great website to branch off. 
+
+I found mine by searching through Youtube, and I often looked at Veritasium's Youtube Channel (<a href="url">https://www.youtube.com/@veritasium</a>) for physics research ideas. Another way to get a topic is to simply cold-email a bunch of local professors who would be willing to supervise your project and give you ideas. Usually, this won't work so it's best to do a bunch of literature reviews or watch videos as I did. 
+
+The best strategy is to take a well-known problem and twist it in a unique way that no one has done. For example, my project dealt with synchronizing pendulums which was a common problem investigated by top schools like Harvard and UCLA. I researched what has been done so far, and nothing regarding the properties of the pendulum on synchronization has been done. So I did just that. 
+
+Honestly, just reading it plainly, the topic doesn't sound super groundbreaking. I mean changing string lengths to see how synchronization in coupled pendulums change? To my suprise at the time, synchronization is used in end-to-end encrypted systems as an encryption key. The lesson is find a topic that you are passionate about, then find useful applications later. 
+
+Now that a topic is secured, what's next? 
+
+## Collecting the Data
+
+This is the most crucial part of the experiment. I needed to collect the synchronization times for each string length that I set the coupled pendulums to have. For my project I created physical pendulums but I also had a computer model of my coupled pendulums. This was to corroborate the data from my man made pendulums because they may not be super accurate. Luckily, to my favor, the data from both models matched without any changes from my part. 
+
+Creating the pendulums was quite hard and I had to recruit the help of my brother to help complete them. Let me just say, there were a lot of sticks and hammers all over my workspace (shown below). 
+
+The pendulums that I created are also shown below, though they show hex nuts on them instead of bobs. I found that the hex nuts carried a lot of air resistence and kept twisting in the air; I changed it to a bob later because of the hassle it caused. 
+
+<img class="normal" src="/img/work.jpeg">
+
+<img class="normal" src="/img/pendulums.jpeg">
+
+Most data collection is quite menial. Whether you are running a computer program or simulations, it's never fun. But it has to be accurate. Sometimes, my pendulums would be off center on the platform or the platform would roll off the cans so I would have to redo those cases. Most of my data collecting was me sitting in front of my apparatus with my lab notebook: of course, I had a pencil in one hand and my stop watch in the other. 
+
+The most important thing is to keep a neat lab notebook because it documents your whole research journey. I made an effort to include my analysis of data in there and not just my quantative numbers. Judges at science fairs also really appreciate a neat notebook. 
+
+## Writing a Report 
+
+Most papers make great use of LaTeX which is a great typesetting language for papers including a lot of math. I would check out my LateX tutorial on my blog page. Even if your project isn't quite math heavy, LaTeX is still very useful. It just makes the paper look nice and tidy. An example would be my research paper on my webiste. You can also look on arXiv for examples of papers that utilize LaTeX (which most do).
+
+When analyzing your data, I would make sure you have a good amount of statistical analysis. For me, this was adding a regression and error bars onto my graphed data. 
+
+When writing my paper I kept messing up on including "we" or "I" in the paper. The whole research paper should be done in passive voice, which was a hard task considering I take AP Lang. 
+
+## Presenting at Science Fair 
+
+Presenting at a science fair is somehow ten times more nervewrecking than any other presentation that I've given. Maybe it's the judges in close proximity. Or maybe it's their clipboards and eyes quietly judging your project. 
+
+I've seen many impressive projects that were ISEF worthy, but the judges didn't buy them. The main reason is that the judges left more confused than coming in. Science is about communicating your thoughts clearly, and the judges are testing that skill. 
+
+Many can spit out fancy vocabulary, but it's no use if no one understands. In fact, the clarity of my project was one of the most postive comments on my rubric. The feedback rubric you get is another great reason to participate in science fairs! 
+
+When setting up my project, I also had one of my pendulums there with a video of the pendulums synchronizing. This did a lot of the talking for me and was helpful in being more concise. Below is a photo of my poster that I used for my school, county, and tri state science fairs. 
+
+<img class="medium" src="/img/poster.jpg">
+
+There really is no right way to create your poster since the science is more significant. You could easily go to Staples and print out your poster as one large sheet. That's a method I saw a lot of people doing, and I'll admit, it does make your project look extravagant. I didn't feel like doing that, so I simply made a google slides presentation and printed those slides out. 
+
+## Final Thoughts
+
+The moral is, you don't need a phD level project to impress colleges or do well in science fairs. As long as your data and presentation is good, you will go very far. 
