@@ -2,19 +2,17 @@
 layout: post
 title: "My Independent Research Journey: Dynamical Physics"
 date: 2023-04-01
-categories: research, synchronizing pendulums, physics
+description: Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey. In general, it's nice to have a resume of research to learn various skills from computing to engineering. One thing to note, is that professors unlikely to take people with little experience, unless you've made it far in olympiads, but we are talking about the majority of people here... 
+categories: research 
+tags: Independent, Science Fair, Data
 thumbnail: "/img/pendulum.jpeg"
 ---
-
-# My Independent Research Journey: Dynamical Physics
-
-## By: Niyathi Kukkapalli
 
 <img class="normal" src="/img/pendulum.jpeg">
 
 ## Introduction
 
-Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey. In order to contact professors and attend prestigous summer programs, it's nice to have a resume of research. Professors are unlikely to take people with little experience, unless you've made it far in olympiads, but we are talking about the majority of people here. 
+Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey. In general, it's nice to have a resume of research to learn various skills from computing to engineering. One thing to note, is that professors unlikely to take people with little experience, unless you've made it far in olympiads, but we are talking about the majority of people here. 
 
 I'll be referencing my research quite a bit in this article, so you can check out my abstract on my research page. 
 

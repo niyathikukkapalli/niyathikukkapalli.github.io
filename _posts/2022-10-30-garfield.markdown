@@ -2,12 +2,11 @@
 layout: post
 title: "James Garfield and Pythagoras?"
 date: 2022-10-30
-categories: history, math, president
+tags: Garfield, Pythagoras, History
+categories: James Garfield
+description: Well, that title is quite strange. Who would have thought that our 20th president and Pythagoras could be in the same sentence? Getting to that later, who even is James Garfield? No, he is not the orange talking cat. Some may know him as our 20th president or a mathematician. The former is more probable. James Garfield was born in...
 thumbnail: "/img/james.webp"
 ---
-# James Garfield and Pythagoras?
-
-## By: Niyathi Kukkapalli
 
 <img class="normal" src="/img/james.webp">
 

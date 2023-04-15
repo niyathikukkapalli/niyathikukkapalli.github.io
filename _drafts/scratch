@@ -1,0 +1,28 @@
+$$
+\begin{array}
+    {|r|r|}\hline
+    Word & Output & Code  \\ 
+    \hline fraction & \frac{a}{b} & \texttt{\frac{a}{b}}  \\
+    \hline binomial & \binom{a}{b} & \texttt{\binom{a}{b}}  \\
+    \hline square root & \sqrt{a} & \texttt{\sqrt{a}}  \\
+    \hline subscript & a_{2022} & \texttt{a_{2023}}  \\
+    \hline superscript & a^{2023} & \texttt{a^{2023}} \\
+    \hline summation & \Sigma_{i=1}^k x_i & \texttt{\Sigma_{i=1}^k x_i } \\
+    \hline integral & \int_a^b f(x)dx & \texttt{\int_a^b f(x) } \\
+    \hline limit & \lim_{x \to a} f(x) = n & \texttt{ \lim_{x \to a} f(x) = n} \\
+   
+    \hline
+\end{array}
+$$
+
+
+
+$$\begin{enumerate}
+    \item TiKZ package: is typically used for graphics, like making colorful boxes. You can see an example of those on my generating functions handout ()
+    \item Article package: is the most basic class, used for making articles 
+    \item Biblatex package: is useful for citations in scientific articles, and you add citations by putting your citation in \texttt{\addbibresource{}}
+    \item Geometry package: controls the size of the document, it's margins, and other page setup functions
+    \item Graphicx pacakge: allows you to include images into your document
+    \item Hyperref pacakge: allows you to embed hyperlinks into your document.
+  \end{enumerate}$$
+  

@@ -1,38 +1,59 @@
+img.small {
+  width: 20rem;
+}
+
+img.medium{
+  width: 35rem;
+}
+
+img.normal{
+  width: 30rem;
+}
+
+img.large{
+  width: 40rem;
+}
+
+.post-content img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
 .post-content {
+  width: 100%;
+  max-width: 40rem;
+  margin: auto;
   padding: 0 1rem;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-bottom: 4rem;
 }
 
-h1, h2 {
+.post-content h1, .post-content h2, .post-content h3, .post-content p {
   width: 100%;
-}
-
-.post-content h2 {
-  font-size: 14px;
-  text-align: left;
-  max-width: 700px;
-  box-sizing: border-box;
+  display: block;
 }
 
 .post-content h1 {
-  font-size: 30px;
-  text-align: center;
-  max-width: 900px;
-  box-sizing: border-box;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
 }
 
-.post-content p {
-  font-size: 17px;
-  max-width: 700px;
+.post-content h2 {
+  font-size: 1.5rem;
+}
+
+.byline {
   width: 100%;
-  box-sizing: border-box;
+  max-width: 700px;
 }
 
-.post-content p:has(img) {
+.byline h2 {
+  border-top: 3px solid green;
   width: fit-content;
+  text-align: left;
+  padding-top: 0.3rem;
+  font-size: 14px;
 }
 
 .proof {
@@ -51,26 +72,10 @@ h1, h2 {
   max-width: 700px;
 }
 
-img {
-  max-width: 600px;
+hr {
+  height: 3px;
+  border: none;
+  color: green;
+  background-color: green;
   width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-img.small {
-  max-width: 20rem;
-}
-
-img.medium{
-  max-width: 35rem;
-}
-
-img.normal{
-  max-width: 30rem;
-}
-
-img.large{
-  max-width: 40rem;
 }

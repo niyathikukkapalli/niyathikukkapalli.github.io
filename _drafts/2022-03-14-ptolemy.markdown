@@ -2,13 +2,11 @@
 layout: post
 title: "Origins and Explanations of Ptolemy's Theorem"
 date: 2023-04-01
-categories: math, history, ptolemy, theorem
+tags: Math, History, Ptolemy
+categories: Ptolemy
+description: 
 thumbnail: "/img/ptolemy.jpeg"
 ---
-
-# Origins and Explanations of Ptolemy's Theorem
-
-## By: Niyathi Kukkapalli
 
 <img class="normal" src="/img/ptolemy.jpeg">
 
@@ -56,17 +54,15 @@ First, he needed the sum and differences of trig functions.
 
 Ptolemy used Hipparchus's data, and Hipparchus's table of chords only had lengths of chords for multiples of $\frac{\pi}{24}$ radians. So obviously, he improved it. But how is a table of chords made? 
 
-First off, a chord is a line segemnt whose end points are on a circle. Ptolemy used a circle whose diameter was $120$ units and he calculated the length of a chord whose arc length spanned $n$ degrees. $n$ ranged from $\frac{1}{2}$ to 180 degrees. Going any further than $180$ degrees would map to another angle smaller than 180 degrees. 
+First off, a chord is a line segement whose end points are on a circle. Ptolemy used a circle whose diameter was $120$ units and he calculated the length of a chord whose arc length spanned $n$ degrees. $n$ ranged from $\frac{1}{2}$ to 180 degrees. Going any further than $180$ degrees would map to another angle smaller than 180 degrees. 
 
 By creating a right triangle with the radius of the circle and half the chord, the length of the chord is given by $ 120sin(\frac{\theta}{2})$. 
 
 The Algamest also presents how Ptolemy found the length of chords. From there he needed something to connect all the pieces. That piece was Aristarchus's inequality. 
 
-
 <div class = "proof">
 <p> Aristarchus's Inquality: </p>
 <img class="small" src="/img/inequality.svg">
-<p> The proof for this inequality is quite interesting! It utilizes the facts of </p>
-
+<p> The proof for this inequality is quite interesting! It utilizes the fact that $sinx  < x < tanx$ and some other cool facts. Try to prove it if you can! </p>
 </div>
 

@@ -28,9 +28,12 @@
 
           <span>{{ post.date | date: "%B %d, %Y" }}</span>
           <span>-</span>
-          {% for category in post.categories %}
+          {% for category in post.tags %}
           <span class="post-category"> {{ category | capitalize }}</span>
           {% endfor %}
+          <div class="post-description">
+            {{ post.description }}
+          </div>
         </p>
       </div>
 
