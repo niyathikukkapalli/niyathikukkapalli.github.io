@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  transition: color 600ms;
+  /* transition: color 600ms; */
 }
 
 a:link,
@@ -112,7 +112,7 @@ nav {
 }
 
 .Intro {
-  background-color: rgba(0, 94, 5, 0.884);
+  background-color: rgba(2, 126, 8, 0.884);
   border-radius: 12px;
   text-align: center;
   font-family: "Dela Gothic One";

@@ -29,7 +29,7 @@ I've been involved with math competitions, like USAMTS, which require you to sen
 
 <img class="large" src="/img/visual.png">
 
-On the left is the code space, you can see things like a header (\lhead or \rhead) for either a left or right header. There is also some extra stuff like bolding words is \textbf{} and there are font sizes like \Huge{}. A useful trick is also putting $\texttt{\vspace{3mm}}$ between paragraphs for that extra space beacuse LaTeX won't automatically space out your document. On the right is what the a LaTeX document would look like. 
+On the left is the code space, you can see things like a header (\lhead or \rhead) for either a left or right header. There is also some extra stuff like bolding words is $\texttt{\textbf{}}$ and there are font sizes like $\texttt{\Huge{}}$. A useful trick is also putting $\texttt{\vspace{3mm}}$ between paragraphs for that extra space beacuse LaTeX won't automatically space out your document. On the right is what the a LaTeX document would look like. 
 
 Below is the general document setup I use, with a color box embedded as an example. The setup is really simple, it's just a matter of packages. 
 
@@ -78,7 +78,7 @@ Whenever you type something in LateX, you have to surround it by dollar signs fo
   </tr>
   <tr>
     <td>$\int_a^b f(x)dx$</td> 
-    <td>$\texttt{\int_a^b f(x)$</td>
+    <td>$\texttt{\int_a^b f(x)}$</td>
   </tr>
   <tr>
     <td>$\lim_{x \to a} f(x) = n$</td> 
