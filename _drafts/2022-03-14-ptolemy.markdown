@@ -16,9 +16,11 @@ Ptolemy is one of those names paired well with Aristotle, Socrates, and other Gr
 
 ## Scientific Cheat?: 
 
-As with many old Greek philosphers, we don't know much about Ptolemy. He lived in Alexandria in Egypt, which is home to one of the Seven Wonders of the Ancicent World. He was suspected to be wealthy when he was younger, and lived in the court of Pella in Alxendria. In fact, The 9th century Persian astronomer Abu Ma’shar states that Ptolemy was a member of Egypt’s royal lineage. It was during 343 BCE that Ptolemy left to study with the Greek astronomer Aristotle for about three years. 
+As with many old Greek philosphers, we don't know much about Ptolemy. He lived in Alexandria in Egypt, which is home to one of the Seven Wonders of the Ancicent World. He was suspected to be wealthy when he was younger, and lived in the court of Pella in Alxendria. In fact, the 9th century Persian astronomer Abu Ma’shar states that Ptolemy was a member of Egypt’s royal lineage. It was during 343 BCE that Ptolemy left to study with the Greek astronomer Aristotle for about three years. 
 
 He quickly built up his repitoire with his many publications of astronomy where his most famous one is "Almagest". However there is a lot of controversy with this book. Some actually call Ptolemy a "scientific cheat". This is because the book, "Algamest", considered the geocentric model and data that was collected by previous astronomers. Some would consider this perfectly fine, but this was the time people thought the Earth was at the center of the solar system. The data Ptolemy took for granted, in fact Hipparchus's measurments, was certaintly not accurate. In fact, in the Algamest, Ptolemy stated that the data he had was "observed with upmost care". But, he didn't even check the data. This is a fallacy in science that everyone shoudl avoid. 
+
+<img class="small" src="/img/spread.png">
 
 Still, many forgive this discrepancy in his behavior, as he contributed other findings to compensate. 
 

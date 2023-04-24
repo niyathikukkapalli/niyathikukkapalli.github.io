@@ -8,7 +8,7 @@ description: USAMTS is a free, high school oriented, proof based contest that is
 thumbnail: "/img/proof2.png"
 ---
 
-<img class="normal" src="/img/proof.webp">
+<img class="normal" src="/img/proof1.png">
 
 ## What's USAMTS?
 

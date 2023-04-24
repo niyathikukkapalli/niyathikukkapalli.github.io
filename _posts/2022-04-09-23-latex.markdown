@@ -8,6 +8,8 @@ description: I've used LaTeX since probably 7th grade, and it's helped me tremou
 thumbnail: "/img/Latex2.jpeg"
 ---
 
+<img class="normal" src="/img/Latex2.jpeg">
+
 ## Introduction
 
 I've used LaTeX since probably 7th grade, and it's helped me tremoundously. Being a math buff, there was no way I couldn't learn this incredible language that makes mathematical formulas in a document appear seamless. Even to just to change the format of the document, you can edit the preamble of the document which is superior to any Google Doc or Word feature I've encountered. 

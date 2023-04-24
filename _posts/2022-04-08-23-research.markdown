@@ -2,7 +2,7 @@
 layout: post
 title: "My Independent Research Journey: Dynamical Physics"
 date: 2023-04-01
-description: Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey. In general, it's nice to have a resume of research to learn various skills from computing to engineering. One thing to note, is that professors unlikely to take people with little experience, unless you've made it far in olympiads, but we are talking about the majority of people here... 
+description: Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey! In general, it's nice to have a resume of research to learn various skills from computing to engineering. Honestly, I was very overwhelmed with trying to find a topic. Lots of the websites that I checked out either had that staple exploding Volcano or a topic that exceeded the 500 word limit. There was never an in between! 
 categories: research 
 tags: Independent, Science Fair, Data
 thumbnail: "/img/pendulum.jpeg"
@@ -12,7 +12,7 @@ thumbnail: "/img/pendulum.jpeg"
 
 ## Introduction
 
-Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey. In general, it's nice to have a resume of research to learn various skills from computing to engineering. One thing to note, is that professors unlikely to take people with little experience, unless you've made it far in olympiads, but we are talking about the majority of people here. 
+Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey! In general, it's nice to have a resume of research to learn various skills from computing to engineering. Honestly, I was very overwhelmed with trying to find a topic. Lots of the websites that I checked out either had that staple exploding Volcano or a topic that exceeded the 500 word limit. There was never an in between!  
 
 I'll be referencing my research quite a bit in this article, so you can check out my abstract on my research page. 
 
