@@ -4,7 +4,7 @@ title: "Blaise Pascal: Well, there's the triangle."
 date: 2023-05-10
 tags: Math, History, Ptolemy
 categories: Pascal, Geometry, History
-description: While I was doing some AMC and AIME problems, I encountered Pascal's triangle endless times. In came up a lot in combinatorial problems, and it's quite cool how theorems like the Hockey Stick Identity come from it. Although, I do think Sierpinski's triangle is the best triangle of all --- no one can beat that one. I also always thought mathematicians like Gauss had a interesting childhood, I mean he solved the \frac{n(n+1))}{2} problem in Elementary. So, was Pascal the same? Let's find out...
+description: While I was doing some AMC and AIME problems, I encountered Pascal's triangle endless times. In came up a lot in combinatorial problems, and it's quite cool how theorems like the Hockey Stick Identity come from it. Although, I do think Sierpinski's triangle is the best triangle of all --- no one can beat that one. I also always thought mathematicians like Gauss had a interesting childhood, I mean he solved the n(n+1)/2 problem in Elementary. So, was Pascal the same? Let's find out...
 thumbnail: "/img/pascal.jpeg"
 ---
 
