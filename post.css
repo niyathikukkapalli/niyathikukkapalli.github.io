@@ -20,6 +20,10 @@ img.large{
   margin: auto;
 }
 
+.image-with-caption img {
+  margin-bottom: 1rem;
+}
+
 .post-content {
   width: 100%;
   max-width: 40rem;

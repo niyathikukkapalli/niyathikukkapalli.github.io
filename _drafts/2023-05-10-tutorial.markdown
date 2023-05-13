@@ -1,0 +1,10 @@
+---
+layout: post
+title: "The Long Awaited: How did I create this website?"
+date: 2023-05-10
+tags: Website Creation, HTML, CSS
+categories: 
+description: 
+thumbnail: "/img/pascal.jpeg"
+---
+

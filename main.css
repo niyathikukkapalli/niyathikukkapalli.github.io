@@ -23,6 +23,7 @@ a:hover {
 
 body.home {
   background-image: url(img/home.jpg);
+  background-image: opacity 0.5;
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);
@@ -81,7 +82,7 @@ nav {
 }
 
 .self-image {
-  height: 30vh;
+  height: 40vh;
   border: 5px solid rgb(252, 165, 3);
   box-sizing: border-box;
 }  
@@ -92,14 +93,15 @@ nav {
   }
 
   .self-image {
-      height: 50vh;
+      height: 40vh;
   }
 }
 
 .web-title {
   font-size: 2rem;
   margin-bottom: 1rem;
-  padding: 0 1rem;
+  padding: 0rem;
+  text-align: center;
 }
 
 .navigation {
@@ -122,7 +124,7 @@ nav {
   padding: 7px;
   margin-top: 0;
   box-sizing: border-box;
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
 .Intro a:link,
