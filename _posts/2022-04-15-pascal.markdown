@@ -12,9 +12,9 @@ thumbnail: "/img/pascal.jpeg"
 
 ## Introduction
 
-While I was doing some AMC and AIME problems, I encountered Pascal's triangle endless times. It came up a lot in combinatorial problems, and it's quite cool how theorems like the Hockey Stick Identity come from it. Although, I do think Sierpinski's triangle is the best triangle of all --- no one can beat that one. I also always thought mathematicians like Gauss had a interesting childhood, I mean he solved the $\frac{n(n+1))}{2}$ problem in Elementary School. So, was Pascal the same? Let's find out...
+While I was doing some AMC and AIME problems, I encountered Pascal's triangle endless times. It came up a lot in combinatorial problems, and it's quite cool how theorems like the Hockey Stick Identity come from it. I also always thought mathematicians like Gauss had a interesting childhood, I mean he solved the $\frac{n(n+1))}{2}$ problem in Elementary School. So, was Pascal the same? Let's find out...
 
-Keep in mind that Pascal was alive during the 1600s, which was a time of the Great Awakening, so there is comparably more information on him than someone like Ptolemy. This time period was also a time where exploration amongst the European powers was in fashion, but since Pascal was mostly in France, they would deal with the thirty years war. So similarly, Pascal chose the exploration of mathematics. 
+Keep in mind that Pascal was alive during the 1600s, which was a time of the Great Awakening, so there is comparably more information on him than someone like Ptolemy. This time period was also a time where exploration amongst the European powers was in fashion, but since Pascal was mostly in France, they would deal with the Thirty Years War. So similarly, Pascal chose the exploration of mathematics. 
 
 ## Early Life
 
@@ -30,7 +30,7 @@ This is foretelling of his ill health in his adult life. Many say that he was cu
 
 ## Later
 
-At the time it was popular for many young artistocrats to follow their father's footsteps, and follow in their life work. So Pascal's father was working as a tax supervisor, and the young mathematician would work on his projects and studies while occassionally helping his father. He saw that his father was working with calculators often and saw that it was incredibly tedious. He then began his 3 year project on a new calculator. MIT would've surely taken him, but even that would be a downgrade.
+At the time it was popular for many young artistocrats to follow their father's footsteps, and follow in their life work. So Pascal's father was working as a tax supervisor, and the young mathematician would work on his projects and studies while occassionally helping his father. He saw that his father was working with calculators often and saw that it was incredibly tedious. He then began his 3 year project on a new calculator. MIT would've surely taken him, but that would be a severe downgrade.
 
 But the real story is that during this time, around the 1630's, France was fighting in the Thirty Years War (one of the most brutal wars in European history). France kept taking out government bonds, and this made Pascal's family standing drop from aristocrat to a low middle class. Pascal's father disagreed with the regional cardinal's fiscal policies, so he fled France leaving his three children behind. Soon enough, his daughter, Jacequline, started to perform at childrens plays (with the cardinal in attendance) that the cardinal forgave his family. Pascal's father was then reinstated as the regional tax collector, and had boatloads of work. Hence, Blaise Pascal's invention. 
 
@@ -95,9 +95,9 @@ Going in a full circle, his illness when he was younger came back in a new form 
 {% include image-with-caption.html src="/img/mask.jpeg" caption="This is Blaise Pascal's Death Mask at 39 years old: a cast taken over the corpse." %}
 
 
-Later when his sister died, Jacqeuline, he was incredibly devastated because he was with her through thick and thin. So this caused him to go a little insane. In 1662, Pascal's health incredibly worsened and he was mostly bed ridden, and now he kinda realized that he should probably go to a hospital. Although, the hospital thought that he was too mentally insane to be in a hospital. He was moved to Paris during this time, and he was experiencing major convulsions and shocks, but still no one except small time doctors would help him. He died on August 19, 1662 and his parting words were "May God Never Abandon Me."
+Later when his sister died, Jacqeuline, he was incredibly devastated because she was with him through thick and thin. So this caused him to go a little insane. In 1662, Pascal's health incredibly worsened and he was mostly bed ridden, and now he kinda realized that he should probably go to a hospital. Although, the hospital thought that he was too mentally insane to be in a hospital. He was moved to Paris during this time, and he was experiencing major convulsions and shocks, but still no one except small time doctors would help him. He died on August 19, 1662 and his parting words were "May God Never Abandon Me."
 
-An autopsy after his death showed that he suffered from brain lesions, grave problems with his stomach and other organs, tuberculosis, stomach cancer, etc. This time the old woman couldn't go and help him. 
+An autopsy after his death showed that he suffered from brain lesions, grave problems with his stomach and other organs, tuberculosis, stomach cancer, etc. This time the old woman couldn't go and help him, but he left Earth as a great scientist. 
 
 
 

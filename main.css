@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  font-family: serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 a {
@@ -22,12 +22,10 @@ a:hover {
 }
 
 body.home {
-  background-image: url(img/home.jpg);
-  background-image: opacity 0.5;
+  background-image: url("img/home.jpg");
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);
-  font-family: "Nanum Gothic", sans-serif;
 }
 
 h1,
