@@ -22,25 +22,29 @@ In this article I'll provide a week by week synopsis of my adventures at PROMYS 
 
 ## Week 1: Getting Adjusted
 
-So for me, this was my first time actually going away for more than a night at a sleepover. This was quite scary at first. The first day that I was dropped off was pretty hectic, but the orientation that they had for all the students helped a lot.
+So for me, this was my first time actually going away for more than a night at a sleepover. This was quite scary at first. The first day that I was dropped off was pretty hectic, but the orientation that they had for all the students helped a lot. It was cool to see 79 other people who also emjoy math! 
 
-The first lecture started on July 4th. I had to wake up at 8 am, get ready, get breakfast, and get to morning lecture which started at 9am. This lecture was quite simple as we just talked about the nature of numbers. What are the integers? What do you see when you picture Z? A set? A graph? Things like that.
+The first lecture started bright and early on July 4th. I had to wake up at 8 am, get ready, get breakfast, and get to morning lecture which started at 9am. This lecture was quite simple and appealing as we just talked about the nature of numbers. What are the integers? What do you see when you picture Z? A set? A graph? Things like that. It was a good way to drill in their theme: "Think Depply About Simple Things." 
 
-Then... came the first problem set. So I won't lie. This problem set was pretty easy (I'll regret this later) But it had a combination of numericals and podasips which were pretty straightforward. Then we saw some fireworks at the park that was near BU. This was also the first time that I discovered you could walk alone in the streets of Boston.
+Then ... came the first problem set. So I won't lie. This problem set was pretty easy (I'll regret this later) It had a combination of numericals and podasips which were pretty straightforward, for example there was a problem like "prove 1 divides any number." Not bad at all. Then we saw some fireworks at the park that was near Boston University. This was also the first time that I discovered you could walk alone in the streets of Boston, and man, Boston is so much more interesting than Delaware. 
 
-That was the first day. The next days have followed pretty similar. Except that the probem sets for sure got harder. I'm pretty sure it got the hardest when we had to prove the Division Algorithm. Yes. The one you used in Elementary. That one. Although I don't want to spoil it too much so I won't say anymore.
+That was the first day. The next days have followed pretty similar. Except that the probem sets for sure got harder. I'm pretty sure it got the hardest when we had to prove the Division Algorithm. Yes. The one you used in Elementary. That one. Sure, you use it practically all the time if you are past third grade math in school, but have you thought to prove it? Why does it work? Hint, it involves the fact that in a set there is always a least element. Yet another obvious statement, but they all mesh together into a beautiful proof. 
 
-That weekend was pretty fun! Essentially on the weekends it's free terrain. You can go anywhere as long as you let someone know before hand. I went with my friend to the Fenway Gardens which is a public garden open to visit! Given, we defintely got lost. But I guess we blended in, because Boston locals kept asking us for directions. It took us a whole three hours to walk, with only thirty minutes in the garden.
+That weekend was pretty fun! Essentially on the weekends it's free terrain. You can go anywhere as long as you let someone know before hand. I went with my friend to the Fenway Gardens which is a public garden open to visit, and it was stunning! Courtesy of my Iphone camera, here is a photo below ... 
+
+<img class="small" src="/img/fenway.jpeg">
+
+Given, we defintely got lost, but I guess we blended in because Boston locals kept asking us for directions. It took us a whole three hours to walk, with only thirty minutes in the garden. Don't make my mistake and please bring sneakers if you end up at ANY summer camp. I was walking around for three hours on the scalding concrete with loafers. Ouch. 
 
 On a unrelated note, this is when I first learned how to do my laundry. Yeah, I know kinda late, but better late then never.
 
 ## Week 2: It's okay right now
 
-The next week was actually alright. The notable thing was that the problem sets got signifcantly harder, as it was building up on the skills instead of introducing them. Things like proving more obscure modular equations came up. But, Legendre hasn't come up yet so I wasn't actually struggling. It wasn't too bad but I defintely started to struggle more.
+The next week was actually alright. The notable thing was that the problem sets got signifcantly harder, as it was building up on the skills instead of introducing them. Things like proving more obscure modular equations came up. Of course, mods themselves are a simple concept (it's just division and remainders) it just tends to look scary. But, Legendre hasn't come up yet so I wasn't actually struggling. 
 
-I was starting to get used to the whole getting up at 8 am and going to lecture at 9 am. Although we had started exploration labs. These are supposed to emulate research but not actually original research. Some of the topics are already extensively done. My strat was to pick the most obscure one. Which I did, but I won't spoil anything for future attendees. It was quite conveinient that there is a convienence store next to the dorms (ahahah see what i did there), so I would just get something there to eat in the morning. Yes, there was a dining hall, but I was too lazy.
+I was starting to get used to the whole getting up at 8 am and going to lecture at 9 am. Although we had started exploration labs. These are supposed to emulate research but not actually original research. Some of the topics are already extensively done. My strat was to pick the most obscure one which I did, but I won't spoil anything for future attendees. Let me just elaborate, but I appreciated the mathematics of card shuffling much more after this lab. Magicians secretly know a little math as well. 
 
-The weekends were always the most fun part. Although, this weekend I mostly chilled with some friends, playing cards or something. Not to forget the weekend problem set. Yes, you are never without math don't worry. I was also tired on Saturday, from the counselor's "mandatory fun". As they like to say, it was very hype.
+It was quite conveinient that there is a convienence store next to the dorms (ahahah see what i did there), so I would just get something there to eat in the morning. Yes, there was a dining hall, but I was too lazy. The weekends were always the most fun part. Although, this weekend I mostly chilled with some friends, playing cards or something. Not to forget the weekend problem set. Yes, you are never without math don't worry. I was also tired on Saturday, from the counselors "mandatory fun". As they like to say, it was very hype.
 
 ## Week 3: Probably the most hot week
 
@@ -58,7 +62,9 @@ Oh yes, so we know the math. It shifted from the chain of reasoning to more like
 
 So if you don't know, PROMYS plays a ultimate frisbee game against RSI. Usually, we lose but for the first time in 16 years we finally won. It was totally because I played (jk). I did play but only for a good 10 or so minutes. This was because I was dripping buckets. Too hot.
 
-We had to walk all the way from BU to MIT (30 minutes ish), but it was a good oppurtunity to see the MIT campus. On the 5th week though, we got a proper tour. This weekend didn't involve that much math. Not because I was slacking, but I was having a little too much fun. This was the week that the math made the most sense to me though.
+We had to walk all the way from BU to MIT (30 minutes ish), but it was a good oppurtunity to see the MIT campus. On the 5th week though, we got a proper tour. On a side note, the bridge connecting MIT to the other side of the river is beautiful. The view is one of a kind, and below is one of the photos I took (but it doesn't capture it's magic). This weekend didn't involve that much math. Not because I was slacking, but I was having a little too much fun. This was the week that the math made the most sense to me though. 
+
+<img class="small" src="/img/bridge.jpeg">
 
 ## Week 5: Almost Over
 

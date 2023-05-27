@@ -22,7 +22,7 @@ a:hover {
 }
 
 body.home {
-  background-image: url("img/home.jpg");
+  background-image: url("img/home-new.jpg");
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);
@@ -112,22 +112,24 @@ nav {
 }
 
 .Intro {
-  background-color: rgba(2, 126, 8, 0.884);
+  background-color: lemonchiffon;
   border-radius: 12px;
   text-align: center;
-  font-family: "Dela Gothic One";
+  /* font-family: "Dela Gothic One"; */
   letter-spacing: 2px;
-  max-width: 400px;
+  max-width: 430px;
   border: 3.5px solid #ffae00;
   padding: 7px;
   margin-top: 0;
   box-sizing: border-box;
   margin: 0 2rem;
+  font-size: 0.9rem;
+  color: black;
 }
 
 .Intro a:link,
 .Intro a:visited {
-  color: white;
+  color: black;
 }
 
 .Intro a:hover {
