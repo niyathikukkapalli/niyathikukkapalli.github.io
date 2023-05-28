@@ -20,13 +20,17 @@ img.large{
   margin: auto;
 }
 
+.post-content p {
+  line-height: 1.25;
+}
+
 .image-with-caption img {
   margin-bottom: 1rem;
 }
 
 .post-content {
   width: 100%;
-  max-width: 40rem;
+  max-width: 50rem;
   margin: auto;
   padding: 0 1rem;
   box-sizing: border-box;
@@ -39,12 +43,22 @@ img.large{
 }
 
 .post-content h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
 }
 
 .post-content h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .post-content h1 {
+    font-size: 2.7rem;
+  }
+
+  .post-content h2 {
+    font-size: 1.85rem;
+  }
 }
 
 .byline {

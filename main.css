@@ -5,7 +5,8 @@ body {
 }
 
 body {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Newsreader", serif;
+  font-size: 18px;
 }
 
 a {
@@ -116,13 +117,13 @@ nav {
   border-radius: 12px;
   text-align: center;
   /* font-family: "Dela Gothic One"; */
-  letter-spacing: 2px;
   max-width: 430px;
   border: 3.5px solid #ffae00;
   padding: 7px;
   box-sizing: border-box;
+  line-height: 1.25;
   margin:  2rem;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: black;
 }
 

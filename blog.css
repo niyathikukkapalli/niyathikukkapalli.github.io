@@ -45,8 +45,8 @@ a.bloglinks:hover {
 }
 
 a.bloglinks {
-  font-family: "Dela Gothic One";
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   display: block;
   margin-left: auto;
   margin-right: auto;
