@@ -12,7 +12,7 @@ thumbnail: "/img/web.png"
 
 ## Introduction
 
-I think that having a website is great for anyone whether it's advertising your personal portfolio or creating a blog (like me!) My website is just a culmination of all the things that I enjoy in life from art to math and it's a little passion project of mine. On top of that, it's really easy to begin whether you can code or not! Of course, there are templates on Squarespace but there is something personal about coding your own website from scratch.
+I think that having a website is great for anyone whether it's advertising your personal portfolio or creating a blog (like me!) My website is just a culmination of all the things that I enjoy in life from art to math and it's a little passion project of mine. On top of that, it's really easy to begin whether you can code or not! Of course, there are templates on Squarespace but there is something personal about coding your own website from scratch. 
 
 ## Learning HTML and CSS
 
