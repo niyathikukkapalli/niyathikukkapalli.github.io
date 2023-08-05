@@ -8,7 +8,7 @@ date: 2022-08-22
 </h3>
 
 <div>
-<a class ="mathlinks" href="/research/research.pdf">
+<a class ="mathlinks" href="/research/research2.pdf">
     Temporal Analysis of Synchronization based on Varying String Lengths
 </a>
 <p class="math-date">
