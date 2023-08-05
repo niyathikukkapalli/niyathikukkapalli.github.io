@@ -12,6 +12,6 @@ date: 2022-08-22
     Temporal Analysis of Synchronization based on Varying String Lengths
 </a>
 <p class="math-date">
-    <span>December 1, 2022</span>
+    <span>August 1, 2023</span>
 </p>
 </div>
