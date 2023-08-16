@@ -329,3 +329,8 @@ td {
   border:1pt solid gray;
   vertical-align: baseline;
 }
+
+.abstract {
+  text-align: center;
+  max-width: 500px;
+}
