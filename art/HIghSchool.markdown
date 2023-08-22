@@ -15,4 +15,5 @@ layout: gallery
     <img src ="/img/green.jpg">
     <img src ="/img/eye.jpg">
     <img src ="/img/eagle.jpg">
+    <img src ="/img/Mandala.jpg">
 </div>
