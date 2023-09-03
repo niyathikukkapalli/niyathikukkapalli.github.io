@@ -7,6 +7,24 @@ date: 2022-08-22
     Research and Other Projects
 </h2>
 
+
+{% include research-link.html
+   title="The Artin Hasse Exponential"
+   href="/research/artinhasse.pdf"
+   date="August 1, 2023"
+   abstract="In 1928, the Artin-Hasse Exponential was created as an analogy to the
+exponential function that comes from infinite products, as discussed in the
+paper. A introductory discussion of formal power series and their connection to
+the p-adic numbers is given. The fact that Qp is the completion of Q is proven,
+laying the grounds for a discussion of radius of convergence (for power series),
+where the mutual inverse isomorphism between the exponential and logarithmic
+functions in the p-adic number system is also shown. Intermediatary results
+regarding surface Topology are elucidated using metric spaces. A new proof
+for Dwork’s Lemma is provided via methods of induction, and is applied to
+prove the Integrality of the Artin Hasse Function, E(x), which is essential for
+further research. Extensions regarding E(x) are discussed, such as the radius
+of convergence and generalized images of the p-adics." %}
+
 {% include research-link.html
    title="Temporal Analysis of Synchronization based on Varying String Lengths"
    href="/research/research2.pdf"
@@ -27,23 +45,6 @@ study like the medical field where many diseases are caused by the synchronizati
 of neurons. Finally, the equations of motion and energy are modeled with Lagrange
 techniques and possible extensions, like creating a model similar to the Kuramoto
 Model, and other applications of the problem are discussed." %}
-
-{% include research-link.html
-   title="The Artin Hasse Exponential"
-   href="/research/artinhasse.pdf"
-   date="August 1, 2023"
-   abstract="In 1928, the Artin-Hasse Exponential was created as an analogy to the
-exponential function that comes from infinite products, as discussed in the
-paper. A introductory discussion of formal power series and their connection to
-the p-adic numbers is given. The fact that Qp is the completion of Q is proven,
-laying the grounds for a discussion of radius of convergence (for power series),
-where the mutual inverse isomorphism between the exponential and logarithmic
-functions in the p-adic number system is also shown. Intermediatary results
-regarding surface Topology are elucidated using metric spaces. A new proof
-for Dwork’s Lemma is provided via methods of induction, and is applied to
-prove the Integrality of the Artin Hasse Function, E(x), which is essential for
-further research. Extensions regarding E(x) are discussed, such as the radius
-of convergence and generalized images of the p-adics." %}
 
 {% include research-link.html
    title="Periodicities of Faro Shuffles"
