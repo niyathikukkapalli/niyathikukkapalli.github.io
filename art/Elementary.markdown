@@ -2,6 +2,7 @@
 layout: gallery
 ---
 
+<!--
 <center><h1>Elementary art</h1></center>
 
 <div class="gallery">
@@ -16,3 +17,5 @@ layout: gallery
     <img src="/img/snowman.jpg">
     <img src="/img/frog.jpg">
 </div>
+
+-->
