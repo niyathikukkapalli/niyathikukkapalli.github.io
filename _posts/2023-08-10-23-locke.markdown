@@ -2,9 +2,9 @@
 layout: post
 title: "Which has a bigger effect on history: the plans of the powerful or their mistakes?"
 date: 2023-10-08
-description: I recently entered the John Locke Institute Global Essay Competition which is held by the John Locke Institute sponsored by Oxford and Princeton. It's an essay competition that encourages you to explore college level academic writing through thought provoking questions that go beyond the bounds of school essays. You can receive many prizes through the competiton, and I myself got a Commendation for the essay I submitted into the History section. 
-categories: academic writing, JIL competition, World Wars 
-tags: JLI Competiton, World Wars, 
+description: I recently entered the John Locke Institute Global Essay Competition which is held by the John Locke Institute sponsored by Oxford and Princeton. It's an essay competition that encourages you to explore college level academic writing through thought provoking questions that go beyond the bounds of school essays. You can receive many prizes through the competiton, and I myself got a Commendation for the essay I submitted into the History section...
+categories: 
+tags: academic writing, JIL competition, World Wars 
 thumbnail: "/img/history.jpeg"
 ---
 
@@ -14,7 +14,7 @@ thumbnail: "/img/history.jpeg"
 
 I recently entered the John Locke Institute Global Essay Competition which is held by the John Locke Institute sponsored by Oxford and Princeton. It's an essay competition that encourages you to explore college level academic writing through thought provoking questions that go beyond the bounds of school essays. You can receive many prizes through the competiton, and I myself got a Commendation for the essay I submitted into the History section. 
 
-For anybody looking to enter next year, my essay is down below to see what academic writing for a thought provoking question is like. 
+While this deviates a bit from my usual content, I find that it's actually really similar to writing a research paper, but just in a different subject. You still have to research the topic, cite references, be specific, etc. For anybody looking to enter next year, my essay is down below to see what academic writing for a thought provoking question is like. 
 
 ## Which has a bigger effect on history: the plans of the powerful or their mistakes?
 
@@ -40,6 +40,8 @@ As an indirect consequence of WW2, the South African government wanted to streng
 
 It goes to show that a plan’s influence is universal, extending its reach to the social, cultural, and political realms. The mistakes discussed in this paper were a result of a plan, but not pure accidents. For example, arguably the biggest accident in the past century, the Deepwater Horizon Oil Spill in 2010, which afflicted millions of people, was not a mistake of the powerful but rather their workers. Many of those mistakes tend to play out in a similar fashion or their effects are not as widespread as the examples above. Plans and mistakes have a convoluted bond, but it remains true that the powerful use their influence to exploit mistakes and formulate plans off of them. To finish Camus’s thoughts, he further stated, “There can be no true goodness [...], without the utmost clear-sightedness” (Stewart, 2011). Most of the powerful above intended to do what was good for their country, and having “clear-sightedness” or a vision is what gets the job done. From WWI to the present time is a cascading chain of plans falling in place one after the other. The paintbrush the powerful wield is a purposeful tool; with intent, one can paint a masterpiece that is called written history.
 
+## Final Thoughts
 
+Whew! That was a long essay. Generally, with academic essays, after your hook and introduction, it's a good idea to insert a paragraph that gives an outline for your essay. It's almost like the "abstract" of your paper. And it's great to ground your ideaes and reasoning in some type of philosphy, whether it be Eastern or Western. I inserted bits of Albert Camus's Philosphy into the essay above, but you can really choose anyone. Overall, this was a great experience to learn how to write at a college level, and I encourage you all to participate!
 
 
