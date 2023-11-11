@@ -37,5 +37,6 @@ layout: art
     <img src ="/img/eye.jpg">
     <img src="/img/still.jpg">
     <img src="/img/monticello.jpg">
+     <img src="/img/guitar.jpg">
     
 </div>
