@@ -47,6 +47,16 @@ techniques and possible extensions, like creating a model similar to the Kuramot
 Model, and other applications of the problem are discussed." %}
 
 {% include research-link.html
+   title="Problems and Solutions in Advanced Graph Theory"
+   href="/research/UD.pdf"
+   date="November 1, 2023"
+   abstract= "A compilation of selected problems and solutions from my time working with
+Professor Sebastian Cioba at University of Delaware’s Math Department in Sum-
+mer of 2023. In the process of editing the first version of, A First Course in Graph
+Theory and Combinatorics, our team (1 graduate student and 4 undergraduates)
+worked through most of the book in preparation for our research." %}
+
+{% include research-link.html
    title="Periodicities of Faro Shuffles"
    href="/research/PROMYS_FirstYear.pdf"
    date="August 1, 2022"
