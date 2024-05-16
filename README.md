@@ -1,6 +1,8 @@
 # Personal Website
 A simple website that hosts a mathematics focused blog, artwork, and various research papers. 
 
+**Link to project:** http://niyathikukkapalli.com
+
 ## How it's made
 **Tech used:** HTML, CSS, JavaScript, Jekyll
 
