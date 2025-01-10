@@ -1,0 +1,19 @@
+---
+layout: post
+title: "My College Application Experience: The Beginning"
+date: 2024-05-22
+tags: College Application, Ivy League, Essays, Activities
+categories: 
+description: With applying to 18 schools (and that's after nixing off a couple), my college application season was quite the whirlwind. Many essay writing sessions were spent in stress which eventually led me to rewriting my common app essay the day before my first round of applications were due. I started quite late with only starting my supplementals in late October, and watching my friends having theirs done by start of senior year wasn't helping my stress. But, all in all, I think the stress was worth it. I ended up getting into Princeton, MIT, Columbia (w/ a Likely Letter), Brown, and Cornell. As an upcoming freshman at Princeton University, this blog post is my way of closing off my senior year of highschool.
+thumbnail: "/img/ptolemy.jpeg"
+---
+
+<img class="normal" src="/img/">
+
+## Introduction
+
+With applying to 18 schools (and that's after nixing off a couple), my college application season was quite the whirlwind. Many essay writing sessions were spent in stress which eventually led me to rewriting my common app essay the day before my first round of applications were due. I started quite late with only starting my supplementals in late October, and watching my friends having theirs done by start of senior year wasn't helping my stress. But, all in all, I think the stress was worth it. I ended up getting into Princeton, MIT, Columbia (w/ a Likely Letter), Brown, and Cornell. As an upcoming freshman at Princeton University, this blog post is my way of closing off my senior year of highschool. 
+
+## Writing Essays
+
+So while I was at PROMYS (Program in Mathematics for Young Scientists), I was in the process of making my college list. It was a mix of Ivy Leagues, targets, and safeties. I originally had 20 colleges on my list 

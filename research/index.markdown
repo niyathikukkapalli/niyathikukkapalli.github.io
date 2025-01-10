@@ -10,7 +10,7 @@ date: 2022-08-22
 
 {% include research-link.html
    title="The Artin Hasse Exponential"
-   href="/research/artinhasse.pdf"
+   href="/research/Artin_Hasse.pdf"
    date="August 1, 2023"
    abstract="In 1928, the Artin-Hasse Exponential was created as an analogy to the
 exponential function that comes from infinite products, as discussed in the
@@ -27,7 +27,7 @@ of convergence and generalized images of the p-adics." %}
 
 {% include research-link.html
    title="Temporal Analysis of Synchronization based on Varying String Lengths"
-   href="/research/research2.pdf"
+   href="/research/temporal_an.pdf"
    date="August 1, 2023"
    abstract="Christiaan Huygens discovered the synchronization of coupled pendulums while
 considering a specific closed system. This paper furthers Huygen’s ambitions by
