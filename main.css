@@ -9,8 +9,6 @@ body {
   font-size: 18px;
 }
 
-
-
 a:link,
 a:visited {
   color: inherit;
@@ -21,7 +19,8 @@ a:hover {
 }
 
 body.home {
-  background-image: url("img/home-new.jpg");
+  background-image: url("img/HomePage2.jpg");
+  overflow-x: hidden; 
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);
@@ -38,15 +37,25 @@ h6 {
 }
 
 header {
-  background-color: rgb(246, 232, 217);
+  background-color: rgba(246, 232, 217, 0);
   color: rgb(0, 0, 0);
-  border-bottom: 7px solid rgb(255, 187, 0);
+  border-bottom: 7px solid rgba(255, 187, 0, 0);
   margin-bottom: 2rem;
   width: 100%;
 }
 
 nav a {
   text-decoration: none;
+}
+
+nav a:hover, 
+nav a.active {
+  color: #334a32;
+  border-bottom: 3px solid #193e20;
+}
+
+nav a {
+  display: inline-block;
 }
 
 nav a:not(:first-child) {
@@ -57,6 +66,11 @@ nav {
     display: flex; 
     flex-wrap: wrap;
     max-width: 100%;
+}
+
+.logo{
+  font-size: 3rem; 
+  color:rgb(248, 142, 142)
 }
 
 .art-submenu {
@@ -80,7 +94,7 @@ nav {
 
 .self-image {
   height: 40vh;
-  border: 5px solid rgb(252, 165, 3);
+  border: 5px solid rgb(255, 177, 60); 
   box-sizing: border-box;
 }  
 
@@ -111,18 +125,18 @@ nav {
 }
 
 .Intro {
-  background-color: lemonchiffon;
+  background-color: rgba(255, 250, 205, 0);
   border-radius: 12px;
   text-align: center;
   /* font-family: "Dela Gothic One"; */
   max-width: 430px;
-  border: 3.5px solid #ffae00;
+  border: 3.5px solid #ffae0000;
   padding: 7px;
   box-sizing: border-box;
   line-height: 1.25;
   margin:  2rem;
   font-size: 1.1rem;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .Intro a:link,
@@ -185,15 +199,19 @@ button#gallery-overlay-close {
 }
 
 .title-link {
+  font-size: 2rem; 
   text-align: left;
   flex: 1;
+  transition: 0.5s ease; 
 }
 
 .navigation-links {
   text-align: right;
   flex: 4;
+  transition: 0.5s ease; 
 }
 
+/*
 .dropdown {
   display: inline;
   position: relative;
@@ -229,7 +247,9 @@ button#gallery-overlay-close {
 .dropdown-content a:hover {
   color: rgb(255, 187, 0);
 }
+*/
 
+/*
 .mathlinks {
   text-decoration: underline;
   font-size: 20px;
@@ -243,6 +263,7 @@ button#gallery-overlay-close {
 .mathlinks:hover {
   color: rgb(255, 187, 0);
   text-decoration: underline;
+  transition: 0.5s ease; 
 }
 
 table {
@@ -323,7 +344,7 @@ p.math-date {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 td {
   border:1pt solid gray;
@@ -342,7 +363,7 @@ td {
 }
 
 .research-link {
-  max-width: 800px;
+  max-width: 670px;
   margin: auto;
   padding: 0 1rem;
 }
@@ -362,4 +383,47 @@ td {
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: auto;
+}
+
+.biog-container {
+  font-size: 31px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-top: 10px; /* Adds spacing between the image and text */
+  height: 30px; /* Fixed height to prevent jumping */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.biog-text {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.biog-text.show {
+  display: block;
+  opacity: 1;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  font-size: 2.1rem;
+  width: 0;
+  display: inline-block; /* Ensure inline behavior */
+  animation: typing 4.5s steps(20, end) forwards, blink 0.77s step-end infinite;
+}
+
+/* Typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Blinking cursor effect */
+@keyframes blink {
+  50% { border-color: transparent; }
 }
