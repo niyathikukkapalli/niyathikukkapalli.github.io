@@ -91,6 +91,7 @@ nav {
   flex-direction: column-reverse;
   box-sizing: border-box;
 }
+ 
 
 .self-image {
   height: 40vh;
@@ -211,140 +212,6 @@ button#gallery-overlay-close {
   transition: 0.5s ease; 
 }
 
-/*
-.dropdown {
-  display: inline;
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  text-align: left;
-  background-color: #fff3d9;
-  transition: 1s;
-  min-width: 190px;
-  z-index: 1;
-  left: 0;
-  top: 18px;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 20px 12px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content {
-  left: 0;
-}
-
-.dropdown-content a:hover {
-  color: rgb(255, 187, 0);
-}
-*/
-
-/*
-.mathlinks {
-  text-decoration: underline;
-  font-size: 20px;
-  display: block;
-  width: 400px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mathlinks:hover {
-  color: rgb(255, 187, 0);
-  text-decoration: underline;
-  transition: 0.5s ease; 
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 900px;
-}
-
-th {
-  height: 70px;
-  width: 20px;
-}
-
-table.math-problems {
-  margin-top: 30px;
-}
-
-td {
-  text-align: center;
-}
-
-.content {
-  margin: auto;
-  max-width: 800px;
-}
-
-.problem,
-.solution {
-  background-color: rgb(230, 230, 230);
-  border-radius: 12px;
-  padding: 12px;
-}
-
-.problem + .solution {
-  margin-top: 12px;
-}
-
-.solution {
-  margin-bottom: 100px;
-}
-
-.problem {
-  margin-top: 50px;
-}
-
-.math-intro {
-  text-align: center;
-}
-
-.math-problems {
-  border-collapse: collapse;
-  margin: auto;
-}
-
-.math-problems td {
-  border: none;
-}
-
-.math-problems tr:first-child td {
-  border-top: 0;
-}
-
-.math-problems tr td:first-child {
-  border-left: 0;
-}
-
-.math-problems tr:last-child td {
-  border-bottom: 0;
-}
-
-.math-problems tr td:last-child {
-  border-right: 0;
-  border-left: 3px solid gold;
-}
-
-p.math-date {
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}*/
 
 td {
   border:1pt solid gray;
@@ -389,8 +256,8 @@ td {
   font-size: 31px;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  margin-top: 10px; /* Adds spacing between the image and text */
-  height: 30px; /* Fixed height to prevent jumping */
+  margin-top: 10px; 
+  height: 30px; 
   display: flex;
   justify-content: center;
   align-items: center;
