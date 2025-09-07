@@ -8,34 +8,39 @@ body {
   font-family: "Newsreader", serif;
   font-size: 18px;
 }
-
+ 
+/* makes links black instead of blue. a is from <a> which is used for links */ 
 a:link,
 a:visited {
   color: inherit;
-}
+} 
 
+/* makes links yellow when hovered over */ 
 a:hover {
   color: #dfac3e;
 }
+ 
 
 body.home {
-  background-image: url("img/HomePage2.jpg");
-  overflow-x: hidden; 
+  /* background-image: url("img/HomePage2.jpg"); */
+  /* overflow-x: hidden; 
   background-size: cover;
-  background-position: center;
-  color: rgb(255, 255, 255);
+  background-position: center; */
+  background-color: #f8dee1; 
 }
 
+/* this is the fonts used for all words */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: Rye, serif;
+  font-family: "Rye", sans-serif;
   font-weight: normal;
 }
 
+/* this defines the "Hey I'm Niyathi! text */
 header {
   background-color: rgba(246, 232, 217, 0);
   color: rgb(0, 0, 0);
@@ -48,12 +53,13 @@ nav a {
   text-decoration: none;
 }
 
+/* this is when you hover over the links on the nav bar*/
 nav a:hover, 
 nav a.active {
-  color: #334a32;
-  border-bottom: 3px solid #193e20;
+  color: #ffde70;
 }
 
+/* keep them all in the same line */ 
 nav a {
   display: inline-block;
 }
@@ -73,17 +79,6 @@ nav {
   color:rgb(248, 142, 142)
 }
 
-.art-submenu {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.art-submenu a {
-  display: block;
-}
-
 .bio {
   display: flex;
   justify-content: center;
@@ -92,14 +87,14 @@ nav {
   box-sizing: border-box;
 }
  
-
+/* currently no self image */
 .self-image {
   height: 40vh;
   border: 5px solid rgb(255, 177, 60); 
   box-sizing: border-box;
-}  
+}
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   .bio {
     flex-direction: row;
   }
@@ -107,14 +102,14 @@ nav {
   .self-image {
       height: 40vh;
   }
-}
+} */ 
 
-.web-title {
+/* .web-title {
   font-size: 2rem;
   margin-bottom: 1rem;
   padding: 0rem;
   text-align: center;
-}
+} */
 
 .navigation {
   display: flex;
@@ -135,11 +130,12 @@ nav {
   padding: 7px;
   box-sizing: border-box;
   line-height: 1.25;
-  margin:  2rem;
+  margin:  2rem auto;
   font-size: 1.1rem;
   color: rgb(0, 0, 0);
 }
 
+/* If I link to stuff in the intro */
 .Intro a:link,
 .Intro a:visited {
   color: black;
@@ -200,7 +196,7 @@ button#gallery-overlay-close {
 }
 
 .title-link {
-  font-size: 2rem; 
+  font-size: 1.5rem; 
   text-align: left;
   flex: 1;
   transition: 0.5s ease; 
@@ -218,7 +214,7 @@ td {
   vertical-align: baseline;
 }
 
-.abstract {
+/* .abstract {
   text-align: center;
   max-width: 500px;
 }
@@ -250,9 +246,9 @@ td {
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: auto;
-}
+}  */ 
 
-.biog-container {
+/* .biog-container {
   font-size: 31px;
   font-weight: bold;
   color: rgb(0, 0, 0);
@@ -272,8 +268,9 @@ td {
 .biog-text.show {
   display: block;
   opacity: 1;
-}
+} */ 
 
+/* this is for the typewriter with my name */ 
 .typewriter {
   overflow: hidden;
   border-right: 0.15em solid orange;
@@ -284,13 +281,13 @@ td {
   animation: typing 4.5s steps(20, end) forwards, blink 0.77s step-end infinite;
 }
 
-/* Typing effect */
+/* Typing effect. this defines the animation. */
 @keyframes typing {
   from { width: 0; }
   to { width: 100%; }
 }
 
-/* Blinking cursor effect */
+/* Blinking cursor effect. toggles between visible and invisible. this is for the cursor. */
 @keyframes blink {
   50% { border-color: transparent; }
 }

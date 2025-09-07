@@ -1,4 +1,0 @@
----
-layout: amc
-title: "Generating functions Handouts"
----

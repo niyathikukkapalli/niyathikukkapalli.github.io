@@ -4,47 +4,27 @@ date: 2022-08-22
 ---
 
 <h2 class="research-intro">
-    Research and Other Projects
+    Things I've Worked On <span class="emoji">🍜</span>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </h2>
 
+{% include research-link.html
+   title="Greedy Range Trees for Product Metrics"
+   href="https://linktr.ee/productmetricgreedyrangetrees"
+   date="July 26, 2025"
+   abstract="Developed a novel data structure for efficiently analyzing product metrics by extending classical range tree techniques. Designed and implemented greedy range trees in Python to optimize multi-dimensional queries, improving speed and scalability for large datasets. This enables faster, more accurate analysis of product metrics, including trends, anomalies, and usage patterns." %}
 
 {% include research-link.html
    title="The Artin Hasse Exponential"
    href="/research/Artin_Hasse.pdf"
    date="August 1, 2023"
-   abstract="In 1928, the Artin-Hasse Exponential was created as an analogy to the
-exponential function that comes from infinite products, as discussed in the
-paper. A introductory discussion of formal power series and their connection to
-the p-adic numbers is given. The fact that Qp is the completion of Q is proven,
-laying the grounds for a discussion of radius of convergence (for power series),
-where the mutual inverse isomorphism between the exponential and logarithmic
-functions in the p-adic number system is also shown. Intermediatary results
-regarding surface Topology are elucidated using metric spaces. A new proof
-for Dwork’s Lemma is provided via methods of induction, and is applied to
-prove the Integrality of the Artin Hasse Function, E(x), which is essential for
-further research. Extensions regarding E(x) are discussed, such as the radius
-of convergence and generalized images of the p-adics." %}
+   abstract="In 1928, Emil Artin and Helmut Hasse introduced the Artin–Hasse exponential, a p-adic analogue. After introducing the basics of p-adic analysis, including why \(\mathbb{Q}_p\) is the completion of \(\mathbb{Q}\), I show that the exponential and logarithm remain inverses, with intuition drawn from metric spaces and topology. The core of this paper is the inductive-based proof of Dwork's Lemma which is used to prove the integrality of the Artin Hasse Exponential." %}
 
 {% include research-link.html
    title="Temporal Analysis of Synchronization based on Varying String Lengths"
    href="/research/temporal_an.pdf"
    date="August 1, 2023"
-   abstract="Christiaan Huygens discovered the synchronization of coupled pendulums while
-considering a specific closed system. This paper furthers Huygen’s ambitions by
-onsidering the effects of synchronization time based on changes in string length in
-coupled simple pendulums designed on a moving platform. Two simple pendulums
-were connected through the medium of a wooden board which was then placed
-on cylindrical cans. String length and synchronization time seemed to display an
-inverse relationship based on trends of raw data. Explanations for other behaviors
-such as brief stops in motion and anti-phase versus in-phase synchronization are ex-
-plained using various laws of Classical Mechanics and are modeled with polynomial
-approximations. The effect of synchronization arises from the medium between the
-pendulums and the various dampenings of the system. The findings presented gen-
-erally show that synchronization can be optimized which is useful in various fields of
-study like the medical field where many diseases are caused by the synchronization
-of neurons. Finally, the equations of motion and energy are modeled with Lagrange
-techniques and possible extensions, like creating a model similar to the Kuramoto
-Model, and other applications of the problem are discussed." %}
+   abstract="Christiaan Huygens discovered the synchronization of coupled pendulums and building on Huygens’ discovery, this paper examines how string length affects synchronization time in coupled pendulums on a moving platform. Experiments showed that shorter strings generally synchronize faster. Other behaviors, like brief pauses and in-phase vs. anti-phase motion, were explained using classical mechanics. The results show ways to optimize synchronization and this paper also models motion and energy using Lagrangian techniques." %}
 
 {% include research-link.html
    title="Problems and Solutions in Advanced Graph Theory"
@@ -65,7 +45,7 @@ terweved that can be categorized into infaro and outfaro shuffles.
 Modular equations for the periods of the card’s position after per-
 forming a infaro or outfaro shuffle are presented, and the infaro case
 is proven. Breifly, basic combinatorics of faro shuffles are also eluci-
-dated. The main theorem presented is 2^ϵ ≡ 1 mod (n−1) where ϵ is
+dated. The main theorem presented is \(2^{\varepsilon} ≡ 1 \pmod{n−1}\) where \(\varepsilon\) is
 the period of a card, and this is proven through traditional and spec-
 tral graph theory methods using an adjacency matrix. Extensions
 of the problem, including flipping the cards throughout the shuffles
