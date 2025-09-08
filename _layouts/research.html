@@ -6,5 +6,8 @@
 
   <body>
     {% include header.html %} {{ content }}
+    {% if post.thumbnail %}
+      <img class="post-thumbnail" src="{{ post.thumbnail }}">
+    {% endif %}
   </body>
 </html>

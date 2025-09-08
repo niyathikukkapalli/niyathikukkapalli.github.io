@@ -37,3 +37,8 @@
     font-size: 2.8rem; /* make it bigger, adjust as needed */
     vertical-align: middle; /* aligns with the text nicely */
 }
+
+.post-thumbnail {
+  margin-right: 1rem;
+  width: 16rem;
+}
