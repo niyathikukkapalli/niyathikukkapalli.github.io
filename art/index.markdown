@@ -21,7 +21,7 @@ layout: art
 </div>
 -->
 
-<center><h1>My Artwork</h1></center>
+<center><h2>Things I've Drawn <span class="emoji">🎨</span> </h2></center>
 
 <div class="gallery">
     <img src ="/img/lamp.jpeg">
