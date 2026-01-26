@@ -8,7 +8,7 @@ description: I think that having a website is great for anyone whether it's adve
 thumbnail: "/img/web.png"
 ---
 
-<img class="normal" src="/img/web.png">
+<img class="normal" loading="lazy" src="/img/web.png">
 
 ## Introduction
 
@@ -42,11 +42,11 @@ First, to make the website look nice you need a good background image, but even 
 
 Below is the image I ended up choosing: 
 
-<img class="small" src="/img/home.jpg">
+<img class="small" loading="lazy" src="/img/home.jpg">
 
 Of course, anything beyong that it really free terrain. If you want more interactive aspects, you probably have to utilize Javascript. For example, I wanted to create a scrollable gallery on my [Art](https://niyathikukkapalli.com/art/HIghSchool) page and had to use a tad bit of Javascipt (shown below). 
 
-<img class="normal" src="/img/java.png">
+<img class="normal" loading="lazy" src="/img/java.png">
 
 There are just so many things to do with a website! Have fun with it. 
 
@@ -54,7 +54,7 @@ There are just so many things to do with a website! Have fun with it.
 
 If you have a blog (like me) or a project on your website where you want people to look at it -- you probably want analytics. This allows you to look where your viewers are from, how old they are, or most importantly, how many you have. It's really easy to activate. All you have to do is connect your website url to the website, and then you will see all your stats. Below is an example of what my page looks like ...
 
-<img class="large" src="/img/analytics.png">
+<img class="large" loading="lazy" src="/img/analytics.png">
 
 For example, the one that I use the most is the "Reports snapshot" feature which tells you how many users you've had in that week and what countries they are from although it's hard to discern whether they are bots or not; I've gotten a lot from Cambodia recently. It's pretty addicting to look at the analytics and just see who is looking (when someone besides my friends and family looks I get pretty excited). 
 

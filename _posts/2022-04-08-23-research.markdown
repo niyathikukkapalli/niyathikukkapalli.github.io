@@ -8,7 +8,7 @@ tags: Independent, Science Fair, Data
 thumbnail: "/img/pendulum.jpeg"
 ---
 
-<img class="normal" src="/img/pendulum.jpeg">
+<img class="normal" loading="lazy" src="/img/pendulum.jpeg">
 
 ## Introduction
 
@@ -36,9 +36,9 @@ Creating the pendulums was quite hard and I had to recruit the help of my brothe
 
 The pendulums that I created are also shown below, though they show hex nuts on them instead of bobs. I found that the hex nuts carried a lot of air resistence and kept twisting in the air; I changed it to a bob later because of the hassle it caused. 
 
-<img class="normal" src="/img/work.jpeg">
+<img class="normal" loading="lazy" src="/img/work.jpeg">
 
-<img class="normal" src="/img/pendulums.jpeg">
+<img class="normal" loading="lazy" src="/img/pendulums.jpeg">
 
 Most data collection is quite menial. Whether you are running a computer program or simulations, it's never fun. But it has to be accurate. Sometimes, my pendulums would be off center on the platform or the platform would roll off the cans so I would have to redo those cases. Most of my data collecting was me sitting in front of my apparatus with my lab notebook: of course, I had a pencil in one hand and my stop watch in the other. 
 
@@ -62,7 +62,7 @@ Many can spit out fancy vocabulary, but it's no use if no one understands. In fa
 
 When setting up my project, I also had one of my pendulums there with a video of the pendulums synchronizing. This did a lot of the talking for me and was helpful in being more concise. Below is a photo of my poster that I used for my school, county, and tri state science fairs. 
 
-<img class="medium" src="/img/poster.jpg">
+<img class="medium" loading="lazy" src="/img/poster.jpg">
 
 There really is no right way to create your poster since the science is more significant. You could easily go to Staples and print out your poster as one large sheet. That's a method I saw a lot of people doing, and I'll admit, it does make your project look extravagant. I didn't feel like doing that, so I simply made a google slides presentation and printed those slides out. 
 

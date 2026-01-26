@@ -8,7 +8,7 @@ description: I recently attended the PROMYS program as a second year, and I want
 thumbnail: "/img/zeta.jpeg"
 ---
 
-<img class="normal" src="/img/zeta.jpeg">
+<img class="normal" loading="lazy" src="/img/zeta.jpeg">
 
 ## Introduction 
 

@@ -11,7 +11,7 @@ thumbnail: "/img/promys.jpeg"
 ## What is PROMYS?
 
 <div class="promys_image">
-<img src="/img/promys.jpeg" width="700" height="500">
+<img loading="lazy" src="/img/promys.jpeg" width="700" height="500">
 </div>
 
 So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets.
@@ -32,7 +32,7 @@ That was the first day. The next days have followed pretty similar. Except that 
 
 That weekend was pretty fun! Essentially on the weekends it's free terrain. You can go anywhere as long as you let someone know before hand. I went with my friend to the Fenway Gardens which is a public garden open to visit, and it was stunning! Courtesy of my Iphone camera, here is a photo below ... 
 
-<img class="small" src="/img/fenway.jpeg">
+<img class="small" loading="lazy" src="/img/fenway.jpeg">
 
 Given, we defintely got lost, but I guess we blended in because Boston locals kept asking us for directions. It took us a whole three hours to walk, with only thirty minutes in the garden. Don't make my mistake and please bring sneakers if you end up at ANY summer camp. I was walking around for three hours on the scalding concrete with loafers. Ouch. 
 
@@ -64,7 +64,7 @@ So if you don't know, PROMYS plays a ultimate frisbee game against RSI. Usually,
 
 We had to walk all the way from BU to MIT (30 minutes ish), but it was a good opportunity to see the MIT campus. On the 5th week though, we got a proper tour. On a side note, the bridge connecting MIT to the other side of the Charles river is beautiful. The view is one of a kind, and below is one of the photos I took (but it doesn't capture it's magic). This weekend didn't involve that much math. Not because I was slacking, but I was having a little too much fun. This was the week that the math made the most sense to me though. 
 
-<img class="small" src="/img/bridge.jpeg">
+<img class="small" loading="lazy" src="/img/bridge.jpeg">
 
 ## Week 5: Almost Over
 

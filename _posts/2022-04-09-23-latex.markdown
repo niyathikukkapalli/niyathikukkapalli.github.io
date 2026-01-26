@@ -8,7 +8,7 @@ description: I've used LaTeX since probably 7th grade, and it's helped me tremou
 thumbnail: "/img/Latex2.jpeg"
 ---
 
-<img class="normal" src="/img/Latex2.jpeg">
+<img class="normal" loading="lazy" src="/img/Latex2.jpeg">
 
 ## Introduction
 
@@ -29,14 +29,14 @@ For other installations, visit the official webiste: [LaTeX-Project](https://www
 
 I've been involved with math competitions, like USAMTS, which require you to send in worked out solutions and LateX is a great way to format them. Usually if you work in Overleaf they give you the basic commands like $\texttt{\section{}}$ or all the packages at the top. An example of one of my handouts is below... 
 
-<img class="large" src="/img/visual.png">
+<img class="large" loading="lazy" src="/img/visual.png">
 
 On the left is the code space, you can see things like a header (\lhead or \rhead) for either a left or right header. There is also some extra stuff like bolding words is $\texttt{\textbf{}}$ and there are font sizes like $\texttt{\Huge{}}$. A useful trick is also putting $\texttt{\vspace{3mm}}$ between paragraphs for that extra space beacuse LaTeX won't automatically space out your document. On the right is what the a LaTeX document would look like. 
 
 Below is the general document setup I use, with a color box embedded as an example. The setup is really simple, it's just a matter of packages. 
 
 
-<img class="large" src="/img/demo.png">
+<img class="large" loading="lazy" src="/img/demo.png">
 
 Most documents have a bunch of packages at the top, and there are only a couple basic ones that I find really useful. You input a package that you need into the top of your document by enclosing it in $\texttt{\usepackage{}}$. 
 

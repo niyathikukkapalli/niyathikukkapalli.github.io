@@ -8,7 +8,7 @@ description: Well, that title is quite strange! Who would have thought that our 
 thumbnail: "/img/james.png"
 ---
 
-<img class="normal" src="/img/james.png">
+<img class="normal" loading="lazy" src="/img/james.png">
 
 ## Intro
 
@@ -26,7 +26,7 @@ In 1859 he threw himself into politics and became part of the Ohio legislature, 
 
 ## Government Life 
 
-<img class="small" src="/img/pic.jpg">
+<img class="small" loading="lazy" src="/img/pic.jpg">
 
 In 1856, Garfield campaigned for John C. Fremont, one of the presential candidates for the newly formed Republican party. He later campaigned for Abraham Lincoln in 1860. Although, he never really liked Lincoln and referred to him as a “second-rate Illinois lawyer”. 
 
@@ -40,7 +40,7 @@ What's funny though is that the doctors didn't do a good job of taking care of h
 
 In honor of Garfield's accomplishments, John Quincy Adams Ward created a statue of Garfield that shows Garfield giving a speech.
 
-<img class="small" src="/img/statue.jpeg">
+<img class="small" loading="lazy" src="/img/statue.jpeg">
 
 ## Garfield's Favorites
 
@@ -60,13 +60,13 @@ Well, as said above, math was one of the many subjects this renaissance man stud
 
 ## Summary of Proof 
 
-<img class="small" src="/img/proof.png"> 
+<img class="small" loading="lazy" src="/img/proof.png"> 
 
 He first constructed a trapezoid with two right triangles and an isosceles triangle. The isosceles triangle has two lengths of c and another unknown. We notice that this isosceles triangle is actually a right triangle. This is because in the trapezoid,  Z + (90 - Z) + ? = 180. The missing angle has to be 90. He basically equated the area of a trapezoid to the sum of the areas of the triangles. Easy to understand!
 
 Below is a picture of Garfield's original writings of the proof. 
 
-<img class="small" src="/img/original.png">
+<img class="small" loading="lazy" src="/img/original.png">
 
 ## Final thoughts
 

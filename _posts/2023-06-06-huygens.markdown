@@ -8,7 +8,7 @@ tags: Christiaan Huygens, Pendulum, Scientist
 thumbnail: "/img/huygens.jpeg"
 ---
 
-<img class="normal" src="/img/huygens.jpeg">
+<img class="normal" loading="lazy" src="/img/huygens.jpeg">
 
 ## Introduction
 
@@ -22,7 +22,7 @@ Huygens was born to a wealthy family on April 14th, 1629, and was immediately pu
 
 Ok, so for some context, the clocks before Huygen's pendulum clock lost 15 minutes a day, while Huygen's new pendulums clock saw to only have a loss of 15 seconds a day. How did Huygen's come up with such an incredible idea? Yes, he was a genius, but he also was inspired from Galileo's findings. Galileo was experimenting with pendulums and found a property that made them useful timekeepers. It was the property of isochronism or that the period of swing changes based on string length. We know this from the formula, $T = \sqrt{\frac{l}{g}}$ where $l$ = string length and $g$ = 9.8 $\frac{m}{s^2}$. Although there is a restriction, you can't have the rod length of the pendulum be too long because the amplitude will be too large. This will cause the pendulum to leave the cycloid curve and lose it's isochronism.
 
-<img class="small" src="/img/clock1.png">
+<img class="small" loading="lazy" src="/img/clock1.png">
 
 Above is a drawing of what Huygen's pendulums would look like. Not quite the simple string and metal bob you might've been thinking of. 
 

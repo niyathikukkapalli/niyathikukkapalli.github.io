@@ -8,7 +8,7 @@ description: While I was doing some AMC and AIME problems, I encountered Pascal'
 thumbnail: "/img/pascal.jpeg"
 ---
 
-<img class="normal" src="/img/pascal.jpeg">
+<img class="normal" loading="lazy" src="/img/pascal.jpeg">
 
 ## Introduction
 
@@ -44,7 +44,7 @@ $\textbf{Pascal's Law:}$ states that when there is an increase in pressure at an
 
 It's much easier with a picture. If you look down below...
 
-<img class="small" src="/img/car.png">
+<img class="small" loading="lazy" src="/img/car.png">
 
 Basically a small force on a small surface area would be able to lift a big car on a big surface area through the property of ratios. Due to his early contribution to the barometer, he had the unit, the Pascal (unit for pressure) named after him. Very cool! He had many more inventions but this article would take an hour to read if I included them all. 
 
@@ -56,7 +56,7 @@ $\textbf{Pascal's Theorem:}$
 
 In simple terms, it can be used to prove the collinearity of three intersections among six points in a circle. The image from Brilliant, explains this quite simply. 
 
-<img class="small" src="/img/circle2.png">
+<img class="small" loading="lazy" src="/img/circle2.png">
 
 Pascal's Theorem just states that for any 6 points that are in the circle, then we have the intersections of AB and DE, AF and CD, and BC and EF are all collinear. It's quite useful in Olympiad math! 
 

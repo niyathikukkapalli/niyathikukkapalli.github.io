@@ -8,7 +8,7 @@ description: USAMTS is a free, high school oriented, proof based contest that is
 thumbnail: "/img/proof2.png"
 ---
 
-<img class="normal" src="/img/proof1.png">
+<img class="normal" loading="lazy" src="/img/proof1.png">
 
 ## What's USAMTS?
 
@@ -20,7 +20,7 @@ I don't know if this is just me but I felt like this puzzle was harder than othe
 
 A starting strategy that I had was to list what numbers could go in each box. This strategy didn't work if the squares were "lone" meaning that there are no given squares around it so you kinda just had to leave those alone. Following the diagram below, 
 
-<img class="small" src="/img/puzzle.jpg">
+<img class="small" loading="lazy" src="/img/puzzle.jpg">
 
 we notice that the square with 4 on it could only be 2, 4, or 6. The square with 9 on it could only be 7 or 9 since there is the 21 below it. I approached the problem like this and made a giant table of the possiblites that could be made with each square. Basically after playing around with it, there was a point I realized that some odd numbers like 7, 9, and 11 pair up with 19, 15, and 23 in some pairing order. So that's how I based my casework. Once you placed those three pairs all the other numbers usually fell into place to arrive at the solution. 
 

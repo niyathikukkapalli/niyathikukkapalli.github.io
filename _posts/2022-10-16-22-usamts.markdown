@@ -8,7 +8,7 @@ description: USAMTS is a free, high school oriented, proof based contest that is
 thumbnail: "/img/proof2.png"
 ---
 
-<img class="normal" src="/img/proof1.png">
+<img class="normal" loading="lazy" src="/img/proof1.png">
 
 ## What's USAMTS?
 
@@ -22,7 +22,7 @@ Except, with that circle with diameter of 5 that is given to you, you can immedi
 
 That can give a head start, and then what I did from there was basically do possible casework on where the 7 diameter circles could go and arrange the rest of the circles from that. There is most certaintly a better way, but this way took the least effort for me at least. Here is a picture of the correct answer down below. 
 
-<img class="small" src="/img/circles.jpg">
+<img class="small" loading="lazy" src="/img/circles.jpg">
 
 
 ## Problem 2
@@ -33,7 +33,7 @@ Instead, I thought it was purely the number of regions. So I was very confused b
 
 So the easiest way to do this is to just draw out pictures for the n = 1,2,3 and 4 cases. It's easy to see that n = 1 works since it just divides the circle in half. n = 2 was easy to disprove since you can just make the angle between two arcs really really tiny so the areas would be unequal. 
 
-<img class="small" src="/circle1.jpg">
+<img class="small" loading="lazy" src="/circle1.jpg">
 
 As we can see above, for the n = 4 cases, I could see immediately that you can just configure any even n like that. I used that fact to prove that odd n work. 
 

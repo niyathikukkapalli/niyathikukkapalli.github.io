@@ -8,7 +8,7 @@ description: This article assumes basic proof knowlegdge. The Chain of Reasoning
 thumbnail: "/img/theory.jpeg"
 ---
 
-<img class="normal" src="/img/theory.jpeg">
+<img class="normal" loading="lazy" src="/img/theory.jpeg">
 
 ## Chain of Reasoning Introduction
 

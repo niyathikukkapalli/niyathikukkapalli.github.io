@@ -8,7 +8,7 @@ description: In the previous article, we discussed the proofs of the chain up to
 thumbnail: "/img/theory.jpeg"
 ---
 
-<img class="normal" src="/img/theory.jpeg">
+<img class="normal" loading="lazy" src="/img/theory.jpeg">
 
 ## Chain of Reasoning Introduction
 
