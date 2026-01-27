@@ -1,0 +1,70 @@
+What I Need
+I want to recreate my blog page with a minimalistic design inspired by Medium. I have a mockup image showing exactly how I want it to look.
+Design from Mockup (see attached image)
+Please recreate this exact layout:
+
+Header:
+
+Large site title: "The Algebraic Arcanum" (bold, prominent)
+Simple navigation below with "Home" and "About" links
+"Home" has an underline to show it's the active page
+Thin border line under the navigation
+
+
+Blog Post Layout:
+
+Each post is in a horizontal card layout
+Content on the LEFT side with:
+
+Post title (bold, large)
+Brief excerpt/description in grey
+Date and read time at the bottom
+Grey circular tag bubbles below the date (like "Wolfram Alpha", "Mathematica", etc.)
+
+
+Featured image on the RIGHT side (approximately 200px x 134px)
+Light grey horizontal line separating each post
+
+
+Styling Details:
+
+Clean, minimalistic with lots of white space
+Light grey text for excerpts and metadata
+Tag bubbles: light grey background, rounded corners, small text
+Images should be well-proportioned on the right
+Hover effect on post titles (slightly darker)
+
+
+
+Use My Existing Content
+Use the blog posts that are already on my website. Please:
+
+Find all my existing blog posts
+Extract the titles, excerpts, dates, and images
+Display them using this new layout
+Keep all the existing links and functionality
+
+Important: Keep My Existing Fonts
+Keep my current website fonts. Please:
+
+Check what fonts I'm currently using on my site
+Use those exact same fonts for this redesigned blog page
+Don't change any typography from my existing site
+
+Technical Requirements
+
+Fully responsive (mobile, tablet, desktop)
+On mobile, stack the image above the content
+Use semantic HTML (article, header, nav tags)
+Smooth animations when posts load (subtle fade-in)
+Hover effects on titles and tags
+Maintain accessibility (proper heading hierarchy, alt tags)
+
+Integration Help Needed
+Please help me:
+
+Update my existing blog page file with this new design
+Keep all my existing blog post data and images
+Use my current site's fonts and color scheme
+Make it easy for me to add new blog posts later
+Ensure it matches the overall style of my existing site

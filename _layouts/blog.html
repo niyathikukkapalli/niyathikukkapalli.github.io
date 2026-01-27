@@ -6,41 +6,55 @@
 </head>
 
 <body>
-  {% include header.html %}
-
-  <div class="blog">
-    <h1 class="blog-title">The Algebraic Arcanum</h1>
-
-    <hr class="blog-divider" />
-
-    {% for post in site.posts %}
-
-    <div class="post-list-item">
-
-      {% if post.thumbnail %}
-      <img class="post-thumbnail" src="{{ post.thumbnail }}">
-      {% endif %}
-
-      <div class="post-metadata-container">
-        <a class="bloglinks" href="{{ post.url }}"> {{ post.title }} </a>
-
-        <p class="post-date">
-
-          <span>{{ post.date | date: "%B %d, %Y" }}</span>
-          <span>-</span>
-          {% for category in post.tags %}
-          <span class="post-category"> {{ category | capitalize }}</span>
-          {% endfor %}
-          <div class="post-description">
-            {{ post.description }}
-          </div>
-        </p>
+  <header class="blog-header">
+    <h1 class="blog-main-title">The Algebraic Arcanum</h1>
+    <nav class="navigation blog-navigation">
+      <div class="navigation-links">
+        <a class="navigation-link" href="/about">About Me</a>
+        <a class="navigation-link" href="/art">Artwork</a>
+        <a class="navigation-link" href="/blog/">Blog</a>
+        <a class="navigation-link" href="/research">Projects</a>
       </div>
+    </nav>
+    <hr class="blog-nav-divider" />
+  </header>
 
-    </div>
-
+  <main class="blog-container">
+    {% for post in site.posts %}
+    <article class="blog-post-card">
+      <div class="blog-post-content">
+        <h2 class="blog-post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <p class="blog-post-excerpt">{{ post.description }}</p>
+        <div class="blog-post-meta">
+          <span class="blog-post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          {% assign words = post.content | number_of_words %}
+          {% assign read_time = words | divided_by: 200 %}
+          {% if read_time == 0 %}
+            {% assign read_time = 1 %}
+          {% endif %}
+          <span class="blog-post-read-time">{{ read_time }} min read</span>
+        </div>
+        <div class="blog-post-tags">
+          {% for category in post.tags %}
+          <span class="blog-tag">{{ category | strip | upcase }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% if post.thumbnail %}
+      <div class="blog-post-image">
+        <a href="{{ post.url }}">
+          <img src="{{ post.thumbnail }}" alt="{{ post.title }}" loading="lazy">
+        </a>
+      </div>
+      {% endif %}
+    </article>
+    {% unless forloop.last %}
+    <hr class="blog-post-divider" />
+    {% endunless %}
     {% endfor %}
-  </div>
+  </main>
 </body>
 
 </html>

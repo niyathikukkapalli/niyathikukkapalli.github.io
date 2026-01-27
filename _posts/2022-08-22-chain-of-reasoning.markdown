@@ -3,7 +3,7 @@ layout: post
 title: "A Chain of Reasoning in Number Theory"
 date: 2022-08-22
 categories: Number Theory
-tags: WOP, Proof, Number Theory
+tags: WOP Proof Number Theory
 description: This article assumes basic proof knowlegdge. The Chain of Reasoning sounds quite general, and it is! There are multiple definitions to this term, and the basis would be that it’s a multi layer argument. Although, I’m not here to lecture about all the types of chains there could be. Rather, I’ll be discussing a rather important chain in Number Theory. This Chain of Reasoning flows as below ...
 thumbnail: "/img/theory.jpeg"
 ---
