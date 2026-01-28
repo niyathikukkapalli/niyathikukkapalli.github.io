@@ -23,20 +23,19 @@ layout: art
 
 <center><h2>Things I've Drawn <span class="emoji">🎨</span> </h2></center>
 
-<div class="gallery">
-    <img src ="/img/lamp.jpeg">
-     <img src ="/img/pumpkin.jpg">
-    <img src ="/img/Mandala.jpg">
-    <img src ="/img/eagle.jpg">
-    <img src="/img/barn.jpg">
-    <img src="/img/bottle.jpg">
-    <img src="/img/car.jpg">
-    <img src="/img/mann.jpg">
-    <img src="/img/self.jpg">
-    <img src ="/img/green.jpg">
-    <img src ="/img/eye.jpg">
-    <img src="/img/still.jpg">
-    <img src="/img/monticello.jpg">
-     <img src="/img/guitar.jpg">
-    
+{% assign artworks = "/img/lamp.jpeg|/img/pumpkin.jpg|/img/Mandala.jpg|/img/eagle.jpg|/img/barn.jpg|/img/bottle.jpg|/img/car.jpg|/img/mann.jpg|/img/self.jpg|/img/green.jpg|/img/eye.jpg|/img/still.jpg|/img/monticello.jpg" | split: "|" %}
+
+<div class="art-gallery">
+  {% for img in artworks %}
+    {% assign filename = img | split: "/" | last %}
+    {% assign base = filename | split: "." | first %}
+    {% assign pretty = base | replace: "-", " " | replace: "_", " " %}
+    <div class="art-card">
+      <img src="{{ img }}" alt="{{ pretty }}" loading="lazy">
+      <div class="art-card-body">
+        <div class="art-card-title">{{ pretty }}</div>
+        <div class="art-card-meta">Personal artwork</div>
+      </div>
+    </div>
+  {% endfor %}
 </div>

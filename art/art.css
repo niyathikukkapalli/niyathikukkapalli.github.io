@@ -55,3 +55,68 @@ p.box2 {
 .cool {
   max-width: 300px;
 }
+
+/* --- Artwork gallery masonry cards (only affects gallery section) --- */
+.art-gallery {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  column-count: 3;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .art-gallery {
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .art-gallery {
+    column-count: 1;
+  }
+}
+
+.art-card {
+  display: inline-block; /* required for CSS columns masonry */
+  width: 100%;
+  margin: 0 0 20px;
+
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.art-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.art-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.art-card-body {
+  padding: 15px;
+}
+
+.art-card-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 0 6px 0;
+  text-transform: capitalize;
+}
+
+.art-card-meta {
+  color: #777;
+  font-size: 14px;
+}
