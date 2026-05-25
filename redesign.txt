@@ -1,0 +1,114 @@
+WRITING PAGES — DESIGN INSTRUCTIONS
+=====================================
+
+I'm attaching screenshots of the current pages and mockups of the new design.
+Please restyle both the writing listing page and the individual post page to match the mockups exactly.
+
+
+FONTS
+-----
+Three fonts are in use — all already loaded in head-tags.html:
+
+- Rye (Google Font): use for the blog title "The Algebraic Arcanum" (the big page heading
+  on the listing page) and the site name "Niyathi Kukkapalli" in the nav
+- DM Serif Display (Google Font): use for post titles, article title, section headings (h2),
+  and the drop cap
+- Newsreader (Google Font): use for all body text — excerpts, article body, lede, meta
+  dates, nav links, tag labels, TOC links, subtitle
+
+
+COLORS
+------
+- Page background: #fdf8f0 (warm cream)
+- Nav background: #ffffff
+- Nav/divider border: #e0d4bc
+- Accent (active link, hover, drop cap, author name): #8a6a3a
+- Date/meta text: #a08050
+- Tag background: #f5ece0
+- Tag text: #7a5830
+- Nav dots: #d9c9a8
+- Muted subtitle text: #999
+- Excerpt/lede text: #666
+- Body text: #2a2a2a
+- Heading/title text: #1a1a1a
+- TOC inactive: #888, border #e0d4bc
+- TOC active: #8a6a3a, border #8a6a3a
+
+
+HEADER / NAV (universal — apply to both pages)
+-----------------------------------------------
+- Centered floating pill-shaped nav bar, does NOT stretch full width
+- White background, 0.5px border (#e0d4bc), border-radius: 999px
+- Padding: 10px 28px
+- Left side: site name "Niyathi Kukkapalli" in Rye, bump the font size up slightly
+  from the current size — it reads a little small, aim for around 17-18px
+- Right side: nav links separated by small dots (4px circle, color #d9c9a8)
+- Nav links in Newsreader, 13px
+- Nav link order: About · Artwork · Writing · Projects
+  (note: the page formerly called "Blog" is now called "Writing")
+- Active page link: color #8a6a3a, font-weight 600
+- Inactive links: color #555, hover to #8a6a3a
+
+
+================================================================
+PAGE 1 — WRITING LISTING PAGE
+================================================================
+
+PAGE BODY
+---------
+- Max-width: 700px, centered, padding: 48px 24px 100px
+- Page heading "The Algebraic Arcanum" in Rye, 46px, color #1a1a1a
+- Subtitle below in Newsreader italic, 15px, color #999
+
+POST ROWS
+---------
+- Each post is a two-column grid: text on left, thumbnail on right (148px wide, 106px tall)
+- Separated by 0.5px horizontal rules, color #e0d4bc
+- Top border on first post, bottom border on last post
+- Left column content (top to bottom):
+    1. Date + read time in Newsreader italic, 12px, color #a08050
+    2. Post title in DM Serif Display, 20px, color #1a1a1a, line-height 1.3
+    3. Short excerpt in Newsreader, 13px, color #666, line-height 1.75
+    4. Tag pills: rounded pills, background #f5ece0, text #7a5830, font-family sans-serif,
+       font-size 9.5px, letter-spacing 0.05em, padding 3px 10px, border-radius 999px
+- Thumbnail: 148x106px, border-radius 8px, object-fit cover
+- Post title and thumbnail should both be links to the post
+
+
+================================================================
+PAGE 2 — INDIVIDUAL POST PAGE
+================================================================
+
+PAGE LAYOUT
+-----------
+- Two-column grid: article on left, sidebar on right
+- Max-width of outer container: 960px, centered
+- Article column max-width: 620px, centered within its column
+- Sidebar column: 200px
+- Gap between columns: 72px
+- Sidebar is sticky (stays visible on scroll)
+- Padding: 40px 24px 100px
+
+ARTICLE COLUMN
+--------------
+- "← Writing" back link at top: Newsreader italic, 12px, color #8a6a3a
+- Meta line: "Date · X min read · Author Name"
+  - Newsreader italic, 12px, color #a08050
+  - Author name in color #8a6a3a
+- Post title: DM Serif Display, 36px, color #1a1a1a, line-height 1.2
+- Lede paragraph (italicized intro summary):
+  - Newsreader italic, 15px, color #666, line-height 1.8
+  - Separated from body by a 0.5px horizontal rule (#e0d4bc) below it
+- Drop cap on first letter of body:
+  - DM Serif Display, ~62px, color #8a6a3a, floated left, margin-right 10px
+- Body text: Newsreader, 15px, color #2a2a2a, line-height 1.9
+- Section headings (h2): DM Serif Display, 22px, color #1a1a1a, font-weight 400, margin-top 36px
+- No em dashes anywhere in the text. Use commas or restructure sentences instead.
+
+SIDEBAR TABLE OF CONTENTS
+--------------------------
+- Label "On this page" in sans-serif, 10px, uppercase, letter-spacing 0.1em, color #bbb
+- Each TOC link: Newsreader, 12px, color #888, border-left 2px solid #e0d4bc, padding-left 10px, margin-bottom 10px
+- Active TOC link: color #8a6a3a, border-left color #8a6a3a, font-weight 600
+- Hover: color #8a6a3a, border-left color #8a6a3a
+- Wire up scroll-spy so the active link updates as the user scrolls

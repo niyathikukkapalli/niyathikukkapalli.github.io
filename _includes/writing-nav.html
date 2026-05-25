@@ -1,0 +1,14 @@
+<div class="nav-shell">
+  <nav class="site-nav" aria-label="Main">
+    <a href="/" class="nav-brand{% if include.active == 'home' %} active{% endif %}">Niyathi Kukkapalli</a>
+    <div class="nav-links">
+      <a href="/"{% if include.active == 'about' %} class="active"{% endif %}>About</a>
+      <span class="nav-dot" aria-hidden="true"></span>
+      <a href="/art"{% if include.active == 'art' %} class="active"{% endif %}>Artwork</a>
+      <span class="nav-dot" aria-hidden="true"></span>
+      <a href="/blog/"{% if include.active == 'writing' %} class="active"{% endif %}>Writing</a>
+      <span class="nav-dot" aria-hidden="true"></span>
+      <a href="/research"{% if include.active == 'projects' %} class="active"{% endif %}>Projects</a>
+    </div>
+  </nav>
+</div>

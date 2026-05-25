@@ -1,0 +1,339 @@
+<!-- Google Fonts — add to <head> if not already there -->
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=DM+Serif+Display:ital@0;1&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<style>
+  .gallery-hero {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 52px 40px 0;
+  }
+  .gallery-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 46px;
+    font-style: italic;
+    color: #1a1614;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+  .gallery-sub {
+    font-family: 'Newsreader', serif;
+    font-style: italic;
+    color: #7a6e5e;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .gallery-divider {
+    border: none;
+    border-top: 0.5px solid #ddd8cc;
+    margin: 32px 0 0;
+  }
+
+  /* 3-column masonry using CSS columns — images show at full natural aspect ratio */
+  .gallery {
+    max-width: 900px;
+    margin: 36px auto 0;
+    padding: 0 40px;
+    columns: 3;
+    column-gap: 14px;
+  }
+
+  .gi {
+    break-inside: avoid;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    display: block;
+  }
+  .gi img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+  .gi:hover img { transform: scale(1.02); }
+
+  .gi-overlay {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: linear-gradient(transparent, rgba(20,16,12,0.75));
+    padding: 20px 14px 12px;
+    border-radius: 0 0 12px 12px;
+    opacity: 0;
+    transition: opacity 0.22s;
+  }
+  .gi:hover .gi-overlay { opacity: 1; }
+
+  .gi-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 15px;
+    color: #f5f0e8;
+  }
+  .gi-cat {
+    font-family: 'Newsreader', serif;
+    font-size: 12px;
+    color: #c8b99a;
+    font-style: italic;
+    margin-top: 1px;
+  }
+
+  .zoom-hint {
+    position: absolute;
+    top: 10px; right: 10px;
+    background: rgba(255,255,255,0.82);
+    border-radius: 50%;
+    width: 28px; height: 28px;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 13px;
+    color: #4a4238;
+  }
+  .gi:hover .zoom-hint { opacity: 1; }
+
+  /* LIGHTBOX */
+  .lb-wrap {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(20,16,12,0.88);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  .lb-wrap.open { display: flex; }
+
+  .lb-box {
+    background: #FAF8F3;
+    border-radius: 20px;
+    max-width: 680px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .lb-img-wrap {
+    width: 100%;
+    background: #e0d9ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+  }
+  .lb-img-wrap img {
+    max-width: 100%;
+    max-height: 420px;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .lb-close {
+    position: absolute;
+    top: 14px; right: 14px;
+    background: rgba(255,255,255,0.85);
+    border: none;
+    border-radius: 50%;
+    width: 32px; height: 32px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    color: #4a4238;
+    line-height: 1;
+  }
+
+  .lb-info { padding: 24px 28px 28px; }
+
+  .lb-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 26px;
+    color: #1a1614;
+    margin-bottom: 4px;
+  }
+  .lb-cat {
+    font-family: 'Newsreader', serif;
+    font-size: 13px;
+    color: #9a8870;
+    font-style: italic;
+    margin-bottom: 14px;
+  }
+  .lb-desc {
+    font-family: 'Newsreader', serif;
+    font-size: 15px;
+    color: #4a4238;
+    line-height: 1.78;
+  }
+
+  .gallery-footer {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Newsreader', serif;
+    font-size: 13px;
+    color: #aaa;
+  }
+</style>
+
+
+<div class="gallery-hero">
+  <h1 class="gallery-title">Things I've Drawn 🎨</h1>
+  <p class="gallery-sub">Paintings, drawings, and everything in between.</p>
+  <hr class="gallery-divider">
+</div>
+
+<div class="gallery">
+
+  <div class="gi" onclick="openLb('Lamp', 'Personal artwork', 'Add a short description here.', 'YOUR_LAMP_IMAGE.jpg')">
+    <img src="YOUR_LAMP_IMAGE.jpg" alt="Lamp">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Lamp</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Car', 'Personal artwork', 'Add a short description here.', 'YOUR_CAR_IMAGE.jpg')">
+    <img src="YOUR_CAR_IMAGE.jpg" alt="Car">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Car</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Mann', 'Personal artwork', 'Add a short description here.', 'YOUR_MANN_IMAGE.jpg')">
+    <img src="YOUR_MANN_IMAGE.jpg" alt="Mann">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Mann</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Still', 'Personal artwork', 'Add a short description here.', 'YOUR_STILL_IMAGE.jpg')">
+    <img src="YOUR_STILL_IMAGE.jpg" alt="Still">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Still</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Bottle', 'Personal artwork', 'Add a short description here.', 'YOUR_BOTTLE_IMAGE.jpg')">
+    <img src="YOUR_BOTTLE_IMAGE.jpg" alt="Bottle">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Bottle</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Green', 'Personal artwork', 'Add a short description here.', 'YOUR_GREEN_IMAGE.jpg')">
+    <img src="YOUR_GREEN_IMAGE.jpg" alt="Green">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Green</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Eagle', 'Personal artwork', 'Add a short description here.', 'YOUR_EAGLE_IMAGE.jpg')">
+    <img src="YOUR_EAGLE_IMAGE.jpg" alt="Eagle">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Eagle</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Pumpkin', 'Personal artwork', 'Add a short description here.', 'YOUR_PUMPKIN_IMAGE.jpg')">
+    <img src="YOUR_PUMPKIN_IMAGE.jpg" alt="Pumpkin">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Pumpkin</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Eye', 'Personal artwork', 'Add a short description here.', 'YOUR_EYE_IMAGE.jpg')">
+    <img src="YOUR_EYE_IMAGE.jpg" alt="Eye">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Eye</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Barn', 'Personal artwork', 'Add a short description here.', 'YOUR_BARN_IMAGE.jpg')">
+    <img src="YOUR_BARN_IMAGE.jpg" alt="Barn">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Barn</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Self', 'Personal artwork', 'Add a short description here.', 'YOUR_SELF_IMAGE.jpg')">
+    <img src="YOUR_SELF_IMAGE.jpg" alt="Self">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Self</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Mandala', 'Personal artwork', 'Add a short description here.', 'YOUR_MANDALA_IMAGE.jpg')">
+    <img src="YOUR_MANDALA_IMAGE.jpg" alt="Mandala">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Mandala</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+  <div class="gi" onclick="openLb('Monticello', 'Personal artwork', 'Add a short description here.', 'YOUR_MONTICELLO_IMAGE.jpg')">
+    <img src="YOUR_MONTICELLO_IMAGE.jpg" alt="Monticello">
+    <div class="zoom-hint">&#128269;</div>
+    <div class="gi-overlay">
+      <div class="gi-title">Monticello</div>
+      <div class="gi-cat">Personal artwork</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="gallery-footer">© 2026 Niyathi Kukkapalli. All rights reserved.</p>
+
+
+<!-- LIGHTBOX -->
+<div class="lb-wrap" id="lb" onclick="closeLb(event)">
+  <div class="lb-box">
+    <div class="lb-img-wrap">
+      <img id="lb-img" src="" alt="">
+      <button class="lb-close" onclick="document.getElementById('lb').classList.remove('open')">&#x2715;</button>
+    </div>
+    <div class="lb-info">
+      <div class="lb-title" id="lb-title"></div>
+      <div class="lb-cat"   id="lb-cat"></div>
+      <p   class="lb-desc"  id="lb-desc"></p>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  function openLb(title, cat, desc, imgSrc) {
+    document.getElementById('lb-title').textContent = title;
+    document.getElementById('lb-cat').textContent   = cat;
+    document.getElementById('lb-desc').textContent  = desc;
+    document.getElementById('lb-img').src           = imgSrc;
+    document.getElementById('lb-img').alt           = title;
+    document.getElementById('lb').classList.add('open');
+  }
+
+  function closeLb(e) {
+    if (e.target === document.getElementById('lb')) {
+      document.getElementById('lb').classList.remove('open');
+    }
+  }
+</script>

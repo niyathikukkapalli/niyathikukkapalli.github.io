@@ -1,13 +1,13 @@
 <html>
   <head>
     {% include head-tags.html %}
+    {% include latex.html %}
+    <link rel="stylesheet" href="/writing-common.css" />
     <link rel="stylesheet" href="/research/research.css" />
   </head>
 
-  <body>
-    {% include header.html %} {{ content }}
-    {% if post.thumbnail %}
-      <img class="post-thumbnail" src="{{ post.thumbnail }}">
-    {% endif %}
+  <body class="site-page projects-page">
+    {% include writing-nav.html active='projects' %}
+    {{ content }}
   </body>
 </html>

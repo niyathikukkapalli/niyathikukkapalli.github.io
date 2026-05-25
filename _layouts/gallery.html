@@ -1,12 +1,13 @@
 <html>
   <head>
     {% include head-tags.html %}
+    <link rel="stylesheet" href="/writing-common.css" />
   </head>
 
-  <body>
-    {% include header.html %} {{ content }}
+  <body class="site-page">
+    {% include writing-nav.html active=page.nav_active %}
+    {{ content }}
 
     <script src="/gallery.js"></script>
-
   </body>
 </html>

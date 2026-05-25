@@ -1,9 +1,3 @@
-<script
-  type="text/javascript"
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
-></script>
 <script>
   window.MathJax = {
     tex: {
@@ -11,14 +5,30 @@
         ["$", "$"],
         ["\\(", "\\)"],
       ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"],
+      ],
+      processEscapes: true,
+      processEnvironments: true,
+      packages: { "[+]": ["ams", "noerrors", "noundefined"] },
     },
-    startup: {
-      ready: () => {
-        MathJax.startup.defaultReady();
-        MathJax.startup.promise.then(() => {
-          // MathJax loaded
-        });
-      }
-    }
+    chtml: {
+      displayAlign: "center",
+      displayIndent: "0",
+      linebreaks: { automatic: true, width: "container" },
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"],
+      renderActions: {
+        addMenu: [],
+      },
+    },
   };
 </script>
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+></script>

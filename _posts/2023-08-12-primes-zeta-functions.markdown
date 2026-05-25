@@ -2,13 +2,14 @@
 layout: post
 title: "Introduction to the Zeta Function"
 date: 2023-08-16
-tags: Zeta Functions, Euler Product, Trignometry
+tags:
+  - Zeta Functions
+  - Euler Product
+  - Trigonometry
 categories: Zeta Functions
 description: I recently attended the PROMYS program as a second year, and I wanted to encapsulate a bit of the cool math that I learned there! The primary class that I took was Prime and Zeta Functions, where we learned about zeta functions, Dirichlet Functions, Gauss sums, etc. It was all so cool! In my attempt to not forget any of it, I'll give a beginner's introduction to Reimann Zeta Functions (the beginning of the course). 
 thumbnail: "/img/zeta.jpeg"
 ---
-
-<img class="normal" loading="lazy" src="/img/zeta.jpeg">
 
 ## Introduction 
 
@@ -16,7 +17,7 @@ I recently attended the PROMYS program as a second year, and I wanted to encapsu
 
 ## Square Free Integers
 
-$\textbf{Question: How many square free integers are there less than 100? 1000? 5000?}$
+**Question:** How many square free integers are there less than 100? 1000? 5000?
 
 We define a square free integer as an integer that doesn't contain any squares in it's prime factorization. For example, 10 is a square free integer because it's $2 \cdot 5$. Although, 12 isn't a square free integer because it's $2^2 \cdot 3$. 
 
@@ -25,15 +26,22 @@ Is there a way we can sift out all the numbers that have squares in their prime 
 For square free integers less than 100, there are approximately...
 $$\frac{3}{4} \cdot \frac{8}{9} \cdot \frac{24}{25} \cdot \frac{48}{49} \cdot 100 = 62.69387... $$
 
-This is an approximation for the amount of square free integers. We can write each term as $1 - \frac{1}{p^2}$ where it almost looks like a geometric series. Although, how can we know that $N \cdot \prod_{}^{} 1 - \frac{1}{p^2}$ is actually a number? We can't. Which is why it's an approximation. Notice that if we expand $\prod_{}^{} 1 - \frac{1}{p^2}$, we get...
+This is an approximation for the amount of square free integers. We can write each term as $1 - \frac{1}{p^2}$ where it almost looks like a geometric series. Although, how can we know that $N \cdot \prod_{p} \left(1 - \frac{1}{p^2}\right)$ is actually a number? We can't. Which is why it's an approximation. Notice that if we expand $\prod_{p} \left(1 - \frac{1}{p^2}\right)$, we get...
 
-$$(1 - \frac{1}{2^2})(1 - \frac{1}{3^2})(1 - \frac{1}{5^2}) ... = 1 - \frac{1}{2^2} - \frac{1}{3^2} - \frac{1}{5^2} + \frac{1}{2^2 \cdot 3^2} + \frac{1}{2^2 \cdot 5^2} + \frac{1}{3^2 \cdot 5^2} - \frac{1}{2^2 \cdot 3^2 \cdot 5^2} ...$$
+$$
+\begin{aligned}
+&(1 - \tfrac{1}{2^2})(1 - \tfrac{1}{3^2})(1 - \tfrac{1}{5^2}) \cdots \\
+&= 1 - \tfrac{1}{2^2} - \tfrac{1}{3^2} - \tfrac{1}{5^2} + \tfrac{1}{2^2 \cdot 3^2} + \tfrac{1}{2^2 \cdot 5^2} + \tfrac{1}{3^2 \cdot 5^2} - \tfrac{1}{2^2 \cdot 3^2 \cdot 5^2} + \cdots
+\end{aligned}
+$$
 
 This looks like to be $\sum_{1}^{\infty} \frac{1}{n^2}$ except there are some pesky negative and positive terms. Those just turn out to be evaluted by the mobius function $\mu(n)$. So we get, the above sequence as $\sum_{1}^{\infty} \frac{\mu(n)}{n^2}$.
 
 How can we get rid of the negative signs? We can make it a geometric series. This would require writing... $\frac{1}{1 - \frac{1}{p^2}}$ over all p prime. This is also known as an Euler Product. 
 
- $$ \textbf{Euler Product:} \prod_{\text{p prime}}^{} \frac{1}{\frac{p^s - 1}{p^s}} = \prod_{\text{p prime}}^{} \frac{1}{1 - \frac{1}{p^s}}$$
+**Euler Product:**
+
+$$\prod_{\text{p prime}} \frac{1}{\frac{p^s - 1}{p^s}} = \prod_{\text{p prime}} \frac{1}{1 - \frac{1}{p^s}}$$
 
 where $s = 2$ when we are looking for square free integers. Expanding the Euler product, we get $(\frac{1}{1 - \frac{1}{2^2}})(\frac{1}{1 - \frac{1}{3^2}})(\frac{1}{1 - \frac{1}{5^2}})...$ for s = 2, and p prime where all the terms are in the from $\frac{a}{1-r}$ which is the formula for the sum of an infinite geometric series. That's equivalent to...
 
@@ -41,13 +49,15 @@ $$ (1 + \frac{1}{2^2} + \frac{1}{2^4} + ...)(1 + \frac{1}{3^2} + \frac{1}{3^4}..
 
 Above is equivalent to $\sum_{1}^{\infty} \frac{1}{n^2}$ where we don't have the messy positive and negative signs. 
 
-$$ \prod_{\text{p prime}}^{} \frac{1}{1 - \frac{1}{p^s}} = \sum_{1}^{\infty} \frac{1}{n^2}$$
+$$\prod_{\text{p prime}} \frac{1}{1 - \frac{1}{p^s}} = \sum_{1}^{\infty} \frac{1}{n^2}$$
 
 ## Zeta and Convergence
 
 Notice, that if we have $\zeta(2)$, then we must have $\zeta(3)$, $\zeta(4)$, ... and so on. An interesting question to ask is whether these functions converge for certain s? We know that $\zeta(1)$ doesn't converge because this is the harmonic series. If you have taken AP Calculus BC, the following fact will be very familiar. 
 
-$$ \textbf{Claim:} \sum_{n = 1}^{\infty} \frac{1}{n^s} \text{if} s > 1 $$ 
+**Claim:**
+
+$$\sum_{n = 1}^{\infty} \frac{1}{n^s} \text{ converges if } s > 1$$
 
 The above fact can be proved in a variety of ways. Although one way is a favorite of mine because of how intuitive it is. 
 First let's write out all the terms....
@@ -66,7 +76,7 @@ It's a known fact that the Taylor expansion of $sin(x)$ is $\sum_{1}^{\infty} (-
 
 We also know that we can write a polynomial in terms of it's roots, so can we do the same for sin(x)? The roots of sin(x) are $0, \pm \pi, \pm 2\pi$, ... In terms of a polynomial this is...
 
-$$sin(x) = x(1 - \frac{x}{\pi})(1 + \frac{x}{\pi})(1 - \frac{x}{2\pi})(1 + \frac{x}{2\pi})... = x(1 - \frac{x^2}{\pi^2})(1 - \frac{x^2}{4\pi^2})..$$
+$$\sin(x) = x\left(1 - \frac{x}{\pi}\right)\left(1 + \frac{x}{\pi}\right)\left(1 - \frac{x}{2\pi}\right)\left(1 + \frac{x}{2\pi}\right)\cdots = x\left(1 - \frac{x^2}{\pi^2}\right)\left(1 - \frac{x^2}{4\pi^2}\right)\cdots$$
 
 This is a difference of squares, but we are aiming to find the value of the zeta function. So the coefficent of $x^2$ in the above polynomial is just $\frac{-1}{\pi^2} \cdot \zeta(2)$ which means that $\frac{-1}{6} = \frac{-1}{\pi^2} \cdot \zeta(2)$. or 
 $\zeta(2) = \frac{\pi^2}{6}$. 

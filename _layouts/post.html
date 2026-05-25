@@ -1,19 +1,106 @@
 <html>
   <head>
     {% include head-tags.html %} {% include latex.html %}
+    <link rel="stylesheet" href="/writing-common.css" />
     <link rel="stylesheet" href="/post.css" />
   </head>
 
-  <body>
-    {% include header.html %}
+  <body class="site-page writing-page post-page">
+    {% include writing-nav.html active='writing' %}
 
-    <div class="post-content">
-      <h1>{{ page.title }}</h1>
-      <div class="byline">
-        <h2>By: Niyathi Kukkapalli</h2>
+    <div class="article-page">
+      <div class="article-layout">
+        <main class="article-main">
+          <a href="/blog/" class="article-breadcrumb">← Writing</a>
+
+          {% assign words = content | number_of_words %}
+          {% assign minutes = words | divided_by: 200 | plus: 1 %}
+
+          <header class="article-header">
+            <div class="article-meta">
+              <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+              <span class="dot">·</span>
+              <span>{{ minutes }} min read</span>
+              <span class="dot">·</span>
+              <a href="/about" class="meta-author">Niyathi Kukkapalli</a>
+            </div>
+
+            <h1 class="article-title">{{ page.title }}</h1>
+
+            {% if page.description %}
+            <p class="article-subtitle">{{ page.description }}</p>
+            {% endif %}
+
+            <hr class="article-rule" />
+          </header>
+
+          <div class="article-body">{{ content }}</div>
+        </main>
+
+        <aside class="article-sidebar">
+          <p class="toc-label">On this page</p>
+          <ul class="toc-list" id="toc-list"></ul>
+        </aside>
       </div>
-      {{ content }}
-      <hr/>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var articleBody = document.querySelector(".article-body");
+        var tocList = document.getElementById("toc-list");
+        var sidebar = document.querySelector(".article-sidebar");
+
+        if (!articleBody || !tocList) return;
+
+        var firstTextPara = articleBody.querySelector("p:not(:has(img))");
+        if (firstTextPara) {
+          firstTextPara.classList.add("drop-cap");
+        }
+
+        var headings = articleBody.querySelectorAll("h2[id], h3[id]");
+
+        if (headings.length === 0) {
+          if (sidebar) sidebar.style.display = "none";
+          return;
+        }
+
+        headings.forEach(function (heading, index) {
+          var li = document.createElement("li");
+          if (heading.tagName === "H3") {
+            li.className = "toc-sub";
+          }
+          var link = document.createElement("a");
+          link.href = "#" + heading.id;
+          link.textContent = heading.textContent;
+          if (index === 0) {
+            link.classList.add("active");
+          }
+          li.appendChild(link);
+          tocList.appendChild(li);
+        });
+
+        var tocLinks = tocList.querySelectorAll("a");
+        var observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                tocLinks.forEach(function (link) {
+                  link.classList.remove("active");
+                });
+                var active = tocList.querySelector(
+                  'a[href="#' + entry.target.id + '"]'
+                );
+                if (active) active.classList.add("active");
+              }
+            });
+          },
+          { rootMargin: "-30% 0px -60% 0px" }
+        );
+
+        headings.forEach(function (heading) {
+          observer.observe(heading);
+        });
+      });
+    </script>
   </body>
 </html>

@@ -1,0 +1,190 @@
+<!-- Google Fonts — add to <head> if not already there -->
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=DM+Serif+Display:ital@0;1&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<style>
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 56px 20px 20px;
+    gap: 0;
+  }
+
+  .vine-side {
+    flex-shrink: 0;
+    width: 110px;
+    height: 280px;
+  }
+  .vine-right {
+    transform: scaleX(-1);
+  }
+
+  .bio-center {
+    text-align: center;
+    max-width: 460px;
+    padding: 0 12px;
+  }
+
+  .bio-greeting {
+    font-family: 'Rye', serif;
+    font-size: 32px;
+    color: #1a1614;
+    margin-bottom: 20px;
+    min-height: 42px;
+  }
+  .bio-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 30px;
+    background: #8B6914;
+    vertical-align: middle;
+    margin-left: 2px;
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  .bio-text {
+    font-family: 'Newsreader', serif;
+    font-size: 16px;
+    line-height: 1.85;
+    color: #4a4238;
+  }
+
+  .tagline-wrap {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .tagline {
+    font-family: 'Newsreader', serif;
+    font-style: italic;
+    color: #9a8870;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  @keyframes sway {
+    0%, 100% { transform: rotate(-1.5deg); }
+    50%       { transform: rotate(1.5deg); }
+  }
+  @keyframes sway2 {
+    0%, 100% { transform: rotate(1deg); }
+    50%      { transform: rotate(-1deg); }
+  }
+  .sway  { animation: sway  5s ease-in-out infinite; transform-origin: bottom center; }
+  .sway2 { animation: sway2 6s ease-in-out infinite; transform-origin: bottom center; }
+</style>
+
+
+<div class="hero">
+
+  <!-- Left vine -->
+  <svg class="vine-side sway" viewBox="0 0 110 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main stem -->
+    <path d="M80 278 C78 248 72 226 68 204 C64 182 70 164 65 142 C60 120 50 108 55 84 C58 66 66 52 60 28"
+          stroke="#8aaa7a" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Branches -->
+    <path d="M65 215 C55 210 40 214 32 203 C24 192 26 178 18 172"
+          stroke="#8aaa7a" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+    <path d="M67 166 C76 154 83 142 79 127 C75 114 65 110 68 97"
+          stroke="#8aaa7a" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+    <path d="M58 112 C48 107 37 110 28 102 C20 94 22 81 14 75"
+          stroke="#8aaa7a" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+    <!-- Leaves -->
+    <ellipse cx="26" cy="198" rx="14" ry="8"   fill="#a8c896" opacity="0.75" transform="rotate(-30 26 198)"/>
+    <ellipse cx="15" cy="168" rx="11" ry="6"   fill="#b8d4a8" opacity="0.70" transform="rotate(20 15 168)"/>
+    <ellipse cx="76" cy="130" rx="12" ry="6"   fill="#a8c896" opacity="0.72" transform="rotate(-15 76 130)"/>
+    <ellipse cx="23" cy="99"  rx="10" ry="5.5" fill="#b8d4a8" opacity="0.68" transform="rotate(35 23 99)"/>
+    <ellipse cx="62" cy="89"  rx="10" ry="5"   fill="#a8c896" opacity="0.65" transform="rotate(-25 62 89)"/>
+    <!-- Flower 1 (dusty pink, mid) -->
+    <g opacity="0.85">
+      <ellipse cx="18" cy="174" rx="7" ry="9" fill="#d4a8b8" transform="rotate(0   18 174)"/>
+      <ellipse cx="18" cy="174" rx="7" ry="9" fill="#d4a8b8" transform="rotate(60  18 174)"/>
+      <ellipse cx="18" cy="174" rx="7" ry="9" fill="#d4a8b8" transform="rotate(120 18 174)"/>
+      <circle cx="18" cy="174" r="5" fill="#f0d878"/>
+    </g>
+    <!-- Flower 2 (lavender, top) -->
+    <g opacity="0.80">
+      <ellipse cx="68" cy="46" rx="6" ry="8" fill="#c4b0d8" transform="rotate(0   68 46)"/>
+      <ellipse cx="68" cy="46" rx="6" ry="8" fill="#c4b0d8" transform="rotate(60  68 46)"/>
+      <ellipse cx="68" cy="46" rx="6" ry="8" fill="#c4b0d8" transform="rotate(120 68 46)"/>
+      <circle cx="68" cy="46" r="4.5" fill="#f0d878"/>
+    </g>
+    <!-- Flower 3 (blush, low) -->
+    <g opacity="0.75">
+      <ellipse cx="30" cy="101" rx="5" ry="6.5" fill="#e8b4b8" transform="rotate(0   30 101)"/>
+      <ellipse cx="30" cy="101" rx="5" ry="6.5" fill="#e8b4b8" transform="rotate(60  30 101)"/>
+      <ellipse cx="30" cy="101" rx="5" ry="6.5" fill="#e8b4b8" transform="rotate(120 30 101)"/>
+      <circle cx="30" cy="101" r="4" fill="#f5e090"/>
+    </g>
+  </svg>
+
+  <!-- Bio text -->
+  <div class="bio-center">
+    <div class="bio-greeting">
+      <span id="bio-typed"></span><span class="bio-cursor" id="bio-cursor"></span>
+    </div>
+    <p class="bio-text">
+      I'm a student at Princeton University and an aspiring mathematician, computer scientist, and artist.
+      You can find me working on my Algorithms research, drawing and painting, or working on this website!
+      Check out my experience and recent projects.
+    </p>
+  </div>
+
+  <!-- Right vine (mirrored) -->
+  <svg class="vine-side vine-right sway2" viewBox="0 0 110 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M80 278 C78 248 72 226 68 204 C64 182 70 164 65 142 C60 120 50 108 55 84 C58 66 66 52 60 28"
+          stroke="#8aaa7a" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M65 215 C55 210 40 214 32 203 C24 192 26 178 18 172"
+          stroke="#8aaa7a" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+    <path d="M67 166 C76 154 83 142 79 127 C75 114 65 110 68 97"
+          stroke="#8aaa7a" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+    <path d="M58 112 C48 107 37 110 28 102 C20 94 22 81 14 75"
+          stroke="#8aaa7a" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+    <ellipse cx="26" cy="198" rx="14" ry="8"   fill="#b8d4a8" opacity="0.72" transform="rotate(-30 26 198)"/>
+    <ellipse cx="15" cy="168" rx="11" ry="6"   fill="#a8c896" opacity="0.68" transform="rotate(20 15 168)"/>
+    <ellipse cx="76" cy="130" rx="12" ry="6"   fill="#b8d4a8" opacity="0.70" transform="rotate(-15 76 130)"/>
+    <ellipse cx="23" cy="99"  rx="10" ry="5.5" fill="#a8c896" opacity="0.65" transform="rotate(35 23 99)"/>
+    <g opacity="0.80">
+      <ellipse cx="18" cy="174" rx="7" ry="9" fill="#e8b4b8" transform="rotate(0   18 174)"/>
+      <ellipse cx="18" cy="174" rx="7" ry="9" fill="#e8b4b8" transform="rotate(60  18 174)"/>
+      <ellipse cx="18" cy="174" rx="7" ry="9" fill="#e8b4b8" transform="rotate(120 18 174)"/>
+      <circle cx="18" cy="174" r="5" fill="#f0d878"/>
+    </g>
+    <g opacity="0.78">
+      <ellipse cx="68" cy="46" rx="6" ry="8" fill="#d4a8b8" transform="rotate(0   68 46)"/>
+      <ellipse cx="68" cy="46" rx="6" ry="8" fill="#d4a8b8" transform="rotate(60  68 46)"/>
+      <ellipse cx="68" cy="46" rx="6" ry="8" fill="#d4a8b8" transform="rotate(120 68 46)"/>
+      <circle cx="68" cy="46" r="4.5" fill="#f5e090"/>
+    </g>
+    <g opacity="0.72">
+      <ellipse cx="30" cy="101" rx="5" ry="6.5" fill="#c4b0d8" transform="rotate(0   30 101)"/>
+      <ellipse cx="30" cy="101" rx="5" ry="6.5" fill="#c4b0d8" transform="rotate(60  30 101)"/>
+      <ellipse cx="30" cy="101" rx="5" ry="6.5" fill="#c4b0d8" transform="rotate(120 30 101)"/>
+      <circle cx="30" cy="101" r="4" fill="#f5e090"/>
+    </g>
+  </svg>
+
+</div>
+
+<div class="tagline-wrap">
+  <span class="tagline">mathematician · artist · princeton '28</span>
+</div>
+
+
+<script>
+  const text   = "Hi! I'm Niyathi!";
+  let i        = 0;
+  const typed  = document.getElementById('bio-typed');
+  const cursor = document.getElementById('bio-cursor');
+
+  function type() {
+    if (i < text.length) {
+      typed.textContent += text[i];
+      i++;
+      setTimeout(type, 80);
+    } else {
+      setTimeout(() => { cursor.style.display = 'none'; }, 1500);
+    }
+  }
+  setTimeout(type, 300);
+</script>

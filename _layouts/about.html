@@ -2,41 +2,17 @@
   <head>
     {% include head-tags.html %}
     <title>Niyathi Kukkapalli - Home</title>
+    <link rel="stylesheet" href="/writing-common.css" />
   </head>
 
-  <body class="home" class="not-home">
-    {% include header.html %}
+  <body class="site-page {{ page.nav_active | default: 'home' }}">
+    {% include writing-nav.html active=page.nav_active %}
 
     <div class="bio">
       <div class="bio-text">{{ content }}</div>
-      <figure> 
-        <!-- <img class="self-image" src="img/WebsiteHomeImage.jpg"/> --> 
-        <div class="biog-container">
-          <!-- <span class="biog-text show">Mathematician</span> --> 
-          <!-- <span class="biog-text">Computer Scientist</span> --> 
-          <!-- <span class="biog-text">Problem Solver</span> --> 
-          <!-- <span class="biog-text">Visual Artist</span> -->
-          <!-- <span class="biog-text">Reasearcher</span> -->
-      </div>
+      <figure>
+        <div class="biog-container"></div>
       </figure>
-
-      <!-- this was to add the cycling words under my picture on the-->
-      <!-- <script>
-        const words = document.querySelectorAll(".biog-text");
-        let index = 0;
-
-        function cycleWords() {
-            words[index].classList.remove("show");
-            words[index].style.display = "none"; // Hide previous word
-            index = (index + 1) % words.length;
-            words[index].style.display = "block"; // Show next word
-            setTimeout(() => words[index].classList.add("show"), 10); // Fade effect
-        }
-
-        setInterval(cycleWords, 1500); // Change word every 2 seconds
-    </script> --> 
-
-
     </div>
   </body>
 </html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects – Niyathi Kukkapalli</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rye&family=DM+Serif+Display:ital@0;1&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #FAF8F3;
+      min-height: 100vh;
+      padding-bottom: 80px;
+      color: #1a1614;
+    }
+
+    /* NAV */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0 10px;
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      background: #fff;
+      border-radius: 40px;
+      padding: 10px 28px;
+      border: 0.5px solid #e0dbd0;
+    }
+    .nav-name {
+      font-family: 'Rye', serif;
+      font-size: 17px;
+      color: #1a1614;
+    }
+    .nav-sep {
+      width: 1px;
+      height: 16px;
+      background: #ddd;
+    }
+    .nav-links {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .nav-dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #c8b99a;
+    }
+    .nav-link {
+      font-family: 'Newsreader', serif;
+      font-size: 15px;
+      color: #5a5248;
+      text-decoration: none;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+    .nav-link:hover { color: #1a1614; }
+    .nav-link.active {
+      color: #8B6914;
+      font-weight: 600;
+    }
+
+    /* HERO */
+    .hero {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 52px 40px 0;
+    }
+    .page-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 46px;
+      font-style: italic;
+      font-weight: 400;
+      color: #1a1614;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+    .page-sub {
+      font-family: 'Newsreader', serif;
+      font-style: italic;
+      color: #7a6e5e;
+      font-size: 15px;
+      margin-top: 10px;
+    }
+    .divider {
+      border: none;
+      border-top: 0.5px solid #ddd8cc;
+      margin: 32px 0 0;
+    }
+
+    /* CONTENT */
+    .content {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    .section-label {
+      font-family: 'Newsreader', serif;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #9a8870;
+      margin: 36px 0 20px;
+    }
+
+    .project-entry {
+      padding: 28px 0;
+      border-bottom: 0.5px solid #e8e2d8;
+    }
+    .project-entry:last-child {
+      border-bottom: none;
+    }
+
+    .project-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    .project-date {
+      font-family: 'Newsreader', serif;
+      font-size: 13px;
+      color: #8B6914;
+      font-style: italic;
+    }
+    .project-tag {
+      font-family: 'Newsreader', serif;
+      font-size: 11px;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: #9a8870;
+      background: #f0ebe0;
+      border-radius: 20px;
+      padding: 2px 10px;
+    }
+
+    .project-title-link {
+      display: block;
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: #1a1614;
+      text-decoration: underline;
+      text-decoration-color: #c8b99a;
+      text-underline-offset: 3px;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+    .project-title-link:hover { color: #5a3e10; }
+
+    .project-title-plain {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: #1a1614;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+
+    .project-abstract {
+      font-family: 'Newsreader', serif;
+      font-size: 15px;
+      line-height: 1.78;
+      color: #4a4238;
+      margin-bottom: 14px;
+    }
+    .abstract-label {
+      font-style: italic;
+      color: #8B6914;
+    }
+
+    /* LINK PILLS */
+    .links-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 4px;
+    }
+    .proj-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'Newsreader', serif;
+      font-size: 13px;
+      font-style: italic;
+      color: #6b5a3e;
+      border: 0.5px solid #c8b99a;
+      border-radius: 20px;
+      padding: 5px 14px;
+      text-decoration: none;
+      transition: background 0.18s;
+    }
+    .proj-link:hover { background: #f0e8d8; }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-family: 'Newsreader', serif;
+      font-size: 13px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-name">Niyathi Kukkapalli</span>
+      <div class="nav-sep"></div>
+      <div class="nav-links">
+        <a class="nav-link" href="/about">About</a>
+        <div class="nav-dot"></div>
+        <a class="nav-link" href="/artwork">Artwork</a>
+        <div class="nav-dot"></div>
+        <a class="nav-link" href="/writing">Writing</a>
+        <div class="nav-dot"></div>
+        <a class="nav-link active" href="/projects">Projects</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1 class="page-title">Things I've Worked On 🍜</h1>
+    <p class="page-sub">Research, papers, and projects across math, CS, and science.</p>
+    <hr class="divider">
+  </div>
+
+  <div class="content">
+
+    <p class="section-label">Computer Science</p>
+
+    <div class="project-entry">
+      <div class="project-meta">
+        <span class="project-date">July 2025</span>
+        <span class="project-tag">Algorithms</span>
+      </div>
+      <div class="project-title-plain">Greedy Range Trees for Product Metrics</div>
+      <p class="project-abstract">
+        <span class="abstract-label">Abstract: </span>Developed a novel data structure for efficiently analyzing product metrics by extending classical range tree techniques. Designed and implemented greedy range trees in Python to optimize multi-dimensional queries, improving speed and scalability for large datasets. This enables faster, more accurate analysis of product metrics, including trends, anomalies, and usage patterns.
+      </p>
+      <div class="links-row">
+        <a class="proj-link" href="YOUR_ARXIV_LINK_HERE">&#128196; arXiv paper</a>
+        <a class="proj-link" href="YOUR_LINKTREE_LINK_HERE">&#8599; linktree</a>
+      </div>
+    </div>
+
+    <p class="section-label">Mathematics</p>
+
+    <div class="project-entry">
+      <div class="project-meta">
+        <span class="project-date">August 2023</span>
+        <span class="project-tag">Number Theory</span>
+      </div>
+      <a class="project-title-link" href="YOUR_LINK_HERE">The Artin Hasse Exponential</a>
+      <p class="project-abstract">
+        <span class="abstract-label">Abstract: </span>In 1928, Emil Artin and Helmut Hasse introduced the Artin–Hasse exponential, a p-adic analogue. After introducing the basics of p-adic analysis, including why Q<sub>p</sub> is the completion of Q, this paper shows that the exponential and logarithm remain inverses, with intuition drawn from metric spaces and topology. The core is an inductive-based proof of Dwork's Lemma, used to prove the integrality of the Artin–Hasse Exponential.
+      </p>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-meta">
+        <span class="project-date">November 2023</span>
+        <span class="project-tag">Graph Theory</span>
+      </div>
+      <a class="project-title-link" href="YOUR_LINK_HERE">Problems and Solutions in Advanced Graph Theory</a>
+      <p class="project-abstract">
+        <span class="abstract-label">Abstract: </span>A compilation of selected problems and solutions from research in advanced graph theory, covering topics such as graph colorings, connectivity, planarity, and extremal problems.
+      </p>
+    </div>
+
+    <p class="section-label">Physics &amp; Science</p>
+
+    <div class="project-entry">
+      <div class="project-meta">
+        <span class="project-date">August 2023</span>
+        <span class="project-tag">Classical Mechanics</span>
+      </div>
+      <a class="project-title-link" href="YOUR_LINK_HERE">Temporal Analysis of Synchronization based on Varying String Lengths</a>
+      <p class="project-abstract">
+        <span class="abstract-label">Abstract: </span>Building on Christiaan Huygens' discovery of coupled pendulum synchronization, this paper examines how string length affects synchronization time on a moving platform. Experiments showed that shorter strings generally synchronize faster. Behaviors like brief pauses and in-phase vs. anti-phase motion are explained using classical mechanics. The paper also models motion and energy using Lagrangian techniques.
+      </p>
+    </div>
+
+  </div>
+
+  <footer>© 2026 Niyathi Kukkapalli. All rights reserved.</footer>
+
+</body>
+</html>

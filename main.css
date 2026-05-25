@@ -26,7 +26,7 @@ body.home {
   /* overflow-x: hidden; 
   background-size: cover;
   background-position: center; */
-  background-color: #f8dee1; 
+  background-color: var(--bg-page);
 }
 
 /* this is the fonts used for all words */
@@ -157,6 +157,109 @@ nav {
 .copyright p {
   margin: 0;
   font-family: "Newsreader", serif;
+}
+
+.site-page.home .bio {
+  display: block;
+  padding: 24px 0 64px;
+}
+
+.site-page.home .bio-text {
+  width: 100%;
+}
+
+.site-page.home .bio figure {
+  display: none;
+}
+
+.home-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  max-width: 1120px;
+  margin: 10px auto 0;
+  padding: 56px 20px 20px;
+}
+
+.home-vine-shell {
+  flex-shrink: 0;
+  width: 110px;
+  height: 280px;
+  margin: 0 -10px;
+}
+
+.home-vine-shell-right {
+  transform: scaleX(-1);
+}
+
+.home-vine-side {
+  width: 110px;
+  height: 280px;
+  overflow: visible;
+}
+
+.home-center {
+  text-align: center;
+  max-width: 500px;
+  padding: 0 12px;
+}
+
+.home-copy {
+  margin: 36px auto 0;
+  max-width: 500px;
+  font-family: "Rye", serif;
+  font-size: clamp(1.05rem, 1.5vw, 1.45rem);
+  line-height: 1.4;
+  color: #171412;
+  letter-spacing: 0;
+  word-spacing: 0;
+  text-wrap: balance;
+}
+
+.home-tagline-wrap {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.home-tagline {
+  text-align: center;
+  font-family: "Newsreader", serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+  color: #9a8257;
+  letter-spacing: 0.5px;
+}
+
+.sway {
+  animation: sway 4.4s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.sway2 {
+  animation: sway2 5.2s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-3.5deg) translateY(0);
+  }
+  50% {
+    transform: rotate(3.5deg) translateY(-2px);
+  }
+}
+
+@keyframes sway2 {
+  0%,
+  100% {
+    transform: rotate(2.8deg) translateY(0);
+  }
+  50% {
+    transform: rotate(-2.8deg) translateY(-2px);
+  }
 }
 
 .gallery {
@@ -295,6 +398,14 @@ td {
   animation: typing 4.5s steps(20, end) forwards, blink 0.77s step-end infinite;
 }
 
+.site-page.home .typewriter {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #171412;
+  border-right-color: #d9a84a;
+}
+
 /* Typing effect. this defines the animation. */
 @keyframes typing {
   from { width: 0; }
@@ -304,4 +415,63 @@ td {
 /* Blinking cursor effect. toggles between visible and invisible. this is for the cursor. */
 @keyframes blink {
   50% { border-color: transparent; }
+}
+
+@media (max-width: 920px) {
+  .home-hero {
+    padding-top: 40px;
+    gap: 8px;
+  }
+
+  .home-vine-shell {
+    width: 88px;
+    height: 224px;
+    margin: 0 -6px;
+  }
+
+  .home-vine-side {
+    width: 88px;
+    height: 224px;
+  }
+
+  .home-center {
+    max-width: 500px;
+    padding: 0 18px;
+  }
+}
+
+@media (max-width: 760px) {
+  .home-vine-shell {
+    display: none;
+  }
+
+  .home-center {
+    max-width: 500px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-page.home .bio {
+    padding-top: 10px;
+  }
+
+  .home-hero {
+    padding: 28px 16px 12px;
+  }
+
+  .home-center {
+    padding: 0 10px;
+  }
+
+  .home-copy {
+    margin-top: 28px;
+    font-size: 0.96rem;
+    line-height: 1.46;
+  }
+
+  .home-tagline {
+    padding: 0 16px;
+    font-size: 14px;
+  }
 }

@@ -1,10 +1,12 @@
 <html>
   <head>
     {% include head-tags.html %}
+    <link rel="stylesheet" href="/writing-common.css" />
     <link rel="stylesheet" href="/art/art.css" />
   </head>
 
-  <body class="art">
-    {% include header.html %} {{ content }}
+  <body class="site-page art">
+    {% include writing-nav.html active='art' %}
+    {{ content }}
   </body>
 </html>

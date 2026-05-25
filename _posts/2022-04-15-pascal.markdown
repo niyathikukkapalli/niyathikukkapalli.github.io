@@ -2,13 +2,14 @@
 layout: post
 title: "Blaise Pascal: Well, there's the triangle."
 date: 2023-05-10
-tags: Math History Ptolemy
+tags:
+  - Math
+  - History
+  - Ptolemy
 categories: Pascal, Geometry, History
 description: While I was doing some AMC and AIME problems, I encountered Pascal's triangle endless times. In came up a lot in combinatorial problems, and it's quite cool how theorems like the Hockey Stick Identity come from it. Although, I do think Sierpinski's triangle is the best triangle of all --- no one can beat that one. I also always thought mathematicians like Gauss had a interesting childhood, I mean he solved the n(n+1)/2 problem in Elementary. So, was Pascal the same? Let's find out...
 thumbnail: "/img/pascal.jpeg"
 ---
-
-<img class="normal" loading="lazy" src="/img/pascal.jpeg">
 
 ## Introduction
 
@@ -40,7 +41,7 @@ He designed the project when he was 19 years old, but then he went on to create 
 
 He contributed much to the field of physics, besides being a mathematician. He created the all famous ...
 
-$\textbf{Pascal's Law:}$ states that when there is an increase in pressure at any point in a confined fluid, there is an equal increase at every other point in the container. So basically you use the relation, $\frac{F_1}{A_1} = \frac{F_2}{A_2}$
+$\text{\textbf{Pascal's Law:}}$ states that when there is an increase in pressure at any point in a confined fluid, there is an equal increase at every other point in the container. So basically you use the relation, $\frac{F_1}{A_1} = \frac{F_2}{A_2}$
 
 It's much easier with a picture. If you look down below...
 
@@ -52,7 +53,7 @@ In the same year, at thirty years old, he created Pascal's triangle, a conveinen
 
 ## Major Math Theorems 
 
-$\textbf{Pascal's Theorem:}$
+$$\text{\textbf{Pascal's Theorem:}}$$
 
 In simple terms, it can be used to prove the collinearity of three intersections among six points in a circle. The image from Brilliant, explains this quite simply. 
 
@@ -60,7 +61,7 @@ In simple terms, it can be used to prove the collinearity of three intersections
 
 Pascal's Theorem just states that for any 6 points that are in the circle, then we have the intersections of AB and DE, AF and CD, and BC and EF are all collinear. It's quite useful in Olympiad math! 
 
-$\textbf{Pascal's Triangle:}$
+$$\text{\textbf{Pascal's Triangle:}}$$
 
 
 {% include image-with-caption.html src="/img/tripas.png" caption="This is Pascal's Triangle." %}

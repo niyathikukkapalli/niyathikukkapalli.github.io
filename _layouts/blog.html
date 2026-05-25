@@ -1,60 +1,56 @@
 <html>
+  <head>
+    {% include head-tags.html %}
+    <link rel="stylesheet" href="/writing-common.css" />
+    <link rel="stylesheet" href="/blog.css" />
+  </head>
 
-<head>
-  {% include head-tags.html %}
-  <link rel="stylesheet" href="/blog.css" />
-</head>
+  <body class="site-page writing-page writing-list">
+    {% include writing-nav.html active='writing' %}
 
-<body>
-  <header class="blog-header">
-    <h1 class="blog-main-title">The Algebraic Arcanum</h1>
-    <nav class="navigation blog-navigation">
-      <div class="navigation-links">
-        <a class="navigation-link" href="/about">About Me</a>
-        <a class="navigation-link" href="/art">Artwork</a>
-        <a class="navigation-link" href="/blog/">Blog</a>
-        <a class="navigation-link" href="/research">Projects</a>
-      </div>
-    </nav>
-    <hr class="blog-nav-divider" />
-  </header>
+    <main class="writing-container">
+      <header class="writing-header">
+        <h1 class="writing-title">The Algebraic Arcanum <span class="writing-title-emoji" aria-hidden="true">🌱</span></h1>
+        <p class="writing-subtitle">Thoughts, discoveries, and mathematical curiosities.</p>
+      </header>
 
-  <main class="blog-container">
-    {% for post in site.posts %}
-    <article class="blog-post-card">
-      <div class="blog-post-content">
-        <h2 class="blog-post-title">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-        <p class="blog-post-excerpt">{{ post.description }}</p>
-        <div class="blog-post-meta">
-          <span class="blog-post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-          {% assign words = post.content | number_of_words %}
-          {% assign read_time = words | divided_by: 200 %}
-          {% if read_time == 0 %}
-            {% assign read_time = 1 %}
+      <div class="writing-posts">
+        {% for post in site.posts %}
+        <article class="writing-post-row">
+          <div class="writing-post-text">
+            <div class="writing-post-meta">
+              <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+              <span class="meta-dot">·</span>
+              {% assign words = post.content | number_of_words %}
+              {% assign read_time = words | divided_by: 200 %}
+              {% if read_time == 0 %}
+                {% assign read_time = 1 %}
+              {% endif %}
+              <span>{{ read_time }} min read</span>
+            </div>
+            <h2 class="writing-post-title">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <p class="writing-post-excerpt">{{ post.description }}</p>
+            {% if post.tags.size > 0 %}
+            <div class="writing-post-tags">
+              {% for tag in post.tags %}
+                {% assign label = tag | strip %}
+                {% if label != "" %}
+              <span class="writing-tag">{{ label | upcase }}</span>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+          {% if post.thumbnail %}
+          <a href="{{ post.url }}" class="writing-post-thumb">
+            <img src="{{ post.thumbnail }}" alt="" loading="lazy" />
+          </a>
           {% endif %}
-          <span class="blog-post-read-time">{{ read_time }} min read</span>
-        </div>
-        <div class="blog-post-tags">
-          {% for category in post.tags %}
-          <span class="blog-tag">{{ category | strip | upcase }}</span>
-          {% endfor %}
-        </div>
+        </article>
+        {% endfor %}
       </div>
-      {% if post.thumbnail %}
-      <div class="blog-post-image">
-        <a href="{{ post.url }}">
-          <img src="{{ post.thumbnail }}" alt="{{ post.title }}" loading="lazy">
-        </a>
-      </div>
-      {% endif %}
-    </article>
-    {% unless forloop.last %}
-    <hr class="blog-post-divider" />
-    {% endunless %}
-    {% endfor %}
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>

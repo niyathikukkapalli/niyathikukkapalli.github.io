@@ -2,13 +2,14 @@
 layout: post
 title: "A Chain of Reasoning in Number Theory (part 2)"
 date: 2022-08-22
-tags: FTA Proof Number Theory
+tags:
+  - FTA
+  - Proof
+  - Number Theory
 categories: Number Theory
 description: In the previous article, we discussed the proofs of the chain up to Bezout's. Although the next two steps look quite cryptic. FTA? UPF? Those are acryonyms since the names are quite long. FTA stands for the Fundamental Theorem of Arthimetic. UPF stands for Unique Prime Factorization. We will proceed similarly as we did in the beginning steps of the chain. We will try and use the previous steps of the chain in our proof of the step we want to prove...
 thumbnail: "/img/theory.jpeg"
 ---
-
-<img class="normal" loading="lazy" src="/img/theory.jpeg">
 
 ## Chain of Reasoning Introduction
 

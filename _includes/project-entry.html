@@ -1,0 +1,36 @@
+<div class="project-entry">
+  <div class="project-meta">
+    <span class="project-date">{{ include.date }}</span>
+    <span class="project-tag">{{ include.tag }}</span>
+  </div>
+  {% if include.href %}
+  <a class="project-title-link" href="{{ include.href }}">{{ include.title }}</a>
+  {% else %}
+  <div class="project-title-plain">{{ include.title }}</div>
+  {% endif %}
+  <p class="project-abstract">
+    <span class="abstract-label">Abstract: </span>{{ include.abstract }}
+  </p>
+  {% if include.arxiv or include.linktree or include.extra_link %}
+  <div class="links-row">
+    {% if include.arxiv %}
+    <a class="proj-link" href="{{ include.arxiv }}">
+      <span class="proj-link-icon" aria-hidden="true">📄</span>
+      <span>arXiv paper</span>
+    </a>
+    {% endif %}
+    {% if include.linktree %}
+    <a class="proj-link" href="{{ include.linktree }}">
+      <span class="proj-link-icon" aria-hidden="true">↗</span>
+      <span>linktree</span>
+    </a>
+    {% endif %}
+    {% if include.extra_link and include.extra_label %}
+    <a class="proj-link" href="{{ include.extra_link }}">
+      <span class="proj-link-icon" aria-hidden="true">↗</span>
+      <span>{{ include.extra_label }}</span>
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>

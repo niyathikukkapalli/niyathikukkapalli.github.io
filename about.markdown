@@ -1,14 +1,19 @@
 ---
-layout: about
+permalink: /about/
 ---
 
-<div>
-   <!-- <h1 class="web-title">Niyathi Kukkapalli</h1> -->
-    <div class="Intro"> 
-    <h1 class="typewriter">Hi! I'm Niyathi 👋 </h1>
-    <h3>I'm a student at Princeton University and an aspiring mathematician, computer scientist, and artist. You can find me working on my Algorithms research, drawing and painting, or working on this website! Check out my experience and recent projects.</h3>
-    </div>
-    <div class="copyright">
-      <p>&copy; 2026 Niyathi Kukkapalli. All rights reserved.</p>
-    </div>
-</div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=/" />
+    <link rel="canonical" href="/" />
+    <title>Redirecting...</title>
+    <script>
+      window.location.replace("/");
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/">home</a>...</p>
+  </body>
+</html>

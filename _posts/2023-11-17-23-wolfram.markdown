@@ -2,14 +2,14 @@
 layout: post
 title: "Wolfram Student Ambassadors: My Experience with Wolfram"
 date: 2024-03-4
-tags: Wolfram Alpha, Mathematica, Wolfram Student Ambassadors
+tags:
+  - Wolfram Alpha
+  - Mathematica
+  - Wolfram Student Ambassadors
 categories: 
 description: Whether it's helping with my USAMTS problems or with that pesky Calc homework problem, Wolfram Alpha is pretty great. I mean, I remember plugging in this really complex two-variable system of equations, and it just solved it! Ok, as a mathematician, that could be counted as shortcutting, but I do this since it's inproductive to just keep bashing at an unrealistic system of equations that you cannot solve. And as my appreciation for Wolfram Alpha increased, I applied to become a Wolfram Student Ambassador. 
 thumbnail: "/img/wolfram.png"
 ---
-
-<img class="normal" loading="lazy" src="/img/wolfram.png">
-
 
 ## Introduction
 
@@ -35,12 +35,15 @@ If you want to check out my full article, you can find it [here](https://communi
 
 As a prize from placing in the USA Mathematical Talent Search (USAMTS) competition, I got a year-long subscription to Wolfram Alpha Pro and Mathematica. It's pretty nice! At least with Wolfram Alpha, it tackles those pesky equations that I wouldn't be able to solve by hand. Here's a problem from Year 33 of USAMTS...
 
-<div class = "warning">
-<b>Problem:</b> Let x and y be distinct real numbers such that, 
-(1) $\sqrt{x^2+1}+\sqrt{y^2+1}=2021x+2021y$. 
-Find with proof, 
+<div class="warning" markdown="1">
 
-(2) $$(x+\sqrt{x^2+1})(y+\sqrt{y^2+1})$$
+**Problem:** Let $x$ and $y$ be distinct real numbers such that
+
+$$(1)\quad \sqrt{x^2+1}+\sqrt{y^2+1}=2021x+2021y$$
+
+Find with proof
+
+$$(2)\quad (x+\sqrt{x^2+1})(y+\sqrt{y^2+1})$$
 
 </div>
 

@@ -4,11 +4,12 @@ title: "Which has a bigger effect on history: the plans of the powerful or their
 date: 2023-10-08
 description: I recently entered the John Locke Institute Global Essay Competition which is held by the John Locke Institute sponsored by Oxford and Princeton. It's an essay competition that encourages you to explore college level academic writing through thought provoking questions that go beyond the bounds of school essays. You can receive many prizes through the competiton, and I myself got a Commendation for the essay I submitted into the History section...
 categories: 
-tags: academic writing, JIL competition, World Wars 
+tags:
+  - Academic Writing
+  - JIL Competition
+  - World Wars 
 thumbnail: "/img/history.jpeg"
 ---
-
-<img class="normal" loading="lazy" src="/img/history.jpeg">
 
 ## Introduction
 
