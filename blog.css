@@ -135,3 +135,29 @@
     order: -1;
   }
 }
+
+@media (max-width: 420px) {
+  .writing-container {
+    padding: 36px 16px 72px;
+  }
+
+  .writing-title {
+    font-size: 28px;
+  }
+
+  .writing-subtitle {
+    font-size: 16px;
+  }
+
+  .writing-post-row {
+    padding: 24px 0;
+  }
+
+  .writing-post-thumb {
+    height: 140px;
+  }
+
+  .writing-post-title {
+    font-size: 1.15rem;
+  }
+}

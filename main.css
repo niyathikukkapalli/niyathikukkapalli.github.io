@@ -475,3 +475,36 @@ td {
     font-size: 14px;
   }
 }
+
+@media (max-width: 420px) {
+  .home-hero {
+    padding: 22px 12px 10px;
+  }
+
+  .home-center {
+    max-width: 100%;
+    padding: 0 6px;
+  }
+
+  .site-page.home .typewriter {
+    font-size: 1.65rem;
+    line-height: 1.15;
+  }
+
+  .home-copy {
+    margin-top: 22px;
+    max-width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.48;
+  }
+
+  .home-tagline {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .copyright {
+    margin-top: 5rem;
+    padding-bottom: 1.5rem;
+  }
+}

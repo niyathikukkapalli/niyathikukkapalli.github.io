@@ -271,3 +271,49 @@
     font-size: 36px;
   }
 }
+
+@media (max-width: 420px) {
+  .gallery-hero {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .gallery-title {
+    font-size: 32px;
+  }
+
+  .gallery-subtitle {
+    font-size: 16px;
+  }
+
+  .gallery-grid {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 28px;
+  }
+
+  .art-lightbox {
+    padding: 12px;
+  }
+
+  .art-lightbox-image-wrap {
+    padding: 12px;
+  }
+
+  .art-lightbox-image-wrap img {
+    max-height: min(52vh, 300px);
+  }
+
+  .art-lightbox-info {
+    padding: 18px 18px 20px;
+  }
+
+  .art-lightbox-title {
+    font-size: 1.35rem;
+  }
+
+  .art-lightbox-description {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+}

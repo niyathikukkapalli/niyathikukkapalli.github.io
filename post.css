@@ -343,3 +343,40 @@
     font-size: 48px;
   }
 }
+
+@media (max-width: 420px) {
+  .article-page {
+    padding: 24px 16px 64px;
+  }
+
+  .post-page .article-title {
+    font-size: 1.35rem;
+    line-height: 1.22;
+  }
+
+  .article-subtitle {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .article-body p,
+  .article-body ul,
+  .article-body ol,
+  .article-body .warning,
+  .article-body .proof {
+    font-size: 1rem;
+  }
+
+  .article-body h2 {
+    font-size: 1.22rem;
+  }
+
+  .article-body h3 {
+    font-size: 1.05rem;
+  }
+
+  .article-body pre {
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+}
