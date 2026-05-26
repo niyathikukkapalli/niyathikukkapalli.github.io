@@ -23,6 +23,14 @@ layout: research
     linktree="https://linktr.ee/productmetricgreedyrangetrees"
   %}
 
+    {% include project-entry.html
+    date="May 2026"
+    tag="Natural Language Processing"
+    title="Editing Memory in Transformers at Scale"
+    href="/research/cos484.pdf"
+    abstract="This paper reproduces and stress-tests MEMIT, a method for editing factual knowledge into LLM weights, finding it works perfectly on GPT-J but transfers poorly to Llama 3.1 8B. Even when edits succeed, clever adversarial prompts can trick the model into recalling its original, pre-edit knowledge over 65% of the time."
+  %}
+
   <p class="projects-section-label">Mathematics</p>
 
   {% include project-entry.html
