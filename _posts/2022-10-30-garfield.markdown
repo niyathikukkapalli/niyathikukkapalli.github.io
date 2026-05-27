@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "James Garfield and Pythagoras?"
+title: "The President Who Proved the Pythagorean Theorem"
 date: 2022-10-30
 tags:
   - Garfield

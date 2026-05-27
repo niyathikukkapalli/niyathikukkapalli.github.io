@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blaise Pascal: Well, there's the triangle."
+title: "Blaise Pascal and the Triangle That Bears His Name"
 date: 2023-05-10
 tags:
   - Math

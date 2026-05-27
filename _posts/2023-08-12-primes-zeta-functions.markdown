@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to the Zeta Function"
+title: "The Zeta Function: A Gentle Introduction"
 date: 2023-08-16
 tags:
   - Zeta Functions

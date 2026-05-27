@@ -15,6 +15,14 @@ layout: research
   <p class="projects-section-label">Computer Science</p>
 
   {% include project-entry.html
+    date="May 2026"
+    tag="Natural Language Processing"
+    title="Editing Memory in Transformers at Scale"
+    href="/research/cos484.pdf"
+    abstract="This paper reproduces and stress-tests MEMIT, a method for editing factual knowledge into LLM weights, finding it works perfectly on GPT-J but transfers poorly to Llama 3.1 8B. Even when edits succeed, clever adversarial prompts can trick the model into recalling its original, pre-edit knowledge over 65% of the time."
+  %}
+
+  {% include project-entry.html
     date="July 2025"
     tag="Algorithms"
     title="Greedy Range Trees for Product Metrics"
@@ -23,15 +31,17 @@ layout: research
     linktree="https://linktr.ee/productmetricgreedyrangetrees"
   %}
 
-    {% include project-entry.html
-    date="May 2026"
-    tag="Natural Language Processing"
-    title="Editing Memory in Transformers at Scale"
-    href="/research/cos484.pdf"
-    abstract="This paper reproduces and stress-tests MEMIT, a method for editing factual knowledge into LLM weights, finding it works perfectly on GPT-J but transfers poorly to Llama 3.1 8B. Even when edits succeed, clever adversarial prompts can trick the model into recalling its original, pre-edit knowledge over 65% of the time."
-  %}
+    
 
   <p class="projects-section-label">Mathematics</p>
+
+   {% include project-entry.html
+    date="November 2023"
+    tag="Graph Theory"
+    title="Problems and Solutions in Advanced Graph Theory"
+    href="/research/UD.pdf"
+    abstract="A compilation of selected problems and solutions from research in advanced graph theory, covering topics such as graph colorings, connectivity, planarity, and extremal problems."
+  %}
 
   {% include project-entry.html
     date="August 2023"
@@ -41,13 +51,7 @@ layout: research
     abstract="In 1928, Emil Artin and Helmut Hasse introduced the Artin–Hasse exponential, a p-adic analogue. After introducing the basics of p-adic analysis, including why \(\mathbb{Q}_p\) is the completion of \(\mathbb{Q}\), this paper shows that the exponential and logarithm remain inverses, with intuition drawn from metric spaces and topology. The core is an inductive-based proof of Dwork's Lemma, used to prove the integrality of the Artin–Hasse Exponential."
   %}
 
-  {% include project-entry.html
-    date="November 2023"
-    tag="Graph Theory"
-    title="Problems and Solutions in Advanced Graph Theory"
-    href="/research/UD.pdf"
-    abstract="A compilation of selected problems and solutions from research in advanced graph theory, covering topics such as graph colorings, connectivity, planarity, and extremal problems."
-  %}
+ 
 
   <p class="projects-section-label">Physics &amp; Science</p>
 

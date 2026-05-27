@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Christaan Huygens: The Father of the Old Clock"
+title: "Christiaan Huygens and the Birth of the Pendulum Clock"
 date: 2023-06-09
 description: Christaan Huygens, a highly gifted physicist and astronomist who is most known for his work on the centrifugal force (yes, that one concept you may have hated in AP Physics), the wave theory of light, and lastly ... dun dun dun, the pendulum clock! Whenever you spend the hours away procrasinating, be thankful to Huygens for that clock you always glance over. No really! Clocks before Huygen's clock were highly inaccurate and times would be as much as an hour off...
 categories: biography 

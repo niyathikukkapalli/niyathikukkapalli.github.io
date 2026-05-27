@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wolfram Student Ambassadors: My Experience with Wolfram"
+title: "Inside the Wolfram Student Ambassador Program"
 date: 2024-03-4
 tags:
   - Wolfram Alpha

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Latex for beginners: How I got Started"
+title: "Getting Started with LaTeX: A Beginner's Guide"
 date: 2023-04-09
 tags:
   - LaTeX

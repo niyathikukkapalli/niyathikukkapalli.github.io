@@ -7,31 +7,32 @@ tags:
   - WOP
   - Proof
   - Number Theory
-description: This article assumes basic proof knowlegdge. The Chain of Reasoning sounds quite general, and it is! There are multiple definitions to this term, and the basis would be that it’s a multi layer argument. Although, I’m not here to lecture about all the types of chains there could be. Rather, I’ll be discussing a rather important chain in Number Theory. This Chain of Reasoning flows as below ...
+description: Ever wonder how mathematicians build big results from tiny axioms? This article traces a chain of proofs in Number Theory, starting from a deceptively simple principle and working up to one of the field's most useful identities. It's the first part of a two-part series that ultimately leads to Unique Prime Factorization.
 thumbnail: "/img/theory.jpeg"
 ---
 
 ## Chain of Reasoning Introduction
 
-This article assumes basic proof knowlegdge. The Chain of Reasoning sounds quite general, and it is! There are multiple definitions to this term, and the basis would be that it’s a multi layer argument.
-
-Although, I’m not here to lecture about all the types of chains there could be. Rather, I’ll be discussing a rather important chain in Number Theory. This Chain of Reasoning flows as below…
+The Chain of Reasoning sounds quite general, and it is! There are multiple definitions of the term, but at its core it's a multi-layered argument. I'm not here to lecture about all the types of chains there could be — rather, I'll be discussing a particularly important chain in Number Theory. This Chain of Reasoning flows as follows:
 
 Well Ordering Principle —-> Division Algorithm —-> Bezout’s —-> FTA —-> UPF
 
-For right now, I’ll leave FTA and UPF untouched, but I will discuss them in a continuation of this article. This particular Chain of Reasoning functions off proofs. To prove the Division Algorithm you will need the Well Ordering Principle, and to prove Bezout’s you will need the Division Algorithm.
+For now, I'll leave FTA and UPF untouched and discuss them in a continuation of this article. This particular Chain of Reasoning is built on proofs — to prove the Division Algorithm you need the Well Ordering Principle, and to prove Bezout's you need the Division Algorithm.
 
 ## Well Ordering Principle
 
-So, what exactly is the Well Ordering Principle? The exact principle states, Any non empty subset S, S $\subseteq$ N, has a least element. N are the natural numbers which are the positive integers.
+So, what exactly is the Well Ordering Principle? The exact principle states, any non empty subset S $\subseteq$ N, has a least element. N are the natural numbers which are the positive integers.
 An example, let's say we have the set {1,2,3,4} which can be a subset of {1,2,3,4,5,6}. Now the subset
 {1,2,3,4} by Well Ordering Principle has a least element, which we know to be 1.
 
-That's a very simple application but that's the general idea. It's simple but very powerful and is used in numerous proofs. We take this principle to be true, so this is what you would call an axiom. Another example of an axiom would be that a + b = b + a, since we just take that fact to be true. Another popular proof technique is Induction, which if you've delved into the math world, you have probably heard of. I would encourage you to research more about induction if you haven't heard of it. A good exercise to think about is if Induction and the Well Ordering Principle are the same? Hint: Don't trust the obvious answer.
+That's a simple application, but it captures the general idea. It's simple yet incredibly powerful and appears in numerous proofs. We take this principle to be true — it's what you'd call an axiom. Another example of an axiom is that a + b = b + a, since we simply accept that as true.
+
+Another popular proof technique is induction, which if you've spent any time in the math world, you've probably heard of. I'd encourage you to read more about it if you haven't! A good exercise to think about: are Induction and the Well Ordering Principle actually the same thing? Hint: don't trust the obvious answer.
+
 
 ## Division Algorithm
 
-So you might know the Division Algorithm from Elementary School. In words, it says that if you want to divide a by b, then $\exists$ $q,r$ such that $a = bq + r$ where $0 < r < b$. Have you thought about how to prove this statement? That might be harder than you think. Sure, the statement is obvious but this isn't a statement that we can take for a axiom. We are working in a chain so we need to incorporate the Well Ordering Principle (WOP) into our proof for the Division Algorithm. I would encourage you to think about the proof first before you read on.
+You might remember the Division Algorithm from elementary school. In words, it says: if you want to divide a by b, then there exist q, r such that a = bq + r where 0 ≤ r < b. Have you ever thought about how to actually prove this? It's harder than it looks. Sure, the statement feels obvious, but it's not something we can just take as an axiom. Since we're working in a chain, we need to incorporate the Well Ordering Principle (WOP) into our proof. I'd encourage you to try the proof yourself before reading on!
 
 Here's the proof that we will break down step by step.
 
@@ -51,25 +52,25 @@ Here's the proof that we will break down step by step.
 
 </div>
 
-So in the first sentence, we establish a set of sorts. Think of it as the set of the Division Algorithm quite literally. We made the elements of the set be the remainders since this is what the condition for the Division Algorithm is based on. The $0 \leq s < b$ part. In that same part, we establish a sort of condition. The set has to have 0 or not. What is the motivation for 0 and not like - 1? Looking further ahead, we want to eventually use WOP on this set. WOP requires the set to be in the natural numbers so we want s > 0 where s is a elt of S. Since 0 is the bounding number anyway, it would be useful to just use 0 for the casework.
+In the first step, we establish a set — think of it as the set of the Division Algorithm quite literally, where the elements are the remainders. That's what the condition r = a − bq captures. We also establish whether 0 is in the set or not. Why 0 and not, say, −1? Looking ahead, we want to use WOP on this set, which requires the set to live in the natural numbers, so we need s > 0. Since 0 is the boundary anyway, it's natural to use it for the casework.
 
-Now we consider first if 0 is in S (which it is) so that's easy. For if 0 is not in S, now we can use WOP since we are only considering numbers s > 0 which is the natural numbers which is the only time we can use WOP.
+If 0 is in S, we're done immediately. If it's not, then we're only considering s > 0, which lives in the natural numbers — exactly when we can apply WOP.
 
-Now with our least element we can create a trichotomy. This just means three choices. From our trichotomy, only one of the choices is correct so we try and disprove the other two choices which is a way easier method than proving the correct choice directly.
+With our least element in hand, we set up a trichotomy: three choices, exactly one of which is correct. Rather than proving the correct choice directly, we disprove the other two — a much easier approach.
 
-As we can see in the last step, we wrote $s_0 = (a_0) - (b)(q)$ since it's a part of the set S. We found a contradition to the minimality of s_0 which would mean that the inital condition that we assumed wasn't true. This condition was $s_0 \geq b$. That disproves the two choices leaving us with the third, correct, choice.
+In the last step, we wrote a − b(q₀ + 1) as an element of S and found a contradiction with the minimality of s₀. That contradiction means the assumption s₀ ≥ b was false, leaving us with the third option: s₀ < b.
 
 ## Bezout's Identity
 
-So Bezout's Identity states in words, that $\exists$ a,b $\in$ Z such that $ax + by = 1$ has integer solutions x, y if and only if the gcd of (a,b) = 1. An example, is that if we have 3x + 2y = 1 then obvious solutions would be 3(3) - 2(4) = 1. As simple as that.
+Bezout's Identity states: for a, b ∈ ℤ, the equation ax + by = 1 has integer solutions x, y if and only if gcd(a, b) = 1. A quick example: 3x + 2y = 1 has the obvious solution x = 3, y = −4, since 3(3) − 2(4) = 1. Simple as that!
 
-So Bezout's is a Diophatine equation and we essentially have two proofs to since it's a if and only if statement.
+Bezout's is a Diophantine equation, and since it's an if-and-only-if statement, we technically have two proofs to write. A reminder about if-and-only-if:
 
 <div class = "warning">
 <b>If and only if statements:</b> We have $a$ then if and only if $b$. So we would have to prove that $a$ implies $b$ and $b$ implies $a$. So it's two proofs. 
 </div>
 
-I will only show the proof: If (a,b) = 1, then $ax + by = 1$ has integer solutions. I implore you to think about the other direction, as it's quite simple. Hint: Have (a,b) = d and show that d has to be 1 given that $ax + by = 1$ is true. The other proof is given below, which we will look at step by step again.
+I'll only show the proof for: if gcd(a, b) = 1, then ax + by = 1 has integer solutions. I'd encourage you to work out the other direction yourself — it's quite short. Hint: let gcd(a, b) = d and show that d must equal 1 given that ax + by = 1 holds.
 
 <div class = "proof">
 
@@ -80,14 +81,13 @@ We claim that S is non empty. We know this because $a^2 + b^2$ is in the set whi
 <p> (4) WLOG, we let $m \nmid a$. If this is true, then we can write $a$ and $m$ with the divison algorithm. We have $a = mq + r$ where $0 < r < m$. We have $r = a - mq$. $m$ is in S so $m = a(x_0) + b(y_0)$. Now $r = a - (a(x_0) + b(y_0))q$ or $r = a(1 - (x_0)q) + b(-(y_0)q)$. This contradicts the minimality of $m$, so $m = 1$. QED. </p>
 </div>
 
-In step 1, we stated a set once again in hopes to manipulate it like we did for the Division Algorithm. We have to remember that this is a chain of reasoning, so somewhere in our proof we want to incorporate WOP and the Division Algorithm. In some later proofs, we may only use the latest steps and not necessarily all the ones before it.
+In step 1, we set up a set just like we did for the Division Algorithm — this is the Chain of Reasoning at work! We want to eventually use both WOP and the Division Algorithm somewhere in this proof. Our set contains the natural numbers expressible in the form ax + by, and we verified it's non-empty so we can apply WOP.
+This setup looks a lot like the Division Algorithm proof — we use casework again. Our least element has to be 1 or not 1, and our goal is to disprove the latter.
+In step 3, we bring in divisibility of m into a and b. The motivation is to eventually apply the Division Algorithm between m and a (and b), since that's our crux move in the chain.
 
-Our set contains the set of natural numbers that can be written in the form ax + by. We showed the set was non empty since that is one of the requirements to use WOP. Our set is of the natural numbers so we are good to use WOP in the next step (2). This setup is looking a lot like the Divison Algorithm proof as we use casework next. We know our least element has to be 1 or not 1. Our goal is try to disprove that it can be $\neq 1$
-
-We consider the case where we have $ax + by = m$ and m is not 1. Notice that we talk about the divison of m into a and b in step 3. The motivation for this is to eventually use the divison algorithm between m, and a and b. This is because we are working with the Chain of Reasoning so we want to use the Division Algorithm as our crux move.
-
-In step 4, we worked to find a contradiction with the minimality of m. In other words, we found a element smaller than $m$ which is obviously a contradiction since m is the minimal element. So then from that we know that the intial condition that we assumed must be false. That initial condition was that $m \neq 1$. So $m = 1$. Therefore, we have proved Bezout's Lemma for one direction (arguably the harder direction.)
+In step 4, we find an element of S smaller than m — a direct contradiction of minimality. So our assumption that m ≠ 1 must be false, and therefore m = 1. We've proved Bezout's Lemma in one direction — arguably the harder one!
 
 ## Final Thoughts
 
-So that's half the chain of reasoning! It's not too bad once you understand the underlying principle, the Well Ordering Principle. I encourage you to explore the Well Ordering Principle in other fields of math. For example, WOP can be used in geoemtry as well if you have a certain restriction on area. For example, can't have a area greater than 4 or less than 4. This particular chain of reasoning builds up to proving Unique Prime Factorization which I will discuss in a future article.
+That's half the chain of reasoning, and it's not too bad once you understand the underlying engine: the Well Ordering Principle. I'd encourage you to explore WOP in other areas of math too — it shows up in geometry, for instance, when you have certain restrictions on area. This particular chain builds all the way up to proving Unique Prime Factorization, which I'll discuss in a future article!
+

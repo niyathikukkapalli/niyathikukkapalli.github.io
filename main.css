@@ -149,7 +149,7 @@ nav {
 .copyright {
   text-align: center;
   padding: 2rem 1rem;
-  margin-top: 8rem;
+  margin-top: 2rem;
   color: #666;
   font-size: 0.875rem;
 }
@@ -208,9 +208,9 @@ nav {
 .home-copy {
   margin: 36px auto 0;
   max-width: 500px;
-  font-family: "Rye", serif;
-  font-size: clamp(1.05rem, 1.5vw, 1.45rem);
-  line-height: 1.4;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(0.92rem, 1.2vw, 1.15rem);
+  line-height: 1.5;
   color: #171412;
   letter-spacing: 0;
   word-spacing: 0;
@@ -230,6 +230,71 @@ nav {
   font-weight: 600;
   color: #9a8257;
   letter-spacing: 0.5px;
+}
+
+.home-writings-divider {
+  width: 60px;
+  height: 1px;
+  margin: 3rem auto 0;
+  background: #ccc;
+}
+
+.recent-writings {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 1.75rem 2rem 3.5rem;
+}
+
+.recent-writings-heading {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888;
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+
+.recent-writings-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-writings-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0.85rem 0;
+  border-bottom: 0.5px solid #ddd;
+}
+
+.recent-writings-row:first-child {
+  border-top: 0.5px solid #ddd;
+}
+
+.recent-writings-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95rem;
+  color: #2a2a2a;
+  text-decoration: none;
+  line-height: 1.35;
+  min-width: 0;
+}
+
+.site-page.home .recent-writings-title:hover {
+  color: #b8860b;
+}
+
+.recent-writings-date {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #aaa;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .sway {
@@ -466,8 +531,8 @@ td {
 
   .home-copy {
     margin-top: 28px;
-    font-size: 0.96rem;
-    line-height: 1.46;
+    font-size: 0.84rem;
+    line-height: 1.48;
   }
 
   .home-tagline {
@@ -506,5 +571,18 @@ td {
   .copyright {
     margin-top: 5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .recent-writings {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .recent-writings-row {
+    gap: 1rem;
+  }
+
+  .recent-writings-title {
+    font-size: 0.9rem;
   }
 }

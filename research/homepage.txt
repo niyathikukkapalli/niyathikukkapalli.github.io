@@ -1,0 +1,32 @@
+Please make the following two changes to my personal portfolio site:
+
+---
+
+## 1. Update the Navigation Header
+
+Replace the existing header/navbar with the following design:
+
+- The entire nav should be a centered pill-shaped container with a white background, border-radius of 50px, and a subtle drop shadow (box-shadow: 0 1px 4px rgba(0,0,0,0.06))
+- Inside the pill, from left to right:
+  1. An "NK" monogram logo: a 34x34px circle with a 2px solid dark border (#2a2a2a), centered initials "NK" in bold Georgia serif font
+  2. Navigation links in this exact order: About · Projects · Writing · Artwork
+     - Separate each link (except the last) with a small gold dot (●) in color #b8860b, font-size 9px
+     - Links should be in Georgia serif, 15px, color #2a2a2a, no underline
+  3. Two social icon links (GitHub and LinkedIn) each enclosed in a 30x30px circle with a 1.5px solid #ccc border and border-radius 50%. Icons should be ~15px and centered inside the circle.
+- The nav itself should be centered on the page with padding of 1rem 2rem
+
+---
+
+## 2. Add a Recent Writings Section
+
+Below the existing hero/bio section, add a "Recent Writings" section with the following design:
+
+- Add a thin horizontal divider (60px wide, 1px tall, color #ccc, centered) between the bio and the writings section
+- Section heading: "RECENT WRITINGS" in small caps / uppercase, 0.8rem, color #888, letter-spacing 0.08em, centered, Georgia serif
+- Each writing entry is a row with:
+  - The article title on the left (Georgia serif, 0.95rem, color #2a2a2a, no underline, hovering turns it gold #b8860b)
+  - The date on the right (italic, 0.8rem, color #aaa)
+  - A 0.5px solid #ddd bottom border under each row, and a matching top border on the first row
+  - Row padding: 0.85rem 0
+- The section should be max-width 680px, centered, with padding 0 2rem 3.5rem
+- Wire up the titles and dates to whatever data source or array you already use for writing posts (or create a placeholder array if none exists)

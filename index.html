@@ -39,10 +39,11 @@ nav_active: home
   <div class="home-center">
     <h1 class="typewriter">Hi! I'm Niyathi 👋 </h1>
     <p class="home-copy">
-      I'm a student at Princeton University and an aspiring mathematician,
-      computer scientist, and artist. You can find me working on my
-      Algorithms research, drawing and painting, or working on this website!
-      Check out my experience and recent projects.
+      I'm a junior at Princeton University who loves computer science, mathematics, and making art.
+      I do research in computer vision and algorithms, and I spend my free time doing math,
+      painting, sketching, designing this website, and exploring whatever problem has caught
+      my attention lately. Right now that means machine learning, building campus tools,
+      and watercolor. This is where I write about all of it.
     </p>
   </div>
 
@@ -78,9 +79,21 @@ nav_active: home
   </div>
 </section>
 
-<div class="home-tagline-wrap">
-  <span class="home-tagline">mathematician &middot; artist &middot; princeton '28</span>
-</div>
+<div class="home-writings-divider" aria-hidden="true"></div>
+
+<section class="recent-writings">
+  <h2 class="recent-writings-heading">Recent Writings</h2>
+  <ul class="recent-writings-list">
+    {% for post in site.posts limit: 4 %}
+    <li class="recent-writings-row">
+      <a href="{{ post.url }}" class="recent-writings-title">{{ post.title }}</a>
+      <time class="recent-writings-date" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%b %Y" }}
+      </time>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
 <div class="copyright">
   <p>&copy; 2026 Niyathi Kukkapalli. All rights reserved.</p>
