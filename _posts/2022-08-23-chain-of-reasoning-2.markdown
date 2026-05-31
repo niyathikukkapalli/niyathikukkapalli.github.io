@@ -7,17 +7,17 @@ tags:
   - Proof
   - Number Theory
 categories: Number Theory
-description: In the previous article, we discussed the proofs of the chain up to Bezout's. Although the next two steps look quite cryptic. FTA? UPF? Those are acryonyms since the names are quite long. FTA stands for the Fundamental Theorem of Arthimetic. UPF stands for Unique Prime Factorization. We will proceed similarly as we did in the beginning steps of the chain. We will try and use the previous steps of the chain in our proof of the step we want to prove...
+description: The conclusion of the chain — picking up from Bezout's Identity and pushing all the way through to Unique Prime Factorization. This part covers the Fundamental Theorem of Arithmetic, two proofs that every integer has a prime factorization, and why "unique up to units" is a more subtle statement than it first appears.
 thumbnail: "/img/theory.jpeg"
 ---
 
 ## Chain of Reasoning Introduction
 
-This is a continuation of a previous article so if you havent checked that article out I would highly suggest reading through that first! If you have read that article, let's recall the chain of reasoning.
+This is a continuation of a previous article, so if you haven't read that one yet, I'd strongly suggest starting there first! If you have, let's recall where we left off:
 
 Well Ordering Principle —-> Division Algorithm —-> Bezout’s —-> FTA —-> UPF
 
-In the previous article, we discussed the proofs of the chain up to Bezout's. Although the next two steps look quite cryptic. FTA? UPF? Those are acryonyms since the names are quite long. FTA stands for the Fundamental Theorem of Arthimetic. UPF stands for Unique Prime Factorization. We will proceed similarly as we did in the beginning steps of the chain. We will try and use the previous steps of the chain in our proof of the step we want to prove.
+We've already covered the proofs up through Bezout's Identity. The next two steps might look cryptic — FTA and UPF are acronyms, since the full names are quite long. FTA stands for the Fundamental Theorem of Arithmetic, and UPF stands for Unique Prime Factorization. We'll proceed the same way we did before: at each step, we'll look for ways to use the previous results in our proof.
 
 ## Fundamental Theorem of Arithmetic
 
@@ -37,9 +37,7 @@ So acx + bcy = c. Now we know  a|bc so we can factor out $a$ from the LHS. This 
 <p> Lemma 1: if d|a, d|b then d|(ax+by). So if d divides a then it also divides ax since we can factor d from ax. So similarly it also divides by. so ax + by = d(ix + jy) for some i and j in the integers. So d|(ax+by).</p>
 </div>
 
-Now this proof was relatively short and simple due to how powerful Bezout's is. The motivation for Bezout's is the gcd is 1 condition which is the crux condition for Bezout's. The situation is the same here, and better yet it materalizes the problem into an equation.
-
-By simple algebraic manipulation we can easily see the answer. The most interesting part here though is that we use a Lemma. A Lemma is used when you need a intermediate theorem in your proof. The lemma that we used in the problem seems very obivous at first glance. It is! Although, in order to make our proof fully rigorous we need to prove even the simplest of things.
+This proof is short and elegant precisely because of how powerful Bezout's is. The gcd(a, b) = 1 condition was the crux of Bezout's, and it plays the same role here — it lets us immediately translate the problem into an equation we can manipulate algebraically. The most interesting piece is the Lemma. It feels obvious at first glance, and it is — but making a proof fully rigorous means proving even the simplest-seeming things.
 
 ## Every integer n > 1 has a PF
 
@@ -104,6 +102,6 @@ Now that we know $p_1$ divides a $q_i$, it is logical that $p_1 = q_i$ since a p
 
 ## Final Thoughts
 
-So that was the complete chain of reasoning! The chain of reasoning shows how closely linked unrelated concepts seem to be. You would never think from the Well Ordering Principle we could get all the way to proving Unique Prime Factorizations. The proofs themselves are quite interesting as they all tend to follow the same structure. We start off creating a set and then use the Well Ordering Principle. The chain also portrays how versaitile the Well Ordering Principle is.
+And that's the complete Chain of Reasoning! What I find most beautiful about it is how tightly linked everything is. Starting from the Well Ordering Principle — a statement so simple it almost feels trivial — we've worked our way up to proving Unique Prime Factorization, one of the foundational results of Number Theory. Each proof follows a recognizable pattern: build a set, invoke WOP, do casework, find a contradiction. And through it all, the Well Ordering Principle keeps showing up as the quiet engine driving everything forward.
 
-I encourage you to explore how the Well Ordering Principle can be used else where.
+I'd encourage you to keep an eye out for WOP in other areas of math — it appears in more places than you might expect.

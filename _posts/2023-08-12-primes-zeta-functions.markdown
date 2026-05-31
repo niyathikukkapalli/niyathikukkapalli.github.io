@@ -7,7 +7,7 @@ tags:
   - Euler Product
   - Trigonometry
 categories: Zeta Functions
-description: I recently attended the PROMYS program as a second year, and I wanted to encapsulate a bit of the cool math that I learned there! The primary class that I took was Prime and Zeta Functions, where we learned about zeta functions, Dirichlet Functions, Gauss sums, etc. It was all so cool! In my attempt to not forget any of it, I'll give a beginner's introduction to Reimann Zeta Functions (the beginning of the course). 
+description: This past summer at PROMYS, I fell down the rabbit hole of zeta functions — and I haven't looked back since. This article walks through square-free integers, the Euler product, convergence, and how a clever trick with sin(x) leads to one of the most beautiful results in mathematics, ζ(2) = π²/6.
 thumbnail: "/img/zeta.jpeg"
 ---
 

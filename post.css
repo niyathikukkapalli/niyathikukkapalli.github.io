@@ -166,6 +166,24 @@
   display: block;
 }
 
+.article-body figure {
+  margin: 24px auto;
+  text-align: center;
+}
+
+.article-body figure img {
+  margin: 0 auto;
+}
+
+.article-body figcaption {
+  margin-top: 8px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--excerpt);
+  line-height: 1.5;
+}
+
 .article-body img.small {
   width: 20rem;
   max-width: 100%;

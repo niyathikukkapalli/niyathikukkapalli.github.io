@@ -2,7 +2,7 @@
 layout: post
 title: "My First Research Experience: Dynamical Physics"
 date: 2023-04-01
-description: Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey! In general, it's nice to have a resume of research to learn various skills from computing to engineering. Honestly, I was very overwhelmed with trying to find a topic. Lots of the websites that I checked out either had that staple exploding Volcano or a topic that exceeded the 500 word limit. There was never an in between! 
+description: A behind-the-scenes look at my first independent research project — studying the synchronization of coupled pendulums. From finding a topic on YouTube to building physical pendulums to presenting at science fairs, here's everything I wish I'd known going in.
 categories: research 
 tags:
   - Independent Research
@@ -13,19 +13,17 @@ thumbnail: "/img/pendulum.jpeg"
 
 ## Introduction
 
-Independent research is actually quite common and it's how most prolific ISEF qualifers start their journey! In general, it's nice to have a resume of research to learn various skills from computing to engineering. Honestly, I was very overwhelmed with trying to find a topic. Lots of the websites that I checked out either had that staple exploding Volcano or a topic that exceeded the 500 word limit. There was never an in between!  
-
-I'll be referencing my research quite a bit in this article, so you can check out my abstract on my research page. 
+Independent research is actually more common than you'd think — it's how most prolific ISEF qualifiers start their journey! In general, having research experience on your resume is a great way to build skills across computing, engineering, writing, and more. Honestly, I was completely overwhelmed when I first started looking for a topic. Every website I checked either featured the classic exploding volcano or something so complex it exceeded any reasonable scope for a high schooler. There was never an in between! I'll be referencing my own research throughout this article, so feel free to check out my abstract on my research page.
 
 ## Finding a Topic 
 
-The hardest step is always finding a suitable topic. The data collection is a piece of cake compared to that. I can already see the frustrated faces of you guys at home: many of you are probably screaming, "How to find a good topic"?! Well, if you are a high schooler you will probably want some level of complexity to your research, and I'll get into that a bit. If in middle school, I would suggest looking at websites such as Science Buddies (<a href="url">https://www.sciencebuddies.org</a>) which is a great website to branch off. 
+The hardest step is always finding a good topic — data collection is a piece of cake compared to it. I can already picture the frustrated faces: "But how do I actually find one?!" If you're in high school, you'll probably want something with a reasonable level of complexity, which I'll get into. If you're in middle school, I'd suggest starting with Science Buddies (https://www.sciencebuddies.org) — it's a great place to branch off from.
 
-I found mine by searching through Youtube, and I often looked at Veritasium's Youtube Channel (<a href="url">https://www.youtube.com/@veritasium</a>) for physics research ideas. Another way to get a topic is to simply cold-email a bunch of local professors who would be willing to supervise your project and give you ideas. Usually, this won't work so it's best to do a bunch of literature reviews or watch videos as I did. 
+I found my topic by browsing YouTube, particularly Veritasium's channel (https://www.youtube.com/@veritasium), which is full of fascinating physics ideas. Another approach is to cold-email local professors and ask if they'd be willing to supervise a project or suggest ideas. That route doesn't always pan out, so doing your own literature reviews and watching videos is usually more reliable.
 
-The best strategy is to take a well-known problem and twist it in a unique way that no one has done. For example, my project dealt with synchronizing pendulums which was a common problem investigated by top schools like Harvard and UCLA. I researched what has been done so far, and nothing regarding the properties of the pendulum on synchronization has been done. So I did just that. 
+The best strategy is to take a well-known problem and give it a unique twist that hasn't been explored before. My project dealt with synchronizing pendulums — a topic studied by top institutions like Harvard and UCLA. After reviewing the existing research, I noticed that nobody had specifically looked at how the physical properties of the pendulum affected synchronization. So I did just that.
 
-Honestly, just reading it plainly, the topic doesn't sound super groundbreaking. I mean changing string lengths to see how synchronization in coupled pendulums change? To my suprise at the time, synchronization is used in end-to-end encrypted systems as an encryption key. The lesson is find a topic that you are passionate about, then find useful applications later. 
+Reading it plainly, the topic might not sound groundbreaking — changing string lengths to observe how synchronization in coupled pendulums changes? But I was surprised to learn that synchronization is actually used in end-to-end encrypted systems as an encryption key. The lesson: find a topic you're genuinely passionate about, then discover the applications later.
 
 Now that a topic is secured, what's next? 
 
@@ -47,26 +45,24 @@ The most important thing is to keep a neat lab notebook because it documents you
 
 ## Writing a Report 
 
-Most papers make great use of LaTeX which is a great typesetting language for papers including a lot of math. I would check out my LateX tutorial on my blog page. Even if your project isn't quite math heavy, LaTeX is still very useful. It just makes the paper look nice and tidy. An example would be my research paper on my webiste. You can also look on arXiv for examples of papers that utilize LaTeX (which most do).
+Most research papers make use of LaTeX, a typesetting language that's excellent for papers with a lot of math. I have a LaTeX tutorial on my blog if you want to get started. Even if your project isn't math-heavy, LaTeX makes your paper look clean and professional. You can also browse papers on arXiv to see how it's used in practice.
+When analyzing your data, make sure you include solid statistical analysis. For me, that meant adding regression lines and error bars to my graphs.
 
-When analyzing your data, I would make sure you have a good amount of statistical analysis. For me, this was adding a regression and error bars onto my graphed data. 
-
-When writing my paper I kept messing up on including "we" or "I" in the paper. The whole research paper should be done in passive voice, which was a hard task considering I take AP Lang. 
+One thing I kept slipping up on while writing: using "I" or "we" in the paper. Research papers should be written in passive voice throughout — a surprisingly hard habit to form when you've spent a year in AP Language and Composition.
 
 ## Presenting at Science Fair 
 
-Presenting at a science fair is somehow ten times more nervewrecking than any other presentation that I've given. Maybe it's the judges in close proximity. Or maybe it's their clipboards and eyes quietly judging your project. 
 
-I've seen many impressive projects that were ISEF worthy, but the judges didn't buy them. The main reason is that the judges left more confused than coming in. Science is about communicating your thoughts clearly, and the judges are testing that skill. 
+Presenting at a science fair is somehow ten times more nerve-wracking than any other presentation I've given. Maybe it's the judges standing just a few feet away, or the clipboards and quiet, evaluating eyes. Whatever it is, it's real.
 
-Many can spit out fancy vocabulary, but it's no use if no one understands. In fact, the clarity of my project was one of the most postive comments on my rubric. The feedback rubric you get is another great reason to participate in science fairs! 
+I've seen genuinely impressive, ISEF-worthy projects get passed over because the presenter left the judges more confused than when they walked up. Science is fundamentally about communicating ideas clearly, and that's exactly what judges are evaluating. Fancy vocabulary means nothing if no one understands you. In fact, clarity was one of the most consistently positive comments on my feedback rubric — and getting that rubric back is itself a great reason to participate in science fairs.
 
-When setting up my project, I also had one of my pendulums there with a video of the pendulums synchronizing. This did a lot of the talking for me and was helpful in being more concise. Below is a photo of my poster that I used for my school, county, and tri state science fairs. 
+For my setup, I brought one of my physical pendulums and played a video of them synchronizing. It did a lot of the talking for me and helped me stay concise. My poster is pictured above — I used it for my school, county, and tri-state science fairs.
 
 <img class="medium" loading="lazy" src="/img/poster.jpg">
 
-There really is no right way to create your poster since the science is more significant. You could easily go to Staples and print out your poster as one large sheet. That's a method I saw a lot of people doing, and I'll admit, it does make your project look extravagant. I didn't feel like doing that, so I simply made a google slides presentation and printed those slides out. 
+There's no single right way to design a poster since the science matters far more than the aesthetics. A lot of people print their entire poster as one large sheet at Staples, and honestly it does look impressive. I kept it simple and printed individual slides from a Google Slides presentation. Both work fine.
 
 ## Final Thoughts
 
-The moral is, you don't need a phD level project to seem impressive or do well in science fairs. As long as your data and presentation is good, you will go very far. It will also help you learn way more than doing something you don't understand!
+The takeaway is this: you don't need a PhD-level project to do well at a science fair or impress people with your research. As long as your data is solid and your presentation is clear, you'll go far. And along the way, you'll learn so much more than you ever would working on something you don't actually care about.

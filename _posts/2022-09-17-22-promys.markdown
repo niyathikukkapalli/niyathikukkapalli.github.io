@@ -7,71 +7,63 @@ tags:
   - Math Summer Camp
   - Lecture
 categories: PROMYS
-description: So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets.The point of the program is to essentially live, breathe, and eat math. Specifically, the number theory parts of math. This is because a lot of research has shown up in the recent years regarding number theory. Although, the main point of the program is not to just teach high schoolers a bunch of number theory...
+description: Six weeks of living, breathing, and eating math at Boston University — here's my week-by-week account of PROMYS, from proving the Division Algorithm on day one to winning a frisbee game against MIT's RSI for the first time in 16 years. Equal parts math camp diary and guide for anyone curious about applying.
 thumbnail: "/img/promys.jpeg"
 ---
 
 ## What is PROMYS?
 
-So PROMYS (Program in Mathematics for Young Scientists) is a 6 week residential math summer camp that is held at Boston University in Massachussets.
-
-The point of the program is to essentially live, breathe, and eat math. Specifically, the number theory parts of math. This is because a lot of research has shown up in the recent years regarding number theory. Although, the main point of the program is not to just teach high schoolers a bunch of number theory. It's to learn proofs and the structure of mathematics.
-
-In this article I'll provide a week by week synopsis of my adventures at PROMYS to either help future applicants those simply curious about what a summer camp is like. 
+PROMYS (Program in Mathematics for Young Scientists) is a six-week residential math summer camp held at Boston University in Massachusetts. The point of the program is to essentially live, breathe, and eat math — specifically number theory, which has seen a surge of exciting research in recent years. But the real goal isn't just to teach high schoolers a bunch of number theory. It's to learn how to think like a mathematician: to understand proofs and the underlying structure of mathematics.In this article I'll give a week-by-week account of my time at PROMYS, both for future applicants and for anyone simply curious about what a math summer camp is actually like. 
 
 ## Week 1: Getting Adjusted
 
-So for me, this was my first time actually going away for more than a night at a sleepover. This was quite a scary prospect. The first day that I was dropped off was pretty hectic. Trying to find my dorm, set up, meet people, etc. But the orientation that they had for all the students helped a lot. It was cool to see 79 other students who also enjoy math! 
+This was my first time being away from home for more than a single night. Honestly, a pretty scary prospect. The first day was hectic — finding my dorm, getting settled, meeting people. But the orientation helped a lot, and it was genuinely exciting to be surrounded by 79 other students who love math.
 
-The first lecture started bright and early on July 4th. I had to wake up at 8 a.m, get ready, get breakfast, and get to morning lecture which started at 9 a.m. This lecture was quite simple as we delved into the nature of numbers. What are the integers? What do you see when you picture Z? A set? A graph? Things like that. It was a good way to drill PROMYS's theme. "Think Deeply About Simple Things." A quote I would never forget.
+The first lecture started bright and early on July 4th. Wake up at 8 a.m., get breakfast, and make it to morning lecture by 9 a.m. The content was deceptively simple: what are the integers? What do you picture when you think of ℤ — a set? A graph? It was a great introduction to PROMYS's guiding theme: "Think Deeply About Simple Things." A quote I'll never forget.Then came the first problem set. It was pretty manageable — a mix of numerical problems and "podasips" (problems or discover a similar interesting problem), like "prove that 1 divides any number." Not bad at all. 
 
-Then ... came the first problem set. This problem set was pretty easy (I'll regret this later) It had a combination of numericals and podasips which were pretty straightforward, for example there was a problem like "prove 1 divides any number." Not bad at all. Then we saw some fireworks at the park that was near Boston University. This was also the first time that I discovered you could walk alone in the streets of Boston, and man, Boston is so much more interesting than Delaware. 
+That evening we watched fireworks at a park near BU, and I discovered you could just walk around Boston alone. Compared to Delaware, Boston felt endlessly interesting.The problem sets escalated quickly after that. The hardest point in the first week came when we had to prove the Division Algorithm — yes, the one from elementary school. Sure, you've used it since third grade, but have you ever thought about why it works? The proof hinges on the fact that any non-empty set of natural numbers has a least element. An obvious-sounding statement that turns out to be incredibly powerful.
 
-That was the first day. The next days have followed pretty similar. Except that the problem sets escalated in difficulty. I'm pretty sure it got the hardest when we had to prove the Division Algorithm. Yes. The one you used in Elementary. That one. Sure, you use it practically all the time if you are past third grade math in school, but have you thought to prove it? Why does it work? Hint, it involves the fact that in a set there is always a least element. Yet another obvious statement, but they all mesh together into a beautiful proof. 
-
-That weekend was pretty fun! Essentially on the weekends it's free terrain. You can go anywhere as long as you let someone know before hand. I went with my friend to the Fenway Gardens which is a public garden open to visit, and it was stunning! Courtesy of my Iphone camera, here is a photo below ... 
+That weekend we had free rein of the city as long as we checked in. A friend and I visited the Fenway Gardens — absolutely stunning — though we got so lost that Boston locals kept stopping us to ask for directions. It took three hours of walking to spend thirty minutes in the garden. Lesson learned: bring sneakers to any summer camp. I was on scorching concrete in loafers for three hours. Ouch.
 
 <img class="small" loading="lazy" src="/img/fenway.jpeg">
 
-Given, we defintely got lost, but I guess we blended in because Boston locals kept asking us for directions. It took us a whole three hours to walk, with only thirty minutes in the garden. Don't make my mistake and please bring sneakers if you end up at ANY summer camp. I was walking around for three hours on the scalding concrete with loafers. Ouch. 
+Oh, and this was also the week I learned how to do my own laundry. Better late than never.
 
-On a unrelated note, this is when I first learned how to do my laundry. Yeah, I know kinda late, but better late then never.
 
 ## Week 2: It's okay right now
 
-The next week was actually alright. The notable thing was that the problem sets got signifcantly harder, as it was building up on the skills instead of introducing them. Things like proving more obscure modular equations came up. Of course, mods themselves are a simple concept (it's just division and remainders) it just tends to look scary. But, Legendre hasn't come up yet so I wasn't actually struggling. 
 
-I was starting to get used to the whole getting up at 8 a.m and going to lecture at 9 a.m. We had started exploration labs this past week too. These are supposed to emulate research but not actually original research. Some of the topics are already extensively done. My strategy was to pick the most obscure one. I won't spoil anything for future attendees. I appreciated the mathematics of card shuffling much more after this lab. I guess magicians secretly know a little math as well. 
+The second week was actually pretty manageable. The problem sets got noticeably harder — building on existing skills rather than introducing new ones — with things like proving modular equations. Modular arithmetic itself is a simple concept (just division and remainders) but it can look intimidating on paper. Legendre hadn't shown up yet, so I wasn't struggling too much.
 
-It was quite conveinient that there is a convienence store next to the dorms (ahahaha see what i did there), so I would just get something there to eat in the morning. Yes, there was a dining hall, but I was too lazy. The weekends were always the most fun part. Although, this weekend I mostly chilled with some friends, playing cards or something. Not to forget the weekend problem set. Yes, you are never without math don't worry. I was also tired on Saturday, from the counselor's "mandatory fun". As they like to say, it was very hype.
+I was starting to settle into the rhythm: up at 8, breakfast, lecture at 9. We also began exploration labs this week, which are designed to simulate the research process — not original research, but open-ended investigations into existing math. My strategy was to pick the most obscure topic available. I won't spoil anything for future attendees, but I came away with a much deeper appreciation for the mathematics of card shuffling. Magicians, it turns out, know a little more math than they let on.
+
+The convenience store next to the dorms became my go-to breakfast spot — the dining hall was great, I was just too lazy. Weekends were the highlight as always, mostly spent playing cards with friends or doing math in the common room. The counselors' "mandatory fun" was, as advertised, very hype.
 
 ## Week 3: Probably the most hot week
 
-This week was very chill. So we finally finished the build up for the chain of reasoning by the end of this week. Again, won't spoil too much, but it does set up the rest of the camp. Something interesting that I noticed was that usually you just think about the integers but not other rings, like the complex numbers or the units.
+This week was relatively chill mathematically, though we finished building the full chain of reasoning by the end of it — I won't spoil the details, but it set the stage for everything that followed. One thing that struck me was how naturally the course expanded beyond integers into other rings, like the complex numbers or units, once you had the right framework.
 
-The mandatory fun for this week was the highlight! In fact, we had to create a talent show. So everyone had to do an act otherwise you got a punishment. The punishment was doing the worm, yeah, not that bad but still. Doing an act was fun! My friend told a story while I drew frantically to it. It was funnier than it sounds. The story was about a farmer named Bob who basically got three divorces and it was very interesting....
+The real highlight of the week was the talent show. Everyone had to perform an act — the alternative was doing the worm in front of everyone, which, honestly, wasn't that bad of a threat, but still. My friend told a story while I frantically illustrated it on a whiteboard. It was about a farmer named Bob who went through three divorces. Funnier than it sounds, I promise. The rest of the show turned into a giant karaoke session and the energy was incredible. I got to bed around 2 a.m. after staying up talking with my roommate.
 
-The rest of the talent show was like a giant karaoke and it was very hype. I got to bed at around like 2 a.m because I was up talking with my roomate.
-
-This weekend, I think I just went to a AC room building and literally stayed there till 11 o'clock doing math. Fun times.
+That weekend I found an air-conditioned building on campus and parked myself there until 11 p.m. doing math. Good times.
 
 ## Week 4: RSI vs. PROMYS Frisbee Game
 
-Oh yes, so we know the math. It shifted from the chain of reasoning to more like proving obscure theorems like Legendre and whatnot. Forgot to mention, but the counselors and lecturers were great people. The heat was not but that's besides the point. BUT, the real highlight was the weekend game between RSI and PROMYS.
+By this point the course had shifted from building the chain of reasoning to proving more advanced theorems — Legendre's symbol and beyond. The counselors and lecturers were fantastic throughout, even if the heat was not.
 
-So if you don't know, PROMYS plays a ultimate frisbee game against RSI. Usually, we lose but for the first time in 16 years we finally won. It was totally because I played (jk). It was very hot that day. 
+But the real highlight of the week was the annual ultimate frisbee game against RSI (Research Science Institute at MIT). PROMYS usually loses. Not this year. For the first time in 16 years, we won. I'd like to think I had something to do with it, but I probably didn't.
 
-We had to walk all the way from BU to MIT (30 minutes ish), but it was a good opportunity to see the MIT campus. On the 5th week though, we got a proper tour. On a side note, the bridge connecting MIT to the other side of the Charles river is beautiful. The view is one of a kind, and below is one of the photos I took (but it doesn't capture it's magic). This weekend didn't involve that much math. Not because I was slacking, but I was having a little too much fun. This was the week that the math made the most sense to me though. 
+We walked from BU to MIT — about 30 minutes — which gave us a great look at the campus. The bridge over the Charles River connecting MIT to the rest of the city is genuinely beautiful. One of those views that photos can't fully capture. This was also one of the weeks where the math started clicking the most for me, which made it feel like the best week overall.
 
 <img class="small" loading="lazy" src="/img/bridge.jpeg">
 
 ## Week 5: Almost Over
 
-Fun, almost done. This was the week where we had to present our findings from our exploration lab so I was quite busy. I managed to take over for a lab partner who didn't show up.
+This was a busy week — we had to present the findings from our exploration labs, and I ended up covering for a lab partner who couldn't make it, so I was juggling quite a bit.
 
-This weekend entailed a MIT tour and I went on a quick shopping trip with my friend. We went to Newbury Street and walked around. By this point there was a good stack of Charlie tickets on my dresser. On Newbury street, there was a lot of chocolate stores. Given, they were very expensive and they were inflated in price. But they looked chocolately and very fancy. That's all that matters. So as any normal person should do, we bought 6 knuckle sized choclates for $20.
+The weekend involved a proper MIT tour and a shopping trip to Newbury Street with a friend. There were a lot of very fancy chocolate shops. They were expensive. They were overpriced. But they looked incredible, so naturally we bought six knuckle-sized chocolates for $20. Worth it.
 
-Then I went back to the dorm and took a fat nap. This mandatory fun was very interesting... it was a bunch of math memes. I didn't know what to think of it.
+Then I went back to the dorm and took a very long nap. The mandatory fun that week was a math meme presentation. I genuinely didn't know what to make of it.
 
 ## Week 6: Wow. I was there for 42 days.
 
@@ -84,4 +76,5 @@ The last day finished off with a LOT of icecream. We had a final ceremony where 
 
 ## Week 6: Final Thoughts.
 
-That was a lot! This is just to share my experiences for myself and for others who might want to go to PROMYS. I tried to leave the big details out to not spoil anything.
+That was a lot! I tried to leave out the bigger mathematical details so as not to spoil anything for future attendees. If you're considering applying to PROMYS — or any math summer program — I'd say go for it without hesitation. It's one of those experiences that's hard to fully describe but impossible to forget.
+

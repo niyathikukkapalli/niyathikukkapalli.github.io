@@ -8,7 +8,7 @@ tags:
   - USAMTS
   - Solutions
 categories: USAMTS
-description: USAMTS is a free, high school oriented, proof based contest that is funded by NSA. The contest consists of three rounds, each with 5 problems and worth 5 points. The contest is fully remote and is a month long since the problems are hard enough to not get immediately. The contest is a great way to think about problems constantly and sharpen your math skills...
+description: A problem-by-problem breakdown of my Round 2 experience in the USA Mathematical Talent Search — from a tricky puzzle that almost had me reaching for code, to a problem I nearly solved perfectly but submitted at 9:58. Honest reflections on what worked, what didn't, and what I'd do differently.
 thumbnail: "/img/proof2.png"
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Christiaan Huygens and the Birth of the Pendulum Clock"
 date: 2023-06-09
-description: Christaan Huygens, a highly gifted physicist and astronomist who is most known for his work on the centrifugal force (yes, that one concept you may have hated in AP Physics), the wave theory of light, and lastly ... dun dun dun, the pendulum clock! Whenever you spend the hours away procrasinating, be thankful to Huygens for that clock you always glance over. No really! Clocks before Huygen's clock were highly inaccurate and times would be as much as an hour off...
+description: Before Huygens, clocks lost up to an hour a day. This is the story of the Dutch physicist who changed that — and along the way discovered Titan, advanced the wave theory of light, and stumbled upon the mystery of synchronizing pendulums while sick in bed.
 categories: biography 
 tags:
   - Christiaan Huygens
@@ -13,41 +13,39 @@ thumbnail: "/img/huygens.jpeg"
 
 ## Introduction
 
-Christaan Huygens, a highly gifted Dutch physicist and astronomist who is most known for his work on the centrifugal force (yes, that one concept you may have hated in AP Physics), the wave theory of light, and lastly ... dun dun dun, the pendulum clock! Whenever you spend the hours away procrasinating, be thankful to Huygens for that clock you always glance over. No really! Clocks before Huygen's clock were highly inaccurate and times would be as much as an hour off. Now, isn't that helpful? 
+Christiaan Huygens was a remarkably gifted Dutch physicist and astronomer, most known for his work on centrifugal force (yes, that concept you may have dreaded in AP Physics), the wave theory of light, and — dun dun dun — the pendulum clock! So the next time you find yourself procrastinating and glancing at the clock, spare a thought for Huygens. Seriously! Clocks before his were wildly inaccurate, losing as much as an hour a day. Now isn't that something?
 
 ## Huygen's Early Life
 
-Huygens was born to a wealthy family on April 14th, 1629, and was immediately put into challenging science and math courses from childhood through private tutors. His father was a famous diplomat and advisor to the House of Orange -- yes, the royal family of the Netherlands. Through his father's connections he was able to meet and talk with famous mathematicians. While Huygens was being homeschooled, among his father's friends (like Galileo or Marin) Huygens met Rene Descartes who was most famous for his discovery of the connection between geoemtry and algebra. Makes sense why he was so gifted. 
+Huygens was born into a wealthy family on April 14, 1629, and was immediately immersed in rigorous science and mathematics through private tutors. His father was a prominent diplomat and advisor to the House of Orange — the royal family of the Netherlands — and through those connections, young Huygens got to meet and converse with some of the greatest mathematical minds of his time. Among his father's circle of friends, which included figures like Galileo and Marin Mersenne, Huygens met René Descartes, most famous for bridging geometry and algebra. It's no wonder he turned out to be so gifted.
 
 ## Huygen's Pendulum Clock
 
-Ok, so for some context, the clocks before Huygen's pendulum clock lost 15 minutes a day, while Huygen's new pendulums clock saw to only have a loss of 15 seconds a day. How did Huygen's come up with such an incredible idea? Yes, he was a genius, but he also was inspired from Galileo's findings. Galileo was experimenting with pendulums and found a property that made them useful timekeepers. It was the property of isochronism or that the period of swing changes based on string length. We know this from the formula, $T = \sqrt{\frac{l}{g}}$ where $l$ is string length and $g = 9.8\,\mathrm{m/s^2}$. Although there is a restriction, you can't have the rod length of the pendulum be too long because the amplitude will be too large. This will cause the pendulum to leave the cycloid curve and lose it's isochronism.
+For some context: clocks before Huygens' pendulum clock lost around 15 minutes a day. His new design brought that down to just 15 seconds. So how did he come up with such an ingenious idea? He was a genius, certainly, but he was also building on Galileo's findings. Galileo had been experimenting with pendulums and discovered a property that made them excellent timekeepers: isochronism, the principle that a pendulum's period depends only on its length. We know this from the formula T = 2π√(l/g), where l is the string length and g = 9.8 m/s². There is one important restriction though — the rod can't be too long, or the amplitude becomes too large, causing the pendulum to leave its cycloid path and lose its isochronism.
 
 <img class="small" loading="lazy" src="/img/clock1.png">
 
-Above is a drawing of what Huygen's pendulums would look like. Not quite the simple string and metal bob you might've been thinking of. 
+The drawing above shows what Huygens' pendulums actually looked like — quite different from the simple string-and-bob you might be picturing!
 
 ## Other Scientific Discoveries
 
-Besides being the father of the pendulum clock, he is also the Father of Titan. Let me explain. Titan is the moon of Saturn, and Huygens had a part in discovering it. Around 5 - 10 years before Huygens found the beauty of the pendulum, he was playing around with telescopes. 
+Beyond being the father of the pendulum clock, Huygens is also the father of Titan. Let me explain. Titan is Saturn's largest moon, and Huygens played a central role in its discovery. About five to ten years before his pendulum breakthrough, he had been experimenting with telescopes. He derived the law of refraction to calculate the focal distance of lenses, which led him to design and release his own line of telescopes — the Gucci of telescopes, if you will. In 1655, using one of these instruments, he identified Titan for the first time.
 
-In fact, he discovered the law of refraction to derive the focal distance of lenses. This allowed him to release his own "brand" of telescopes. Yes, the Gucci of telescopes maybe. In 1665, with one of his new telescopes he pointed out Saturn's largest mooon, Titan. 
+Fast forward to 1689: Huygens traveled to England to meet the great Isaac Newton. The two debated the famous wave vs. particle theory of light. Newton firmly believed light traveled in particles; Huygens argued it traveled in waves. Most people sided with Newton, largely due to his towering reputation. That said, Huygens' wave theory was eventually recognized and incorporated into our modern understanding of light — it just took a little over a century for that to happen.
 
-Timeskipping to 1689, Huygens decided to meet the other great English contemporary of his time. Isaac Newton. They debated about the well known wave vs. particle theory of light. Newton was a firm believer in the theory that light traveled in packets and Huygens believed that light traveled in waves. Most people backed up Newton, mostly because of his fame and education. Don't get me wrong though, Huygens theory was recognized and integrated into the theory of light that we know today. Although, it took a little more then a century for that to happen. 
-
-All in all, Huygens legacy still continues with his theory of light and Titan. In fact, NASA just sent a rover on Titan to explore it in 2005! Appropriately, the mission was called Huygens. Although, the legacy didn't end there ...
+Huygens' legacy lives on through both his theory of light and the moon he discovered. In fact, NASA named its 2005 Titan probe the Huygens mission in his honor. But his story doesn't end there.
 
 ## Huygen's Synchronzing Pendulums 
 
-After he patented his pendulum clock, he got quite sick. This sickness tormented him throughout his old age, but his scientific curiosity endured and didn't stop there. In 1665 (36 years old), while he was sick with depressive illness, he was laying in his bed playing with his pendulums. After a while of watching them, he noticed that they exhibited the same motion. They they were ... synchronized? He experimented a little and found that no matter how the pendulums were set into motion, within thirty minutes, the pendulums were synchronized. They had the exact same motion, period, amplitude, and all. Just that they were swinging in the opposite direction, but their motions were exactly the same. 
+After patenting his pendulum clock, Huygens fell seriously ill — a sickness that would torment him throughout his later years. But his scientific curiosity never wavered. In 1665, at 36 years old, he was lying in bed during a bout of illness, idly watching two of his pendulum clocks hanging on the wall. After a while, he noticed something strange: they were moving in sync. He experimented further and found that no matter how the pendulums were started, within about thirty minutes they would always synchronize — same period, same amplitude, just swinging in opposite directions.
 
-For context, the pendulums were quite large and the rod length of them was a little larger than a meter. Although, not everyone thought this idea was cool. When he presented his ideas to the Royal Society, they were unimpressed and chalked it up to the inaccuracy of the pendulums and that it was a mere coincidence. 
+For context, these were large pendulums with rod lengths just over a meter. Not everyone was impressed, though. When Huygens presented his findings to the Royal Society, they were underwhelmed, attributing the phenomenon to measurement inaccuracies and dismissing it as coincidence.
 
-Anyway, this brought up a whole set of questions. Like, how did the pendulums synchronize? Or, what factors affect the rate of synchronization? Some of these are answered, and some aren't. 300 years later, there's much research to be done. 
+The observation raised a fascinating set of questions: how do the pendulums synchronize? What factors affect the rate? Some of these have since been answered — but 300 years later, there's still plenty of research left to be done. 
 
 ## Further Research 
 
-I was incredibly fascinated by Huygen's ideas and decided to do some physics research around this. In fact, you can actually find my research write up on my website which is currently under peer review right now. On that page, I'm planning on posting more documents from math research at my local university, so be sure to look out! 
+I was so fascinated by Huygens' ideas that I decided to do some physics research of my own around this topic. You can find my research write-up on my website — it's currently under peer review. I'm also planning to post more documents from my math research there, so stay tuned!
 
 ## Final Thoughts
 

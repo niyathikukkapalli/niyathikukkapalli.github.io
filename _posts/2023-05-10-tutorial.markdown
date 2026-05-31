@@ -7,7 +7,7 @@ tags:
   - HTML
   - CSS
 categories: 
-description: I think that having a website is great for anyone whether it's advertising your personal portfolio or creating a blog (like me!) My website is just a culmination of all the things that I enjoy in life from art to math and it's a little passion project of mine. On top of that, it's really easy to begin whether you can code or not! Of course, there are templates on Squarespace but there is something personal about coding your own website from scratch...
+description: A behind-the-scenes look at how I built this site from scratch — covering HTML and CSS basics, static site generators, hosting on GitHub, Google Analytics, and everything in between. Whether you can code or not, building your own website is more approachable than you'd think.
 thumbnail: "/img/web.png"
 ---
 

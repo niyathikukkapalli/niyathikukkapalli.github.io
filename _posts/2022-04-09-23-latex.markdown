@@ -7,13 +7,13 @@ tags:
   - Packages
   - Tutorial
 categories: LaTeX
-description: I've used LaTeX since probably 7th grade, and it's helped me tremoundously. Being a math buff, there was no way I couldn't learn this incredible language that makes mathematical formulas in a document appear seamless. Even to just to change the format of the document, you can edit the preamble of the document which is superior to any Google Doc or Word feature I've encountered...
+description: I've been using LaTeX since 7th grade, and it's one of the best tools I've picked up as a math student. This is the guide I wish I'd had starting out — covering installation, document formatting, essential packages, and a few fun sites that make learning LaTeX actually enjoyable.
 thumbnail: "/img/Latex2.jpeg"
 ---
 
 ## Introduction
 
-I've used LaTeX since probably 7th grade, and it's helped me tremoundously. Being a math buff, there was no way I couldn't learn this incredible language that makes mathematical formulas in a document appear seamless. Even to just to change the format of the document, you can edit the preamble of the document which is superior to any Google Doc or Word feature I've encountered. 
+I've been using LaTeX since around 7th grade, and it's helped me tremendously. As a math enthusiast, there was no way I wasn't going to learn this language — it makes mathematical formulas in a document look seamless. And beyond the math, even just formatting a document feels cleaner in LaTeX. Editing the preamble gives you a level of control that's honestly superior to anything I've encountered in Google Docs or Word.
 
 ## Installation of LateX on MacOS
 
@@ -101,4 +101,4 @@ For you nerds who end up really liking LaTeX, I would try playing [TeXnique](htt
 
 ## Final Thoughts
 
-LaTeX isn't really too complicated to learn, it just needs a lot of practice to be fluent at! I would always type up my AOPS class math solutions in LaTeX which really enforced my skills. Learning LaTeX is a great skill to add to your resume and serves well in the long run. Have fun learning! 
+LaTeX isn't all that complicated to learn — it just takes practice to get fluent. Typing up all my math solutions in LaTeX during my AoPS classes really cemented my skills. It's a genuinely useful thing to know, it looks great on a resume, and once it clicks, you won't want to go back. Have fun with it!
