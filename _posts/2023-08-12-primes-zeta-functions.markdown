@@ -13,7 +13,7 @@ thumbnail: "/img/zeta.jpeg"
 
 ## Introduction 
 
-I recently attended the PROMYS program as a second year, and I wanted to encapsulate a bit of the cool math that I learned there! The primary class that I took was Prime and Zeta Functions, where we learned about zeta functions, Dirichlet Functions, Gauss sums, etc. It was all so cool! In my attempt to not forget any of it, I'll give a beginner's introduction to Reimann Zeta Functions (the beginning of the course). 
+I recently attended PROMYS as a second-year student, and I wanted to capture some of the cool math I learned there before it slipped away. The primary course I took was Prime and Zeta Functions, where we covered zeta functions, Dirichlet functions, Gauss sums, and more. It was all genuinely fascinating! In an attempt to not forget any of it, I'll give a beginner's introduction to the Riemann Zeta Function — starting from the very beginning of the course.
 
 ## Square Free Integers
 
@@ -87,7 +87,8 @@ So what we solved above is called the Basel problem where we find the value wher
 
 ## Final Thoughts
 
-The zeta function is really interesting, and I found it quite cool when I was learning about it over the summer. I thought about creating an article on Gauss sums or the Dirichlet function but that seemed to troublesome because most of the cool results from those two are all about the proofs and very minimal computation. The zeta function laters connects with the Dirichlet function to prove that there are an infinite amount of primes of the form $a \mod m$ where (a,m) = 1. Do some research on the Dirichlet function it's really cool! Be on the lookout for an article about my experiences at the PROMYS program. 
+The zeta function is one of those topics that just keeps giving. I considered writing about Gauss sums or Dirichlet functions too, but the most interesting results from those rely heavily on proof machinery with very little computation to show — harder to make accessible in an article. What's exciting is that the zeta function eventually connects with Dirichlet functions to prove that there are infinitely many primes of the form a mod m where gcd(a, m) = 1. Definitely worth looking into — the Dirichlet function is really cool! And keep an eye out for my article on the PROMYS experience itself.
+
 
 
 

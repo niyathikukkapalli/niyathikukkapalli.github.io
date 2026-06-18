@@ -18,13 +18,11 @@ USAMTS is a free, high school oriented, proof based contest that is funded by NS
 
 ## Problem 1
 
-I don't know if this is just me but I felt like this puzzle was harder than other years. I spent quite a lot of time on it. In fact, for this problem the only clue that I had for a while was that 5, 3, and 1 had to go into the center white squares. To be honest, it was hard to see how to not solve this without coding. Although, I eventually got the answer. 
-
-A starting strategy that I had was to list what numbers could go in each box. This strategy didn't work if the squares were "lone" meaning that there are no given squares around it so you kinda just had to leave those alone. Following the diagram below, 
+I don't know if it's just me, but this puzzle felt harder than previous years. I spent a significant amount of time on it, and for a while my only foothold was knowing that 5, 3, and 1 had to go into the center white squares. Honestly, it was hard to see how to approach this without just writing a program.
 
 <img class="small" loading="lazy" src="/img/puzzle.jpg">
 
-we notice that the square with 4 on it could only be 2, 4, or 6. The square with 9 on it could only be 7 or 9 since there is the 21 below it. I approached the problem like this and made a giant table of the possiblites that could be made with each square. Basically after playing around with it, there was a point I realized that some odd numbers like 7, 9, and 11 pair up with 19, 15, and 23 in some pairing order. So that's how I based my casework. Once you placed those three pairs all the other numbers usually fell into place to arrive at the solution. 
+My starting strategy was to list all possible values for each square. This worked well for squares that had given neighbors, but broke down for "lone" squares — ones with no given values nearby — where you basically had to leave them open and come back later.Looking at the diagram: the square marked 4 could only be 2, 4, or 6; the square marked 9 could only be 7 or 9 given the 21 below it. I built a giant table of possibilities for each square this way. After enough tinkering, I noticed that certain odd numbers — 7, 9, and 11 — paired up with 19, 15, and 23 in some order. That pairing became the basis of my casework, and once those three pairs were placed, the rest of the numbers fell into place.
 
 
 ## Problem 2
@@ -81,4 +79,4 @@ This means $(\frac{1+3r}{2}, \frac{s}{2})$ is our answer. I liked this problem! 
 
 ## Final Thoughts
 
-Overall, this round was pretty approachable. Good news, I got a 21 on the first round so let's hope I get around the same for this round. But I made a lot more mistakes so we will see. Round 3 looks tough but there is winter break for a reason I guess. 
+Overall, Round 2 felt approachable. I got a 21 on Round 1, so hopefully this round is in the same ballpark — though I made noticeably more mistakes, so we'll see. Round 3 looks genuinely tough, but that's what winter break is for.

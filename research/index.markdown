@@ -27,6 +27,12 @@ layout: research
     tag="Algorithms"
     title="Greedy Range Trees for Product Metrics"
     abstract="Developed a novel data structure for efficiently analyzing product metrics by extending classical range tree techniques. Designed and implemented greedy range trees in Python to optimize multi-dimensional queries, improving speed and scalability for large datasets. This enables faster, more accurate analysis of product metrics, including trends, anomalies, and usage patterns."
+    highlight1_label="Presented"
+    highlight1_text="32nd Fall Workshop in Computational Geometry, Queen's College (FWCG 2025)"
+    highlight1_variant="presented"
+    highlight2_label="Accepted"
+    highlight2_text="38th Canadian Conference on Computational Geometry, Lakehead University (CCCG 2026)"
+    highlight2_variant="accepted"
     arxiv="https://arxiv.org/abs/2603.22500v1"
     linktree="https://linktr.ee/productmetricgreedyrangetrees"
   %}
@@ -61,6 +67,9 @@ layout: research
     title="Temporal Analysis of Synchronization based on Varying String Lengths"
     href="/research/temporal_an.pdf"
     abstract="Building on Christiaan Huygens' discovery of coupled pendulum synchronization, this paper examines how string length affects synchronization time on a moving platform. Experiments showed that shorter strings generally synchronize faster. Behaviors like brief pauses and in-phase vs. anti-phase motion are explained using classical mechanics. The paper also models motion and energy using Lagrangian techniques."
+    highlight1_label="2nd Place"
+    highlight1_text="Physics at Delaware Valley Science Fair (2023)"
+    highlight1_variant="award"
   %}
 
 </div>

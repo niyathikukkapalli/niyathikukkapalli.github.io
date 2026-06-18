@@ -8,9 +8,25 @@
   {% else %}
   <div class="project-title-plain">{{ include.title }}</div>
   {% endif %}
-  <p class="project-abstract">
-    <span class="abstract-label">Abstract: </span>{{ include.abstract }}
-  </p>
+  <p class="project-abstract">{{ include.abstract }}</p>
+  {% if include.highlight1_label and include.highlight1_text or include.highlight2_label and include.highlight2_text %}
+  <div class="project-highlights">
+    {% if include.highlight1_label and include.highlight1_text %}
+    {% include project-highlight.html
+      label=include.highlight1_label
+      text=include.highlight1_text
+      variant=include.highlight1_variant
+    %}
+    {% endif %}
+    {% if include.highlight2_label and include.highlight2_text %}
+    {% include project-highlight.html
+      label=include.highlight2_label
+      text=include.highlight2_text
+      variant=include.highlight2_variant
+    %}
+    {% endif %}
+  </div>
+  {% endif %}
   {% if include.arxiv or include.linktree or include.extra_link %}
   <div class="links-row">
     {% if include.arxiv %}
