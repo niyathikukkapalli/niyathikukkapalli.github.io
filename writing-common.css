@@ -1,9 +1,15 @@
 :root {
-  --font-rye: "Rye", serif;
-  --font-display: "DM Serif Display", Georgia, serif;
-  --font-body: "Newsreader", Georgia, serif;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --bg-page: #fdf8f0;
+  --bg: #fcf7f1;
+  --ink: #1f1d1a;
+  --muted: #8a847b;
+  --rule: #e6ded3;
+  --link: #3d5a3a;
+  --link-hover: #8a5a7a;
+  --font-rye: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --bg-page: #fcf7f1;
   --bg-nav: #ffffff;
   --border: #e0d4bc;
   --accent: #8a6a3a;
@@ -11,7 +17,6 @@
   --tag-bg: #f5ece0;
   --tag-text: #7a5830;
   --nav-dot: #d9c9a8;
-  --muted: #999;
   --excerpt: #666;
   --body: #000000;
   --heading: #1a1a1a;

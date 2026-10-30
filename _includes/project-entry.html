@@ -1,4 +1,4 @@
-<div class="project-entry">
+<div class="project-entry"{% if include.id %} id="{{ include.id }}"{% endif %}>
   <div class="project-meta">
     <span class="project-date">{{ include.date }}</span>
     <span class="project-tag">{{ include.tag }}</span>

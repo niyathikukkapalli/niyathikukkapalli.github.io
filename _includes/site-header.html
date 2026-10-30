@@ -1,0 +1,19 @@
+{% if include.mode == "home" %}
+<h1 class="typewriter"><span>Hi, I'm Niyathi 👋</span></h1>
+{% else %}
+<p class="site-name">Hi, I'm Niyathi 👋</p>
+{% endif %}
+<div class="contact">
+  <a href="mailto:nk6074@princeton.edu">nk6074@princeton.edu</a>
+  <a href="https://github.com/niyathikukkapalli">github.com/niyathikukkapalli</a>
+  <a href="https://www.linkedin.com/in/niyathi-kukkapalli/">linkedin</a>
+  <a href="/writing">writing</a>
+</div>
+
+<nav class="sections" aria-label="Sections">
+  {% if include.mode == "home" %}
+  <span role="tablist"><button type="button" role="tab" aria-selected="true" data-tab="about">about</button><span class="sep" aria-hidden="true">/</span><button type="button" role="tab" aria-selected="false" data-tab="education">education</button><span class="sep" aria-hidden="true">/</span><button type="button" role="tab" aria-selected="false" data-tab="projects">projects/research</button><span class="sep" aria-hidden="true">/</span><button type="button" role="tab" aria-selected="false" data-tab="teaching">teaching</button></span><span class="sep" aria-hidden="true">/</span><a href="/art">artwork</a>
+  {% else %}
+  <a href="/#about">about</a><span class="sep" aria-hidden="true">/</span><a href="/#education">education</a><span class="sep" aria-hidden="true">/</span><a href="/#projects">projects/research</a><span class="sep" aria-hidden="true">/</span><a href="/#teaching">teaching</a><span class="sep" aria-hidden="true">/</span><a href="/art"{% if include.mode == "art" %} aria-current="page"{% endif %}>artwork</a>
+  {% endif %}
+</nav>

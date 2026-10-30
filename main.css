@@ -4,8 +4,17 @@ body {
   padding: 0;
 }
 
+:root {
+  --bg: #fcf7f1;
+  --ink: #1f1d1a;
+  --muted: #8a847b;
+  --rule: #e6ded3;
+  --link: #3d5a3a;
+  --link-hover: #8a5a7a;
+}
+
 body {
-  font-family: "Newsreader", serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
  
@@ -36,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rye", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 

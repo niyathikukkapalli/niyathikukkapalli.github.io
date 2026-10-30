@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /writing/
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=/blog/" />
+    <link rel="canonical" href="/blog/" />
+    <title>Redirecting...</title>
+    <script>
+      window.location.replace("/blog/");
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/blog/">writing</a>...</p>
+  </body>
+</html>

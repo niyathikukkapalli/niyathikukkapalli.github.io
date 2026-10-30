@@ -3,10 +3,14 @@
     {% include head-tags.html %} {% include latex.html %}
     <link rel="stylesheet" href="/writing-common.css" />
     <link rel="stylesheet" href="/post.css" />
+    <link rel="stylesheet" href="/site.css" />
   </head>
 
   <body class="site-page writing-page post-page">
-    {% include writing-nav.html active='writing' %}
+    <div class="page">
+      <div class="site-lead">
+        {% include site-header.html mode="page" %}
+      </div>
 
     <div class="article-page">
       <div class="article-layout">
@@ -102,5 +106,6 @@
         });
       });
     </script>
+    </div>
   </body>
 </html>

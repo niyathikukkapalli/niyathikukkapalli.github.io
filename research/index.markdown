@@ -15,6 +15,7 @@ layout: research
   <p class="projects-section-label">Computer Science</p>
 
   {% include project-entry.html
+    id="editing-memory"
     date="May 2026"
     tag="Natural Language Processing"
     title="Editing Memory in Transformers at Scale"
@@ -23,6 +24,7 @@ layout: research
   %}
 
   {% include project-entry.html
+    id="greedy-range-trees"
     date="July 2025"
     tag="Algorithms"
     title="Greedy Range Trees for Product Metrics"
@@ -42,6 +44,7 @@ layout: research
   <p class="projects-section-label">Mathematics</p>
 
    {% include project-entry.html
+    id="graph-theory"
     date="November 2023"
     tag="Graph Theory"
     title="Problems and Solutions in Advanced Graph Theory"
@@ -50,6 +53,7 @@ layout: research
   %}
 
   {% include project-entry.html
+    id="artin-hasse"
     date="August 2023"
     tag="Number Theory"
     title="The Artin Hasse Exponential"
@@ -62,6 +66,7 @@ layout: research
   <p class="projects-section-label">Physics &amp; Science</p>
 
   {% include project-entry.html
+    id="synchronization"
     date="August 2023"
     tag="Classical Mechanics"
     title="Temporal Analysis of Synchronization based on Varying String Lengths"

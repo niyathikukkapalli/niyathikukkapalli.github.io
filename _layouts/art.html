@@ -1,12 +1,44 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     {% include head-tags.html %}
     <link rel="stylesheet" href="/writing-common.css" />
+    <link rel="stylesheet" href="/site.css" />
     <link rel="stylesheet" href="/art/art.css" />
   </head>
 
-  <body class="site-page art">
-    {% include writing-nav.html active='art' %}
-    {{ content }}
+  <body class="site-page art-page">
+    <div class="page">
+      {% include vines.html %}
+      <main class="art-main">
+        <div class="text-col">
+          {% include site-header.html mode="art" %}
+          <h1 class="art-heading">Artwork 🎨</h1>
+          <p class="art-subtitle">Paintings, drawings, and everything in between.</p>
+        </div>
+        {{ content }}
+      </main>
+    </div>
+
+    <div class="art-lightbox" id="art-lightbox" hidden>
+      <div
+        class="art-lightbox-dialog"
+        id="art-lightbox-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="art-lightbox-title"
+        tabindex="-1"
+      >
+        <button class="art-lightbox-close" type="button" data-close-lightbox aria-label="Close">
+          &#x2715;
+        </button>
+        <img id="art-lightbox-image" alt="" />
+        <p class="art-lightbox-caption">
+          <span class="art-lightbox-title" id="art-lightbox-title"></span>
+          <span class="art-lightbox-medium" id="art-lightbox-medium" hidden></span>
+        </p>
+      </div>
+    </div>
+    <script src="/art/lightbox.js"></script>
   </body>
 </html>

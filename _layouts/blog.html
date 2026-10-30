@@ -3,10 +3,14 @@
     {% include head-tags.html %}
     <link rel="stylesheet" href="/writing-common.css" />
     <link rel="stylesheet" href="/blog.css" />
+    <link rel="stylesheet" href="/site.css" />
   </head>
 
   <body class="site-page writing-page writing-list">
-    {% include writing-nav.html active='writing' %}
+    <div class="page">
+      <div class="site-lead">
+        {% include site-header.html mode="page" %}
+      </div>
 
     <main class="writing-container">
       <header class="writing-header">
@@ -52,5 +56,6 @@
         {% endfor %}
       </div>
     </main>
+    </div>
   </body>
 </html>

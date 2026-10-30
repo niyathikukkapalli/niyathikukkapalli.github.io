@@ -1,18 +1,18 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     {% include head-tags.html %}
-    <title>Niyathi Kukkapalli - Home</title>
-    <link rel="stylesheet" href="/writing-common.css" />
+    <link rel="stylesheet" href="/site.css" />
   </head>
 
-  <body class="site-page {{ page.nav_active | default: 'home' }}">
-    {% include writing-nav.html active=page.nav_active %}
-
-    <div class="bio">
-      <div class="bio-text">{{ content }}</div>
-      <figure>
-        <div class="biog-container"></div>
-      </figure>
+  <body class="site-page home-page">
+    <div class="page">
+      {% include vines.html %}
+      <main class="home-main">
+        {% include site-header.html mode="home" %}
+        {{ content }}
+      </main>
     </div>
+    <script src="/home-tabs.js"></script>
   </body>
 </html>
